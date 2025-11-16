@@ -456,6 +456,7 @@ interface ProcessedWord {
 }
 
 interface TypingGameProps {
+  courseId: string;
   lessonNumber: number;
   sentences: SentenceData[];
   totalLessons: number;
@@ -563,7 +564,7 @@ const globalStyles = css`
   }
 `;
 
-export default function TypingGame({ lessonNumber, sentences: initialSentences = [], totalLessons, lessonTitle }: TypingGameProps) {
+export default function TypingGame({ courseId, lessonNumber, sentences: initialSentences = [], totalLessons, lessonTitle }: TypingGameProps) {
   const [sentences, setSentences] = useState<SentenceData[]>(initialSentences);
   const [themeColor, setThemeColor] = useState('#05051d');
   const [selectedFont, setSelectedFont] = useState('Tahoma, sans-serif');
@@ -660,6 +661,24 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
 
     loadData();
   }, [lessonNumber, initialSentences]);
+
+  useEffect(() => {
+    if (!sentences || sentences.length === 0) {
+      return;
+    }
+
+    setCurrentSentenceIndex((prevIndex) => {
+      if (prevIndex < 0) {
+        return 0;
+      }
+
+      if (prevIndex >= sentences.length) {
+        return sentences.length - 1;
+      }
+
+      return prevIndex;
+    });
+  }, [sentences]);
 
   useEffect(() => {
     if (!isDataReady || !sentences || sentences.length === 0 || currentSentenceIndex >= sentences.length || !isAnimationComplete) {
@@ -1070,10 +1089,10 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
   const goToNextLesson = () => {
     const nextLessonNumber = lessonNumber + 1;
     if (nextLessonNumber <= totalLessons) {
-      const nextPath = `/courses/courseId_1/lessons/${nextLessonNumber}`;
+      const nextPath = `/courses/${courseId}/lessons/${nextLessonNumber}`;
       router.push(nextPath);
     } else {
-      router.push('/courses/courseId_1');
+      router.push(`/courses/${courseId}`);
     }
   };
 
@@ -1186,7 +1205,7 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
           >
             Next Lesson
           </Button>
-          <Link href="/courses/courseId_1" passHref>
+          <Link href={`/courses/${courseId}`} passHref>
             <Button as="a" themeColor={themeColor} isLink={true}>
               Return to Course
             </Button>
@@ -1286,7 +1305,7 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
             </ButtonFrame>
           </NavigationButton>
         </ButtonGroup>
-        <Link href="/courses/courseId_1" passHref legacyBehavior>
+        <Link href={`/courses/${courseId}`} passHref legacyBehavior>
           <HomeButton themeColor={themeColor} isLink={true}>
             返回上一页
           </HomeButton>

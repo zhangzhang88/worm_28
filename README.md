@@ -40,11 +40,11 @@ npm start
 ├─app
 │  ├─layout.tsx / globals.css
 │  ├─page.tsx                # 首页，列出所有课程
-│  └─courses/courseId_1/lessons/[lessonNumber]/page.tsx  # 动态课程页
+│  └─courses/[courseId]/lessons/[lessonNumber]/page.tsx  # 动态课程页（courseId 动态）
 ├─components/TypingGame.tsx  # 主要交互组件（client component）
 ├─data
 │  ├─types.ts
-│  └─courseId_1/lesson*.ts   # 具体课程数据
+│  └─courses/courseId_x/lesson*.ts   # 具体课程数据
 ├─public                     # UI 音效等静态资源
 └─congratulationsData.ts     # 结算页文案
 ```
@@ -53,24 +53,39 @@ npm start
 
 - `components/TypingGame.tsx`：核心课程交互逻辑
 - `data/types.ts`：课程/句子数据的 TypeScript 类型定义
-- `data/courseId_1/lesson*.ts`：每个课次的句子数据
-- `data/courseId_1/lessons.ts`：统一维护课程清单
+- `data/courses/courseId_x/lesson*.ts`：每个课次的句子数据
+- `data/courses/index.ts`：统一维护课程清单
 - `congratulationsData.ts`：结算页随机文案
 
 ## 如何新增 Lesson
 
-以 Lesson 2 为例，完整流程如下：
+### 给现有 courseId_1 增加 lesson
 
-1. 在 `data/courseId_1` 新建 `lesson2.ts`（可复制 `lesson1.ts` 作模板），导出 `SentenceData[]`
-2. 打开 `data/courseId_1/lessons.ts`，引入该文件并在 `courseLessons` 数组中追加一项：
-   ```ts
-   import { sentences as lesson2Sentences } from './lesson2';
-   
-   export const courseLessons = [
-      // ...
-     { lessonNumber: 2, title: 'Lesson 2 - ...', sentences: lesson2Sentences }
-   ];
-   ```
-3. 首页和动态路由会自动读取课程列表；`/courses/courseId_1/lessons/2` 就会渲染新课次
+1. 在 `data/courses/courseId_1` 新建 `lessonX.ts`（可复制现有 lesson），导出 `SentenceData[]`
+2. 编辑 `data/courses/index.ts`：引入该 lesson，并在 `courseId1Lessons` 数组中追加 `{ lessonNumber: X, title: 'Lesson X - ...', sentences: lessonXSentences }`
+3. 保存后，`/courses/courseId_1/lessons/X` 自动生效
 
-若需更多课程，只需重复上述步骤。Lesson 2 的示例数据已放在 `data/courseId_1/lesson2.ts` 供参考。
+### 新增新的 courseId（例如 courseId_2）
+
+1. 新建目录 `data/courses/courseId_2`，逐个 lesson 写入 `lesson1.ts`、`lesson2.ts` 等
+2. 在 `data/courses/index.ts` 中：
+   - `import { sentences as course2Lesson1 } from './courseId_2/lesson1';` 等
+   - 维护 `const courseId2Lessons: LessonConfig[] = [...]`
+   - 在 `courseConfigs` 中追加：
+     ```ts
+     courseId_2: {
+       courseId: 'courseId_2',
+       title: '课程 2',
+       lessons: courseId2Lessons
+     }
+     ```
+3. 首页与 `/courses/courseId_2/lessons/<lessonNumber>` 将自动展示
+
+### 验证
+
+执行 `npm run build` 或 `npm run dev`，确认新课程/课次链接出现且可以正常播放。Lesson 示例可参考 `data/courses/courseId_1/lesson2.ts`、`courseId_2/lesson1.ts`。
+
+> 小工具：可运行 `python scripts/add_lesson.py`，根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：
+> 1. 自动在 `data/courses/<courseId>/lessonX.ts` 生成模板文件供粘贴数据
+> 2. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置  
+> 仅需把句子数据粘到新文件即可。
