@@ -7,6 +7,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { SentenceData } from '../data/types';
 import { congratulationsMessages } from '../congratulationsData';
+import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
+import { useGameSounds } from '../hooks/useGameSounds';
+import { VoiceSelector } from './typing-game/VoiceSelector';
 import { ChevronLeft, ChevronRight, Headphones } from 'lucide-react';
 
 // Styled components
@@ -111,35 +114,6 @@ const ProgressBar = styled.div<{ progress: number }>`
   background-color: #00ff66;
   width: ${props => props.progress}%;
   transition: width 0.3s;
-`;
-
-const VoiceSelectorContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #bdc3c7;
-  margin-bottom: 1rem;
-
-  @media (min-width: 768px) {
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.5rem;
-  }
-`;
-
-const VoiceSelect = styled.select`
-  background-color: #1e1e2e;
-  color: white;
-  border: 1px solid #bdc3c7;
-  border-radius: 6px;
-  padding: 0.35rem 0.75rem;
-  min-width: 200px;
-  font-size: 0.85rem;
-  margin-top: 0.5rem;
-
-  @media (min-width: 768px) {
-    margin-top: 0;
-  }
 `;
 
 const ButtonGroup = styled.div`
@@ -599,16 +573,12 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
   const [processedWords, setProcessedWords] = useState<ProcessedWord[]>([]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [isPlayingTTS, setIsPlayingTTS] = useState(false);
   const [showIntermediatePage, setShowIntermediatePage] = useState(false);
   const [showCongratulations, setShowCongratulations] = useState(false);
   const [congratulationsMessage, setCongratulationsMessage] = useState('');
   const [isGameCompleted, setIsGameCompleted] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
-  const typingAudioRef = useRef<HTMLAudioElement | null>(null);
-  const correctAudioRef = useRef<HTMLAudioElement | null>(null);
-  const errorAudioRef = useRef<HTMLAudioElement | null>(null);
   const intermediatePageRef = useRef<HTMLDivElement>(null);
   const textWidthRef = useRef<HTMLSpanElement>(null);
   const nextLessonButtonRef = useRef<HTMLButtonElement>(null);
@@ -623,15 +593,19 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
 
   const [showAnimation, setShowAnimation] = useState(true);
   const [isAnimationComplete, setIsAnimationComplete] = useState(false);
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-  const [selectedVoiceName, setSelectedVoiceName] = useState<string>('');
-  const [isSpeechSupported, setIsSpeechSupported] = useState(true);
-  const speechSynthesisRef = useRef<SpeechSynthesis | null>(null);
-  const preferredVoiceNames = useRef(new Set([
-    'Google US English',
-    'Google UK English Female',
-    'Google UK English Male'
-  ]));
+  const { playTypingSound, playCorrectSound, playErrorSound, stopAllSounds } = useGameSounds();
+  const {
+    isSpeechSupported,
+    isPlayingSpeech,
+    voices,
+    selectedVoiceName,
+    handleVoiceChange,
+    speakOnce,
+    speakTwice,
+    cancelSpeech
+  } = useSpeechSynthesis({
+    preferredVoiceNames: ['Google US English', 'Google UK English Female', 'Google UK English Male']
+  });
 
   const [shakeWords, setShakeWords] = useState<boolean[]>([]);
   const [isAnswerSubmittedAndWrong, setIsAnswerSubmittedAndWrong] = useState(false);
@@ -645,57 +619,6 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
 
     return () => clearTimeout(timer);
   }, []);
-
-  useEffect(() => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      setIsSpeechSupported(false);
-      return;
-    }
-    setIsSpeechSupported(true);
-    const synth = window.speechSynthesis;
-    speechSynthesisRef.current = synth;
-    const handleVoicesChanged = () => {
-      const availableVoices = synth.getVoices();
-      const preferredVoices = availableVoices.filter(voice => preferredVoiceNames.current.has(voice.name));
-      const englishVoices = availableVoices.filter(voice => voice.lang?.toLowerCase().startsWith('en'));
-      const merged = [...preferredVoices];
-      englishVoices.forEach(voice => {
-        if (!merged.some(item => item.name === voice.name)) {
-          merged.push(voice);
-        }
-      });
-      const finalVoices = merged.length > 0 ? merged : availableVoices;
-      setVoices(finalVoices);
-    };
-    handleVoicesChanged();
-    const originalHandler = synth.onvoiceschanged;
-    synth.onvoiceschanged = handleVoicesChanged;
-    return () => {
-      if (synth.onvoiceschanged === handleVoicesChanged) {
-        synth.onvoiceschanged = originalHandler ?? null;
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    if (voices.length === 0) {
-      return;
-    }
-    setSelectedVoiceName(prev => {
-      if (prev && voices.some(voice => voice.name === prev)) {
-        return prev;
-      }
-      const preferredVoice = voices.find(voice => preferredVoiceNames.current.has(voice.name));
-      if (preferredVoice) {
-        return preferredVoice.name;
-      }
-      const englishVoice = voices.find(voice => voice.lang?.toLowerCase().startsWith('en'));
-      if (englishVoice) {
-        return englishVoice.name;
-      }
-      return voices[0].name;
-    });
-  }, [voices]);
 
   useEffect(() => {
     const loadData = async () => {
@@ -767,13 +690,7 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
 
   useEffect(() => {
     try {
-      let timer: NodeJS.Timeout;
-      timer = setInterval(() => setTime((prevTime) => prevTime + 1), 1000);
-
-      typingAudioRef.current = new Audio('/typing.mp3');
-      correctAudioRef.current = new Audio('/correct.mp3');
-      errorAudioRef.current = new Audio('/error.mp3');
-
+      const timer = setInterval(() => setTime((prevTime) => prevTime + 1), 1000);
       return () => {
         clearInterval(timer);
       };
@@ -803,64 +720,10 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
     }
   }, [showCongratulations]);
 
-  const cancelSpeech = useCallback(() => {
-    if (speechSynthesisRef.current && speechSynthesisRef.current.speaking) {
-      speechSynthesisRef.current.cancel();
-    }
-  }, []);
-
-  const getPreferredVoice = useCallback(() => {
-    if (voices.length === 0) {
-      return null;
-    }
-    const selectedVoice = voices.find(voice => voice.name === selectedVoiceName);
-    if (selectedVoice) {
-      return selectedVoice;
-    }
-    const englishVoice = voices.find(voice => voice.lang?.toLowerCase().startsWith('en'));
-    return englishVoice || voices[0] || null;
-  }, [voices, selectedVoiceName]);
-
-  const speakText = useCallback((text: string) => {
-    return new Promise<void>((resolve, reject) => {
-      if (!speechSynthesisRef.current) {
-        reject(new Error('当前浏览器不支持语音播放'));
-        return;
-      }
-      const utterance = new SpeechSynthesisUtterance(text);
-      const preferredVoice = getPreferredVoice();
-      if (preferredVoice) {
-        utterance.voice = preferredVoice;
-      }
-      utterance.rate = 0.9;
-      utterance.pitch = 1;
-      utterance.onend = () => resolve();
-      utterance.onerror = (event) => reject(event.error || new Error('语音播放失败'));
-      cancelSpeech();
-      speechSynthesisRef.current.speak(utterance);
-    });
-  }, [cancelSpeech, getPreferredVoice]);
-
   const stopAllAudio = useCallback(() => {
     cancelSpeech();
-    if (typingAudioRef.current) {
-      typingAudioRef.current.pause();
-      typingAudioRef.current.currentTime = 0;
-    }
-    if (correctAudioRef.current) {
-      correctAudioRef.current.pause();
-      correctAudioRef.current.currentTime = 0;
-    }
-    if (errorAudioRef.current) {
-      errorAudioRef.current.pause();
-      errorAudioRef.current.currentTime = 0;
-    }
-  }, [cancelSpeech]);
-
-  const handleVoiceChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedVoiceName(event.target.value);
-    cancelSpeech();
-  }, [cancelSpeech]);
+    stopAllSounds();
+  }, [cancelSpeech, stopAllSounds]);
 
   useEffect(() => {
     if (isListeningMode && isPlayingListeningMode) {
@@ -896,45 +759,19 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
     return `${minutes}分${remainingSeconds}秒`;
   };
 
-  const playTypingSound = () => {
-    if (typingAudioRef.current) {
-      typingAudioRef.current.currentTime = 0;
-      typingAudioRef.current.play().catch(e => console.error("Error playing typing audio:", e));
-    }
-  };
-
-  const playCorrectSound = () => {
-    if (correctAudioRef.current) {
-      correctAudioRef.current.play().catch(e => console.error("Error playing correct audio:", e));
-    }
-  };
-
-  const playErrorSound = () => {
-    if (errorAudioRef.current) {
-      errorAudioRef.current.play().catch(e => console.error("Error playing error audio:", e));
-    }
-  };
-
-  const playSentenceAudio = (text: string, sequenceNumber: number): Promise<void> => {
+  const playSentenceAudio = (text: string, _sequenceNumber: number): Promise<void> => {
     if (!isSpeechSupported) {
       return Promise.reject(new Error('当前浏览器不支持语音播放'));
     }
-    setIsPlayingTTS(true);
-    return speakText(text)
-      .catch(error => {
-        console.error('Error playing audio:', error);
-        throw error;
-      })
-      .finally(() => {
-        setIsPlayingTTS(false);
-      });
+    return speakOnce(text).catch(error => {
+      console.error('Error playing audio:', error);
+      throw error;
+    });
   };
 
-  const playSentenceAudioTwice = async (text: string, sequenceNumber: number) => {
+  const playSentenceAudioTwice = async (text: string, _sequenceNumber: number) => {
     try {
-      await playSentenceAudio(text, sequenceNumber);
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      await playSentenceAudio(text, sequenceNumber);
+      await speakTwice(text);
     } catch (error) {
       console.error('Error playing audio twice:', error);
     }
@@ -1374,16 +1211,11 @@ export default function TypingGame({ lessonNumber, sentences: initialSentences =
           <ProgressBar progress={calculateProgress()} />
         </ProgressBarContainer>
         {isSpeechSupported && voices.length > 0 && (
-          <VoiceSelectorContainer>
-            <span>请选择朗读声音：</span>
-            <VoiceSelect value={selectedVoiceName} onChange={handleVoiceChange}>
-              {voices.map((voice) => (
-                <option key={`${voice.name}-${voice.lang}`} value={voice.name}>
-                  {voice.name} {voice.lang ? `(${voice.lang})` : ''}
-                </option>
-              ))}
-            </VoiceSelect>
-          </VoiceSelectorContainer>
+          <VoiceSelector
+            voices={voices}
+            selectedVoiceName={selectedVoiceName}
+            onChange={handleVoiceChange}
+          />
         )}
         <ContentWrapper>
           <AnswerDisplay showAnswer={showAnswer}>
