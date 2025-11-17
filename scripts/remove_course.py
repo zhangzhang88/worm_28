@@ -31,7 +31,8 @@ def lesson_const_name(course_id: str) -> str:
 
 def remove_imports(content: str, course_id: str) -> str:
   pattern = re.compile(rf"import[^\n]+./{course_id}/[^\n]+;\n?", re.MULTILINE)
-  return pattern.sub("", content)
+  new_content, _ = pattern.subn("", content)
+  return new_content
 
 
 def remove_lessons_block(content: str, course_id: str) -> str:
@@ -40,18 +41,23 @@ def remove_lessons_block(content: str, course_id: str) -> str:
     rf"\n?const {re.escape(const_name)}: LessonConfig\[] = \[[\s\S]*?\];\n\n",
     re.MULTILINE
   )
-  return pattern.sub("\n", content)
+  new_content, _ = pattern.subn("\n", content, count=1)
+  return new_content
 
 
 def remove_course_entry(content: str, course_id: str) -> str:
   pattern = re.compile(
-    rf"\s*{re.escape(course_id)}:\s{{[\s\S]*?}},\n",
+    rf"\n\s*{re.escape(course_id)}:\s*\{{[\s\S]*?}},?\n",
     re.MULTILINE
   )
-  return pattern.sub("", content)
+  new_content, count = pattern.subn("\n", content, count=1)
+  if count == 0:
+    raise ValueError(f"未能在 courseConfigs 中找到 {course_id}")
+  return new_content
 
 
 def clean_blank_lines(content: str) -> str:
+  content = re.sub(r",\n(\s*};)", r"\n\1", content)
   return re.sub(r"\n{3,}", "\n\n", content).strip() + "\n"
 
 
