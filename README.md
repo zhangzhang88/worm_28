@@ -89,3 +89,10 @@ npm start
 > 1. 自动在 `data/courses/<courseId>/lessonX.ts` 生成模板文件供粘贴数据
 > 2. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置  
 > 仅需把句子数据粘到新文件即可。
+
+
+1:把数据粘贴到new_data.txt
+2:运行 convert_new_data.py 会生成新的 generated_lesson.ts文件
+3:全选 generated_lesson.ts的数据，粘贴到新建的课程数据里面，例如：data/courses/courseId_1/lesson1.ts
+
+
