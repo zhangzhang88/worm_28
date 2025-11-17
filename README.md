@@ -85,10 +85,13 @@ npm start
 
 执行 `npm run build` 或 `npm run dev`，确认新课程/课次链接出现且可以正常播放。Lesson 示例可参考 `data/courses/courseId_1/lesson2.ts`、`courseId_2/lesson1.ts`。
 
-> 小工具：可运行 `python scripts/2-add_lesson.py`，根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：
+> 小工具：
+> - `python scripts/2-add_lesson.py`：根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：
 > 1. 自动调用 `scripts/convert_new_data.py`（读取 `scripts/1-new_data.txt`，生成 `scripts/generated_lesson.ts`）
 > 2. 在 `data/courses/<courseId>/lessonX.ts` 写入转换后的句子数据
 > 3. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置
+> - `python scripts/remove_lesson.py`：输入课程编号和 lesson 编号，删除 `data/courses/<courseId>/lessonX.ts` 并移除 `data/courses/index.ts` 中对应的 import 和 lesson 条目
+> - `python scripts/remove_course.py`：输入课程编号（例如 4），即可删除 `courseId_4` 目录并移除 `data/courses/index.ts` 中对应的 import、lesson 配置和 course 配置
 
 当前流程仅需两步：
 1. 先把“句乐部”复制的原始文本粘贴到 `scripts/1-new_data.txt`

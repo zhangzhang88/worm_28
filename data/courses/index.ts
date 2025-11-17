@@ -2,8 +2,7 @@ import { LessonConfig } from '../types';
 import { sentences as course1Lesson1 } from './courseId_1/lesson1';
 import { sentences as course1Lesson2 } from './courseId_1/lesson2';
 import { sentences as course2Lesson1 } from './courseId_2/lesson1';
-import { sentences as courseId3Lesson1 } from './courseId_3/lesson1';
-import { sentences as courseId4Lesson1 } from './courseId_4/lesson1';
+import { sentences as courseId1Lesson2 } from './courseId_1/lesson2';
 
 interface CourseConfig {
   courseId: string;
@@ -16,12 +15,11 @@ const courseId1Lessons: LessonConfig[] = [
     lessonNumber: 1,
     title: 'Lesson 1 - 基础句子',
     sentences: course1Lesson1
-  },
-  {
+  },  {
     lessonNumber: 2,
-    title: 'Lesson 2 - This/That 练习',
-    sentences: course1Lesson2
-  }
+    title: 'Lesson 2 - jukebu',
+    sentences: courseId1Lesson2
+  },
 ];
 
 const courseId2Lessons: LessonConfig[] = [
@@ -30,22 +28,6 @@ const courseId2Lessons: LessonConfig[] = [
     title: 'Lesson 1 - 家庭描述',
     sentences: course2Lesson1
   }
-];
-
-const courseId3Lessons: LessonConfig[] = [
-  {
-    lessonNumber: 1,
-    title: 'Lesson 1 - 实验',
-    sentences: courseId3Lesson1
-  },
-];
-
-const courseId4Lessons: LessonConfig[] = [
-  {
-    lessonNumber: 1,
-    title: 'Lesson 1 - niubie',
-    sentences: courseId4Lesson1
-  },
 ];
 
 export const courseConfigs: Record<string, CourseConfig> = {
@@ -58,20 +40,7 @@ export const courseConfigs: Record<string, CourseConfig> = {
     courseId: 'courseId_2',
     title: '课程 2',
     lessons: courseId2Lessons
-  },
-  courseId_3: {
-    courseId: 'courseId_3',
-    title: '课程 3',
-    lessons: courseId3Lessons
-  },
-
-  courseId_4: {
-    courseId: 'courseId_4',
-    title: '课程 4',
-    lessons: courseId4Lessons
-  },
-
-};
+  },};
 
 export const getCourseById = (courseId: string): CourseConfig | undefined =>
   courseConfigs[courseId];
