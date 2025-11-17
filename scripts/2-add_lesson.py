@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 import re
+import subprocess
+import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+SCRIPT_PATH = Path(__file__).resolve()
+SCRIPTS_DIR = SCRIPT_PATH.parent
+ROOT = SCRIPTS_DIR.parent
 INDEX_FILE = ROOT / "data" / "courses" / "index.ts"
-LESSON_TEMPLATE = """import { SentenceData } from '../../types';
-
-export const sentences: SentenceData[] = [
-  // TODO: 在此粘贴该课次的句子数据
-];
-"""
+RAW_DATA_FILE = SCRIPTS_DIR / "1-new_data.txt"
+GENERATED_FILE = SCRIPTS_DIR / "generated_lesson.ts"
+CONVERTER_SCRIPT = SCRIPTS_DIR / "convert_new_data.py"
 
 
 def sanitize_identifier(value: str) -> str:
@@ -87,7 +88,40 @@ def ensure_course_entry(content: str, course_id: str, course_title: str) -> str:
   return content[:match.start()] + new_body + content[match.end():]
 
 
+def ensure_raw_data() -> None:
+  if not RAW_DATA_FILE.exists():
+    raise FileNotFoundError(f"未找到 {RAW_DATA_FILE}")
+  if not RAW_DATA_FILE.read_text(encoding="utf-8").strip():
+    raise ValueError(f"{RAW_DATA_FILE} 为空，请先粘贴原始句子数据。")
+
+
+def generate_lesson_content() -> str:
+  ensure_raw_data()
+  if not CONVERTER_SCRIPT.exists():
+    raise FileNotFoundError(f"未找到转换脚本：{CONVERTER_SCRIPT}")
+
+  cmd = [
+    sys.executable,
+    str(CONVERTER_SCRIPT),
+    "-i",
+    str(RAW_DATA_FILE),
+    "-o",
+    str(GENERATED_FILE),
+  ]
+  subprocess.run(cmd, check=True, cwd=str(SCRIPTS_DIR))
+
+  if not GENERATED_FILE.exists():
+    raise FileNotFoundError(f"转换输出缺失：{GENERATED_FILE}")
+  return GENERATED_FILE.read_text(encoding="utf-8").strip()
+
+
 def main():
+  try:
+    lesson_content = generate_lesson_content()
+  except Exception as error:
+    print(f"[错误] 无法生成 lesson 数据：{error}")
+    return
+
   course_number = prompt_input("请输入课程编号（纯数字，例如 1 表示 courseId_1）: ")
   course_id = f"courseId_{course_number}"
   lesson_number = int(prompt_input("请输入 lesson 编号（数字）: "))
@@ -113,10 +147,10 @@ def main():
   lesson_file = ROOT / "data" / "courses" / course_id / f"lesson{lesson_number}.ts"
   lesson_file.parent.mkdir(parents=True, exist_ok=True)
   if lesson_file.exists():
-    print(f"[提示] {lesson_file} 已存在，未覆盖。")
+    print(f"[提示] {lesson_file} 已存在，未覆盖。请手动粘贴 {GENERATED_FILE} 中的内容。")
   else:
-    lesson_file.write_text(LESSON_TEMPLATE, encoding="utf-8")
-    print(f"[完成] 已创建 {lesson_file}，请粘贴 sentences 数据。")
+    lesson_file.write_text(lesson_content + "\n", encoding="utf-8")
+    print(f"[完成] 已创建 {lesson_file} 并写入 {GENERATED_FILE} 的内容。")
 
   print("[完成] data/courses/index.ts 已更新。")
 

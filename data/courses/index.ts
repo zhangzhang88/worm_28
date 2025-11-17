@@ -3,6 +3,7 @@ import { sentences as course1Lesson1 } from './courseId_1/lesson1';
 import { sentences as course1Lesson2 } from './courseId_1/lesson2';
 import { sentences as course2Lesson1 } from './courseId_2/lesson1';
 import { sentences as courseId3Lesson1 } from './courseId_3/lesson1';
+import { sentences as courseId4Lesson1 } from './courseId_4/lesson1';
 
 interface CourseConfig {
   courseId: string;
@@ -39,6 +40,14 @@ const courseId3Lessons: LessonConfig[] = [
   },
 ];
 
+const courseId4Lessons: LessonConfig[] = [
+  {
+    lessonNumber: 1,
+    title: 'Lesson 1 - niubie',
+    sentences: courseId4Lesson1
+  },
+];
+
 export const courseConfigs: Record<string, CourseConfig> = {
   courseId_1: {
     courseId: 'courseId_1',
@@ -54,6 +63,12 @@ export const courseConfigs: Record<string, CourseConfig> = {
     courseId: 'courseId_3',
     title: '课程 3',
     lessons: courseId3Lessons
+  },
+
+  courseId_4: {
+    courseId: 'courseId_4',
+    title: '课程 4',
+    lessons: courseId4Lessons
   },
 
 };

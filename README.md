@@ -85,17 +85,11 @@ npm start
 
 执行 `npm run build` 或 `npm run dev`，确认新课程/课次链接出现且可以正常播放。Lesson 示例可参考 `data/courses/courseId_1/lesson2.ts`、`courseId_2/lesson1.ts`。
 
-> 小工具：可运行 `python scripts/add_lesson.py`，根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：
-> 1. 自动在 `data/courses/<courseId>/lessonX.ts` 生成模板文件供粘贴数据
-> 2. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置  
-> 仅需把句子数据粘到新文件即可。
+> 小工具：可运行 `python scripts/2-add_lesson.py`，根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：
+> 1. 自动调用 `scripts/convert_new_data.py`（读取 `scripts/1-new_data.txt`，生成 `scripts/generated_lesson.ts`）
+> 2. 在 `data/courses/<courseId>/lessonX.ts` 写入转换后的句子数据
+> 3. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置
 
-
-1:先到“句乐部”拿到数据后，把数据粘贴到new_data.txt
-2:运行 convert_new_data.py 会生成新的 generated_lesson.ts
-3:全选 generated_lesson.ts的数据，粘贴到新建的课程数据里面，例如：data/courses/courseId_1/lesson1.ts
-
-运行 python scripts/1-add_lesson.py
-把数据放到 scripts/2-new_data.txt
-执行 python3 scripts/3-convert_new_data.py 
-并从 scripts/4-generated_lesson.ts 复制内容。
+当前流程仅需两步：
+1. 先把“句乐部”复制的原始文本粘贴到 `scripts/1-new_data.txt`
+2. 运行 `python scripts/2-add_lesson.py` 并按提示输入课程信息，脚本会完成数据转换、创建 lesson 文件并写入 `scripts/generated_lesson.ts` 的内容

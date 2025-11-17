@@ -14,8 +14,8 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional
 
-DEFAULT_INPUT = "2-new_data.txt"
-DEFAULT_OUTPUT = "4-generated_lesson.ts"
+DEFAULT_INPUT = "1-new_data.txt"
+DEFAULT_OUTPUT = "generated_lesson.ts"
 
 IGNORE_KEYWORDS = {"课程目录", "所有内容", "显示全部信息", "当前练习"}
 PRON_PATTERN = re.compile(r"^(?:/[^\s/]+/ ?)+$")
