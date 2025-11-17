@@ -91,8 +91,11 @@ npm start
 > 仅需把句子数据粘到新文件即可。
 
 
-1:把数据粘贴到new_data.txt
-2:运行 convert_new_data.py 会生成新的 generated_lesson.ts文件
+1:先到“句乐部”拿到数据后，把数据粘贴到new_data.txt
+2:运行 convert_new_data.py 会生成新的 generated_lesson.ts
 3:全选 generated_lesson.ts的数据，粘贴到新建的课程数据里面，例如：data/courses/courseId_1/lesson1.ts
 
-
+运行 python scripts/1-add_lesson.py
+把数据放到 scripts/2-new_data.txt
+执行 python3 scripts/3-convert_new_data.py 
+并从 scripts/4-generated_lesson.ts 复制内容。

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Utility script that converts `new_data.txt` into a TypeScript lesson file.
+Utility script that converts the raw data file into a TypeScript lesson file.
 
 The parser is designed for text copied from course pages where each entry
 contains the English sentence, its Chinese translation, and pronunciation.
@@ -13,6 +13,9 @@ import json
 import re
 from pathlib import Path
 from typing import Dict, List, Optional
+
+DEFAULT_INPUT = "2-new_data.txt"
+DEFAULT_OUTPUT = "4-generated_lesson.ts"
 
 IGNORE_KEYWORDS = {"课程目录", "所有内容", "显示全部信息", "当前练习"}
 PRON_PATTERN = re.compile(r"^(?:/[^\s/]+/ ?)+$")
@@ -152,18 +155,18 @@ def resolve_path(base: Path, value: str) -> Path:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Convert new_data.txt into a TS lesson file.")
+    parser = argparse.ArgumentParser(description="Convert the raw lesson text file into a TS lesson file.")
     parser.add_argument(
         "-i",
         "--input",
-        default="new_data.txt",
-        help="Path to the raw data file (default: new_data.txt).",
+        default=DEFAULT_INPUT,
+        help=f"Path to the raw data file (default: {DEFAULT_INPUT}).",
     )
     parser.add_argument(
         "-o",
         "--output",
-        default="generated_lesson.ts",
-        help="Output TS file path (default: generated_lesson.ts).",
+        default=DEFAULT_OUTPUT,
+        help=f"Output TS file path (default: {DEFAULT_OUTPUT}).",
     )
     parser.add_argument(
         "--start-id",
@@ -193,7 +196,7 @@ def main() -> None:
     raw_lines = input_path.read_text(encoding="utf-8").splitlines()
     records = parse_new_data(raw_lines)
     if not records:
-        raise ValueError("未能从输入文件中解析出任何句子，请检查 new_data.txt 格式。")
+        raise ValueError("未能从输入文件中解析出任何句子，请检查输入文件格式。")
 
     ts_content = to_ts_content(records, args.start_id, args.import_path, args.export_name)
     output_path.write_text(ts_content, encoding="utf-8")
