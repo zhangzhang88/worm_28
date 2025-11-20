@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import type { RemoteVoiceOption } from '../../hooks/useRemoteTTS';
 
 const VoiceSelectorContainer = styled.div`
   display: flex;
@@ -31,12 +32,12 @@ const VoiceSelect = styled.select`
 `;
 
 interface VoiceSelectorProps {
-  voices: SpeechSynthesisVoice[];
-  selectedVoiceName: string;
+  voices: RemoteVoiceOption[];
+  selectedVoiceId: string;
   onChange: (value: string) => void;
 }
 
-export function VoiceSelector({ voices, selectedVoiceName, onChange }: VoiceSelectorProps) {
+export function VoiceSelector({ voices, selectedVoiceId, onChange }: VoiceSelectorProps) {
   if (voices.length === 0) {
     return null;
   }
@@ -44,10 +45,10 @@ export function VoiceSelector({ voices, selectedVoiceName, onChange }: VoiceSele
   return (
     <VoiceSelectorContainer>
       <span>请选择朗读声音：</span>
-      <VoiceSelect value={selectedVoiceName} onChange={(event) => onChange(event.target.value)}>
+      <VoiceSelect value={selectedVoiceId} onChange={(event) => onChange(event.target.value)}>
         {voices.map((voice) => (
-          <option key={`${voice.name}-${voice.lang}`} value={voice.name}>
-            {voice.name} {voice.lang ? `(${voice.lang})` : ''}
+          <option key={voice.id} value={voice.id}>
+            {voice.label}
           </option>
         ))}
       </VoiceSelect>

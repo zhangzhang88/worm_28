@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { SentenceData } from '../data/types';
 import { congratulationsMessages } from '../congratulationsData';
-import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
+import { useRemoteTTS } from '../hooks/useRemoteTTS';
 import { useGameSounds } from '../hooks/useGameSounds';
 import { VoiceSelector } from './typing-game/VoiceSelector';
 import { ChevronLeft, ChevronRight, Headphones } from 'lucide-react';
@@ -599,13 +599,13 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
     isSpeechSupported,
     isPlayingSpeech,
     voices,
-    selectedVoiceName,
+    selectedVoiceId,
     handleVoiceChange,
     speakOnce,
     speakTwice,
     cancelSpeech
-  } = useSpeechSynthesis({
-    preferredVoiceNames: ['Google US English', 'Google UK English Female', 'Google UK English Male']
+  } = useRemoteTTS({
+    defaultVoiceId: 'en-US-JennyNeural'
   });
 
   const [shakeWords, setShakeWords] = useState<boolean[]>([]);
@@ -780,7 +780,7 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
 
   const playSentenceAudio = (text: string, _sequenceNumber: number): Promise<void> => {
     if (!isSpeechSupported) {
-      return Promise.reject(new Error('当前浏览器不支持语音播放'));
+      return Promise.reject(new Error('语音服务暂不可用'));
     }
     return speakOnce(text).catch(error => {
       console.error('Error playing audio:', error);
@@ -1132,7 +1132,7 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
   }
 
   if (!isSpeechSupported) {
-    return <LoadingOverlay>当前浏览器不支持语音播放</LoadingOverlay>;
+    return <LoadingOverlay>语音服务未配置或暂不可用</LoadingOverlay>;
   }
 
   if (showIntermediatePage) {
@@ -1232,7 +1232,7 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
         {isSpeechSupported && voices.length > 0 && (
           <VoiceSelector
             voices={voices}
-            selectedVoiceName={selectedVoiceName}
+            selectedVoiceId={selectedVoiceId}
             onChange={handleVoiceChange}
           />
         )}
