@@ -31,12 +31,7 @@ interface UseRemoteTTSReturn {
 
 const DEFAULT_REMOTE_VOICES: RemoteVoiceOption[] = [
   { id: 'en-US-JennyNeural', label: 'Jenny (English - US)' },
-  { id: 'en-US-GuyNeural', label: 'Guy (English - US)' },
-  { id: 'en-GB-RyanNeural', label: 'Ryan (English - UK)' },
-  { id: 'en-GB-SoniaNeural', label: 'Sonia (English - UK)' },
-  { id: 'en-AU-NatashaNeural', label: 'Natasha (English - AU)' },
-  { id: 'alloy', label: 'Alloy (OpenAI)', model: 'gpt-4o-mini-tts' },
-  { id: 'verse', label: 'Verse (OpenAI)', model: 'gpt-4o-mini-tts' }
+  { id: 'en-US-GuyNeural', label: 'Guy (English - US)' }
 ];
 
 const DEFAULT_GAP_MS = 1200;

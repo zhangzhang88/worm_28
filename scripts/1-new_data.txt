@@ -8,1091 +8,826 @@
 
 当前练习
 1
-I
-我
-/aɪ/
-
-2
-like
-喜欢
-/laɪk/
-
-3
-I like
-我喜欢
-/aɪ/ /laɪk/
-
-4
-the food
-这个食物
-/ðə/ /fuːd/
-
-5
-I like the food
-我喜欢这个食物
-/aɪ/ /laɪk/ /ðə/ /fuːd/
-
-6
-don't
-不
-/doʊnt/
-
-7
-like
-喜欢
-/laɪk/
-
-8
-don't like
-不喜欢
-/doʊnt/ /laɪk/
-
-9
-I don't like the food
-我不喜欢这个食物
-/aɪ/ /doʊnt/ /laɪk/ /ðə/ /fuːd/
-
-10
-to do
-做
-/tuː; tə/ /duː; də/
-
-11
-it
-它；这件事情
-/ɪt/
-
-12
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-13
-I like
-我喜欢
-/aɪ/ /laɪk/
-
-14
-I like to do it
-我喜欢做这件事情
-/aɪ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-15
-don't like
-不喜欢
-/doʊnt/ /laɪk/
-
-16
-I don't like to do it
-我不喜欢做这件事情
-/aɪ/ /doʊnt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-17
-now
-现在
-/naʊ/
-
-18
-I like to do it now
-我喜欢现在做这件事情
-/aɪ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-19
-I don't like to do it now
-我不喜欢现在做这件事情
-/aɪ/ /doʊnt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-20
-here
-这里
-/hɪr/
-
-21
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-22
-I like
-我喜欢
-/aɪ/ /laɪk/
-
-23
-I like to be here
-我喜欢在这里
-/aɪ/ /laɪk/ /tuː; tə/ /biː/ /hɪr/
-
-24
-don't like
-不喜欢
-/doʊnt/ /laɪk/
-
-25
-I don't like to be here
-我不喜欢在这里
-/aɪ/ /doʊnt/ /laɪk/ /tuː; tə/ /biː/ /hɪr/
-
-26
-now
-现在
-/naʊ/
-
-27
-I don't like to be here now
-我不喜欢现在在这里
-/aɪ/ /doʊnt/ /laɪk/ /tuː; tə/ /biː/ /hɪr/ /naʊ/
-
-28
-want
-想要
-/wɑːnt/
-
-29
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-30
-I want to do it
-我想要做这件事情
-/aɪ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-31
-don't want
-不想
-/doʊnt/ /wɑːnt/
-
-32
-I don't want to do it
-我不想做这件事情
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-33
-today
-今天
-/təˈdeɪ/
-
-34
-I want to do it today
-我今天想要做这件事情
-/aɪ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-35
-I don't want to do it today
-我今天不想做这件事情
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-36
-now
-现在
-/naʊ/
-
-37
-I don't want to do it now
-我现在不想做这件事情
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-38
-to eat
-吃
-/tuː; tə/ /iːt/
-
-39
-the food
-这个食物
-/ðə/ /fuːd/
-
-40
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-41
-want
-想要
-/wɑːnt/
-
-42
-I want to eat the food
-我想要吃这个食物
-/aɪ/ /wɑːnt/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-43
-now
-现在
-/naʊ/
-
-44
-I want to eat the food now
-我现在想要吃这个食物
-/aɪ/ /wɑːnt/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-45
-don't want
-不想
-/doʊnt/ /wɑːnt/
-
-46
-I don't want to eat the food now
-我现在不想吃这个食物
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-47
-here
-这里
-/hɪr/
-
-48
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-49
-I want to be here
-我想要在这里
-/aɪ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/
-
-50
-I don't want to be here
-我不想在这里
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/
-
-51
-every day
-每天
-/ˈevri/ /deɪ/
-
-52
-I want to be here every day
-我想要每天在这里
-/aɪ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
-
-53
-I don't want to be here every day
-我不想每天在这里
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
-
-54
-all the day
-一整天
-/ɔːl/ /ðə/ /deɪ/
-
-55
-I don't want to be here all the day
-我不想一整天在这里
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/ /ɔːl/ /ðə/ /deɪ/
-
-56
-need
-需要
-/niːd/
-
-57
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-58
-I need to be here
-我需要在这里
-/aɪ/ /niːd/ /tuː; tə/ /biː/ /hɪr/
-
-59
-I don't need to be here
-我不需要在这里
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /biː/ /hɪr/
-
-60
-every day
-每天
-/ˈevri/ /deɪ/
-
-61
-I need to be here every day
-我需要每天在这里
-/aɪ/ /niːd/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
-
-62
-I don't need to be here every day
-我不需要每天在这里
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
-
-63
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-64
-I need to eat the food
-我需要吃这个食物
-/aɪ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-65
-now
-现在
-/naʊ/
-
-66
-I need to eat the food now
-我现在需要吃这个食物
-/aɪ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-67
-I don't need to eat the food now
-我现在不需要吃这个食物
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-68
-it
-它；这件事情
-/ɪt/
-
-69
-to do
-做
-/tuː; tə/ /duː; də/
-
-70
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-71
-I need to do it
-我需要做这件事情
-/aɪ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-72
-today
-今天
-/təˈdeɪ/
-
-73
-I need to do it today
-我今天需要做这件事情
-/aɪ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-74
-I don't need to do it today
-我今天不需要做这件事情
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-75
-have to do
-必须做
-/hæv/ /tuː; tə/ /duː; də/
-
-76
-I have to do it
-我必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-77
-I have to do it today
-我今天必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-78
-I have to do it now
-我现在必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-79
-don't have to do
-不必做
-/doʊnt/ /hæv/ /tuː; tə/ /duː; də/
-
-80
-I don't have to do it
-我不必做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-81
-I don't have to do it now
-我现在不必做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-82
-every day
-每天
-/ˈevri/ /deɪ/
-
-83
-I don't have to do it every day
-我不必每天做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ˈevri/ /deɪ/
-
-84
-all the day
-一整天
-/ɔːl/ /ðə/ /deɪ/
-
-85
-I don't have to do it all the day
-我不必一整天做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ɔːl/ /ðə/ /deɪ/
-
-86
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-87
-I have to eat the food
-我必须吃这个食物
-/aɪ/ /hæv/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-88
-I don't have to eat the food
-我不必吃这个食物
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-89
-today
-今天
-/təˈdeɪ/
-
-90
-I don't have to eat the food today
-我今天不必吃这个食物
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /təˈdeɪ/
-
-91
-tomorrow
-明天
-/təˈmɑːroʊ/
-
-92
-I have to eat the food tomorrow
-我明天必须吃这个食物
-/aɪ/ /hæv/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /təˈmɑːroʊ/
-
-93
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-94
-I have to be here
-我必须在这里
-/aɪ/ /hæv/ /tuː; tə/ /biː/ /hɪr/
-
-95
-I have to be here today
-我今天必须在这里
-/aɪ/ /hæv/ /tuː; tə/ /biː/ /hɪr/ /təˈdeɪ/
-
-96
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-97
-I like
-我喜欢
-/aɪ/ /laɪk/
-
-98
-I like to do it
-我喜欢做这件事情
-/aɪ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-99
-I want
-我想要
-/aɪ/ /wɑːnt/
-
-100
-I want to do it
-我想要做这件事情
-/aɪ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-101
-I need
-我需要
-/aɪ/ /niːd/
-
-102
-I need to do it
-我需要做这件事情
-/aɪ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-103
-I have to do it
-我必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-104
-to know
-知道；认识
-/tuː; tə/ /noʊ/
-
-105
-you
-你
-/juː; jʊ/
-
-106
-to know you
-认识你
-/tuː; tə/ /noʊ/ /juː; jʊ/
-
-107
-I want to know you
-我想要认识你
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /juː; jʊ/
-
-108
-soon
-尽快
-/sun/
-
-109
-I want to know you soon
-我想要尽快认识你
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /juː; jʊ/ /sun/
-
-110
-to see
-见到
-/tuː; tə/ /siː/
-
-111
-to see you
-见到你
-/tuː; tə/ /siː/ /juː; jʊ/
-
-112
-I have to see you
-我必须见到你
-/aɪ/ /hæv/ /tuː; tə/ /siː/ /juː; jʊ/
-
-113
-tonight
-今晚
-/təˈnaɪt/
-
-114
-I have to see you tonight
-我今晚必须见到你
-/aɪ/ /hæv/ /tuː; tə/ /siː/ /juː; jʊ/ /təˈnaɪt/
-
-115
-to tell
-告诉
-/tuː; tə/ /tel/
-
-116
-you
-你
-/juː; jʊ/
-
-117
-to tell you
-告诉你
-/tuː; tə/ /tel/ /juː; jʊ/
-
-118
-I need to tell you
-我需要告诉你
-/aɪ/ /niːd/ /tuː; tə/ /tel/ /juː; jʊ/
-
-119
-something
-某物；某些事情
-/ˈsʌmθɪŋ/
-
-120
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
-
-121
-something important
-重要的某些事情
-/ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-122
-I need to tell you something
-我需要告诉你某些事情
-/aɪ/ /niːd/ /tuː; tə/ /tel/ /juː; jʊ/ /ˈsʌmθɪŋ/
-
-123
-I need to tell you something important
-我需要告诉你重要的某些事情
-/aɪ/ /niːd/ /tuː; tə/ /tel/ /juː; jʊ/ /ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-124
-it
-它；这件事情
-/ɪt/
-
-125
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
-
-126
-very
-非常
-/ˈveri/
-
-127
-It is very important
-它是非常重要的
-/ɪt/ /ɪz/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/
-
-128
-me
-我
-/miː/
-
-129
-for me
-对我来说
-/fɔːr; fər/ /miː/
-
-130
-It is important for me
-对我来说它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/
-
-131
-It is very important for me
-对我来说它是非常重要的
-/ɪt/ /ɪz/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/
-
-132
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-133
-It is important to do it
-做这件事情（它）是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /tuː; tə/ /duː; də/ /ɪt/
-
-134
-to be here
-在这里；来到这里
-/tuː; tə/ /biː/ /hɪr/
-
-135
-It is important to be here
-来到这里（它）是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /tuː; tə/ /biː/ /hɪr/
-
-136
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-137
-It is important to eat the food
-吃这个食物（它）是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-138
-impossible
-不可能的
-/ɪmˈpɑːsəbl/
-
-139
-It is impossible
-它是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/
-
-140
-to do it
-做这件事情
-/tuː; tə/ /duː; də/ /ɪt/
-
-141
-It is impossible to do it
-做这件事情（它）是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/ /tuː; tə/ /duː; də/ /ɪt/
-
-142
-It is impossible to do it now
-现在做这件事情（它）是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-143
-for me
-对我来说
-/fɔːr; fər/ /miː/
-
-144
-It is impossible for me
-对我来说它是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/ /fɔːr; fər/ /miː/
-
-145
 good
-好的
+好的；棒的
 /ɡʊd/
 
-146
+2
+It
+它；这件事情
+/ɪt/
+
+3
+It is
+它是
+/ɪt/ /ɪz/
+
+4
 It is good
 它是好的
 /ɪt/ /ɪz/ /ɡʊd/
 
-147
-to be here
-在这里；来到这里
-/tuː; tə/ /biː/ /hɪr/
-
-148
-It is good to be here
-来到这里（它）是好的
-/ɪt/ /ɪz/ /ɡʊd/ /tuː; tə/ /biː/ /hɪr/
-
-149
-It is very good to be here
-来到这里（它）是非常好的
-/ɪt/ /ɪz/ /ˈveri/ /ɡʊd/ /tuː; tə/ /biː/ /hɪr/
-
-150
-to see you
-见到你
-/tuː; tə/ /siː/ /juː; jʊ/
-
-151
-It is very good to see you
-见到你（它）是非常好的
-/ɪt/ /ɪz/ /ˈveri/ /ɡʊd/ /tuː; tə/ /siː/ /juː; jʊ/
-
-152
-every day
-每天
-/ˈevri/ /deɪ/
-
-153
-It is very good to see you every day
-每天见到你（它）是非常好的
-/ɪt/ /ɪz/ /ˈveri/ /ɡʊd/ /tuː; tə/ /siː/ /juː; jʊ/ /ˈevri/ /deɪ/
-
-154
-possible
-可能的
-/ˈpɑːsəb(ə)l/
-
-155
-It is possible
-它是可能的
-/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
-
-156
-to see you
-见到你
-/tuː; tə/ /siː/ /juː; jʊ/
-
-157
-It is possible to see you
-见到你（它）是可能的
-/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/ /tuː; tə/ /siː/ /juː; jʊ/
-
-158
-every day
-每天
-/ˈevri/ /deɪ/
-
-159
-It is possible to see you every day
-每天见到你（它）是可能的
-/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/ /tuː; tə/ /siː/ /juː; jʊ/ /ˈevri/ /deɪ/
-
-160
-impossible
-不可能的
-/ɪmˈpɑːsəbl/
-
-161
-It is impossible to see you every day
-每天见到你（它）是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/ /tuː; tə/ /siː/ /juː; jʊ/ /ˈevri/ /deɪ/
-
-162
-to know
-知道；认识
-/tuː; tə/ /noʊ/
-
-163
-I want to know
-我想要知道
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/
-
-164
-if
-是否
-/ɪf/
-
-165
-I want to know if it is possible
-我想要知道是否它是可能的
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
-
-166
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
-
-167
-I want to know if it is important
-我想要知道是否它是重要的
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
-
-168
-for me
-对我来说
-/fɔːr; fər/ /miː/
-
-169
-It is important for me
-对我来说它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/
-
-170
-have to do
-必须做
-/hæv/ /tuː; tə/ /duː; də/
-
-171
-I have to do it
-我必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-172
-I have to do it today
-我今天必须做这件事情
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-173
-so
-所以
-/soʊ/
-
-174
-It is important for me so I have to do it
-它是重要的对我来说所以我必须做这件事
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-175
-It is important for me so I have to do it today
-它是重要的对我来说所以我今天必须做这件事
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-176
-every day
-每天
-/ˈevri/ /deɪ/
-
-177
-It is important for me so I have to do it every day
-它是重要的对我来说所以我必须每天做这件事
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ˈevri/ /deɪ/
-
-178
-very
-非常
-/ˈveri/
-
-179
-It is very important for me so I have to do it every day
-它是非常重要的对我来说所以我必须每天做这件事
-/ɪt/ /ɪz/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ˈevri/ /deɪ/
-
-180
-now
-现在
-/naʊ/
-
-181
-It is very important for me so I have to do it now
-它是非常重要的对我来说所以我必须现在做这件事
-/ɪt/ /ɪz/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-182
-not important
-不重要的
-/nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-183
-It is not important
-它是不重要的
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-184
-It is not important for me
-它是不重要的对我来说
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/
-
-185
-don't have to do
-不必做
-/doʊnt/ /hæv/ /tuː; tə/ /duː; də/
-
-186
-I don't have to do it
-我不必做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-187
-now
-现在
-/naʊ/
-
-188
-I don't have to do it now
-我现在不必做这件事情
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-189
-so
-所以
-/soʊ/
-
-190
-It is not important for me so I don't have to do it now
-它不是重要的对我来说所以我不必现在做这件事情
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/ /soʊ/ /aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-191
-I like to eat the food
-我喜欢吃这个食物
-/aɪ/ /laɪk/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-192
-I want to do it today
-我想要今天做这件事
-/aɪ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-193
-I need to tell you something important
-我需要告诉你重要的某些事情
-/aɪ/ /niːd/ /tuː; tə/ /tel/ /juː; jʊ/ /ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-194
-I have to know you soon
-我必须尽快认识你
-/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /juː; jʊ/ /sun/
-
-195
-It is good to be here
-来到这里（它）是好的
-/ɪt/ /ɪz/ /ɡʊd/ /tuː; tə/ /biː/ /hɪr/
-
-196
-It is important for me
-它是重要的对我来说
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/ /fɔːr; fər/ /miː/
-
-197
-It is impossible to do it now
-现在做这件事情（它）是不可能的
-/ɪt/ /ɪz/ /ɪmˈpɑːsəbl/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-198
-like to do
-喜欢做
-/laɪk/ /tuː; tə/ /duː; də/
-
-199
-need to do
-需要做
-/niːd/ /tuː; tə/ /duː; də/
-
-200
-want to do
-想要做
-/wɑːnt/ /tuː; tə/ /duː; də/
-
-201
-have to do
-必须做
-/hæv/ /tuː; tə/ /duː; də/
-
-202
-to eat
-吃
-/tuː; tə/ /iːt/
-
-203
-to know
-知道；认识
-/tuː; tə/ /noʊ/
-
-204
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-205
-to see
-见到
-/tuː; tə/ /siː/
-
-206
-to tell
-告诉
-/tuː; tə/ /tel/
-
-207
-you
-你
-/juː; jʊ/
-
-208
-me
-我
-/miː/
-
-209
-something
-某物；某些事情
-/ˈsʌmθɪŋ/
-
-210
-good
-好的
-/ɡʊd/
-
-211
-possible
-可能的
-/ˈpɑːsəb(ə)l/
-
-212
-impossible
-不可能的
-/ɪmˈpɑːsəbl/
-
-213
+5
 important
 重要的
 /ɪmˈpɔːrt(ə)nt/
 
-214
-the food
-这个食物
-/ðə/ /fuːd/
+6
+It is important
+它是重要的
+/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
 
-215
+7
+I
+我
+/aɪ/
+
+8
+I am
+我是
+/aɪ/ /æm; əm/
+
+9
+I am important
+我是重要的
+/aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
+
+10
+want
+想要
+/wɑːnt/
+
+11
+to know
+知道
+/tuː; tə/ /noʊ/
+
+12
+I want to know
+我想要知道
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/
+
+13
+if
+是否
+/ɪf/
+
+14
+I want to know if I am important
+我想要知道是否我是重要的
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
+
+15
+need to know
+需要知道
+/niːd/ /tuː; tə/ /noʊ/
+
+16
+I need to know if I am important
+我需要知道是否我是重要的
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
+
+17
+perfect
+完美的
+/ˈpɜːrfɪkt/
+
+18
+I am perfect
+我是完美的
+/aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
+
+19
+I need to know if I am perfect
+我需要知道是否我是完美的
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
+
+20
+have to know
+必须知道
+/hæv/ /tuː; tə/ /noʊ/
+
+21
+I have to know if I am perfect
+我必须知道是否我是完美的
+/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
+
+22
+healthy
+健康的
+/ˈhelθi/
+
+23
+I am healthy
+我是健康的
+/aɪ/ /æm; əm/ /ˈhelθi/
+
+24
+I have to know if I am healthy
+我必须知道是否我是健康的
+/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈhelθi/
+
+25
+I am
+我是
+/aɪ/ /æm; əm/
+
+26
+Xingrong
+星荣
+/ˈsɪŋrɔːŋ/
+
+27
+I am Xingrong
+我是星荣
+/aɪ/ /æm; əm/ /ˈsɪŋrɔːŋ/
+
+28
 here
 这里
 /hɪr/
 
-216
+29
+I am here
+我在这里
+/aɪ/ /æm; əm/ /hɪr/
+
+30
+I am eighteen
+我18岁
+/aɪ/ /æm; əm/ /ˌeɪˈtiːn/
+
+31
+you
+你
+/juː; jʊ/
+
+32
+you are
+你是
+/juː; jʊ/ /ɑr/
+
+33
+important
+重要的
+/ɪmˈpɔːrt(ə)nt/
+
+34
+You are important
+你是重要的
+/juː; jʊ/ /ɑr/ /ɪmˈpɔːrt(ə)nt/
+
+35
+very
+非常
+/ˈveri/
+
+36
+You are very important
+你是非常重要的
+/juː; jʊ/ /ɑr/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/
+
+37
+perfect
+完美的
+/ˈpɜːrfɪkt/
+
+38
+You are perfect
+你是完美的
+/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
+
+39
+healthy
+健康的
+/ˈhelθi/
+
+40
+You are healthy
+你是健康的
+/juː; jʊ/ /ɑr/ /ˈhelθi/
+
+41
+Jay Chou
+周杰伦
+/dʒeɪ/ /dʒoʊ/
+
+42
+You are Jay Chou
+你是周杰伦
+/juː; jʊ/ /ɑr/ /dʒeɪ/ /dʒoʊ/
+
+43
+want to know
+想要知道
+/wɑːnt/ /tuː; tə/ /noʊ/
+
+44
+if
+是否
+/ɪf/
+
+45
+I want to know if you are Jay Chou
+我想要知道是否你是周杰伦
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /dʒeɪ/ /dʒoʊ/
+
+46
+need to know
+需要知道
+/niːd/ /tuː; tə/ /noʊ/
+
+47
+You are healthy
+你是健康的
+/juː; jʊ/ /ɑr/ /ˈhelθi/
+
+48
+I need to know if you are healthy
+我需要知道是否你是健康的
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /ˈhelθi/
+
+49
+have to know
+必须知道
+/hæv/ /tuː; tə/ /noʊ/
+
+50
+You are perfect
+你是完美的
+/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
+
+51
+I have to know if you are perfect
+我必须知道是否你是完美的
+/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
+
+52
+rich
+富有的
+/rɪtʃ/
+
+53
+he is
+他是
+/hiː/ /ɪz/
+
+54
+He is rich
+他是富有的
+/hiː/ /ɪz/ /rɪtʃ/
+
+55
+she is
+她是
+/ʃiː; ʃi/ /ɪz/
+
+56
+She is rich
+她是富有的
+/ʃiː; ʃi/ /ɪz/ /rɪtʃ/
+
+57
+perfect
+完美的
+/ˈpɜːrfɪkt/
+
+58
+She is perfect
+她是完美的
+/ʃiː; ʃi/ /ɪz/ /ˈpɜːrfɪkt/
+
+59
+it is
+它是
+/ɪt/ /ɪz/
+
+60
+important
+重要的
+/ɪmˈpɔːrt(ə)nt/
+
+61
+It is important
+它是重要的
+/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+
+62
+rich
+富有的
+/rɪtʃ/
+
+63
+I am
+我是
+/aɪ/ /æm; əm/
+
+64
+I am rich
+我是富有的
+/aɪ/ /æm; əm/ /rɪtʃ/
+
+65
+very
+非常
+/ˈveri/
+
+66
+I am very rich
+我是非常富有的
+/aɪ/ /æm; əm/ /ˈveri/ /rɪtʃ/
+
+67
+perfect
+完美的
+/ˈpɜːrfɪkt/
+
+68
+you are
+你是
+/juː; jʊ/ /ɑr/
+
+69
+You are perfect
+你是完美的
+/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
+
+70
+pretty
+漂亮的
+/ˈprɪti/
+
+71
+You are pretty
+你是漂亮的
+/juː; jʊ/ /ɑr/ /ˈprɪti/
+
+72
+He is pretty
+他是漂亮的
+/hiː/ /ɪz/ /ˈprɪti/
+
+73
+She is pretty
+她是漂亮的
+/ʃiː; ʃi/ /ɪz/ /ˈprɪti/
+
+74
+It is pretty
+它是漂亮的
+/ɪt/ /ɪz/ /ˈprɪti/
+
+75
+I am pretty
+我是漂亮的
+/aɪ/ /æm; əm/ /ˈprɪti/
+
+76
+here
+这里
+/hɪr/
+
+77
+to be here
+在这里
+/tuː; tə/ /biː/ /hɪr/
+
+78
+You want to be here
+你想要在这里
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/
+
+79
+tomorrow
+明天
+/təˈmɑːroʊ/
+
+80
+You want to be here tomorrow
+你明天想要在这里
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/ /təˈmɑːroʊ/
+
+81
+to see
+见到
+/tuː; tə/ /siː/
+
+82
+to see me
+见到我
+/tuː; tə/ /siː/ /miː/
+
+83
+You want to see me
+你想要见到我
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /siː/ /miː/
+
+84
 today
 今天
 /təˈdeɪ/
 
-217
+85
+You want to see me today
+你想要今天见到我
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /siː/ /miː/ /təˈdeɪ/
+
+86
+to talk
+说话
+/tuː; tə/ /tɔːk/
+
+87
+with
+和
+/wɪð; wɪθ/
+
+88
+with me
+和我
+/wɪð; wɪθ/ /miː/
+
+89
+to talk with me
+和我说话
+/tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+90
+You want to talk with me
+你想要和我说话
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+91
 now
 现在
 /naʊ/
 
-218
+92
+You want to talk with me now
+你想要现在和我说话
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/ /naʊ/
+
+93
+have to do
+必须做
+/hæv/ /tuː; tə/ /duː; də/
+
+94
+You have to do it
+你必须做这件事情
+/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
+
+95
 every day
 每天
 /ˈevri/ /deɪ/
+
+96
+You have to do it every day
+你必须每天做这件事情
+/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ˈevri/ /deɪ/
+
+97
+to help
+帮助
+/tuː; tə/ /help/
+
+98
+me
+我
+/miː/
+
+99
+to help me
+帮助我
+/tuː; tə/ /help/ /miː/
+
+100
+You have to help me
+你必须帮助我
+/juː; jʊ/ /hæv/ /tuː; tə/ /help/ /miː/
+
+101
+You have to help me now
+你必须现在帮助我
+/juː; jʊ/ /hæv/ /tuː; tə/ /help/ /miː/ /naʊ/
+
+102
+to believe
+相信
+/tuː; tə/ /bɪˈliːv/
+
+103
+me
+我
+/miː/
+
+104
+to believe me
+相信我
+/tuː; tə/ /bɪˈliːv/ /miː/
+
+105
+You have to believe me
+你必须相信我
+/juː; jʊ/ /hæv/ /tuː; tə/ /bɪˈliːv/ /miː/
+
+106
+the food
+这个食物
+/ðə/ /fuːd/
+
+107
+to eat
+吃
+/tuː; tə/ /iːt/
+
+108
+to eat the food
+吃这个食物
+/tuː; tə/ /iːt/ /ðə/ /fuːd/
+
+109
+You need to eat the food
+你需要吃这个食物
+/juː; jʊ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
+
+110
+You need to eat the food now
+你需要现在吃这个食物
+/juː; jʊ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
+
+111
+to tell
+告诉
+/tuː; tə/ /tel/
+
+112
+to tell me
+告诉我
+/tuː; tə/ /tel/ /miː/
+
+113
+the truth
+事实
+/ðə/ /truːθ/
+
+114
+to tell me the truth
+告诉我事实
+/tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
+
+115
+You need to tell me the truth
+你需要告诉我事实
+/juː; jʊ/ /niːd/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
+
+116
+to know
+知道；认识
+/tuː; tə/ /noʊ/
+
+117
+the truth
+事实
+/ðə/ /truːθ/
+
+118
+to know the truth
+知道事实
+/tuː; tə/ /noʊ/ /ðə/ /truːθ/
+
+119
+You need to know the truth
+你需要知道事实
+/juː; jʊ/ /niːd/ /tuː; tə/ /noʊ/ /ðə/ /truːθ/
+
+120
+to talk with me
+和我说话
+/tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+121
+You like to talk with me
+你喜欢和我说话
+/juː; jʊ/ /laɪk/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+122
+every day
+每天
+/ˈevri/ /deɪ/
+
+123
+You like to talk with me every day
+你喜欢每天和我说话
+/juː; jʊ/ /laɪk/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/ /ˈevri/ /deɪ/
+
+124
+to be here
+在这里
+/tuː; tə/ /biː/ /hɪr/
+
+125
+You like to be here
+你喜欢在这里
+/juː; jʊ/ /laɪk/ /tuː; tə/ /biː/ /hɪr/
+
+126
+every day
+每天
+/ˈevri/ /deɪ/
+
+127
+You like to be here every day
+你喜欢每天在这里
+/juː; jʊ/ /laɪk/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
+
+128
+to study
+学习
+/tuː; tə/ /ˈstʌdi/
+
+129
+You like to study
+你喜欢学习
+/juː; jʊ/ /laɪk/ /tuː; tə/ /ˈstʌdi/
+
+130
+You like to study every day
+你喜欢每天学习
+/juː; jʊ/ /laɪk/ /tuː; tə/ /ˈstʌdi/ /ˈevri/ /deɪ/
+
+131
+to tell
+告诉
+/tuː; tə/ /tel/
+
+132
+to tell me
+告诉我
+/tuː; tə/ /tel/ /miː/
+
+133
+the truth
+事实
+/ðə/ /truːθ/
+
+134
+to tell me the truth
+告诉我事实
+/tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
+
+135
+You want to tell me the truth
+你想要告诉我事实
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
+
+136
+You have to tell me the truth
+你必须告诉我事实
+/juː; jʊ/ /hæv/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
+
+137
+important
+重要的
+/ɪmˈpɔːrt(ə)nt/
+
+138
+It is important
+它是重要的
+/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+
+139
+because
+因为
+/bɪˈkəz, bɪˈkɔːz/
+
+140
+You have to tell me the truth because it is important
+你必须告诉我事实因为它是重要的
+/juː; jʊ/ /hæv/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/ /bɪˈkəz, bɪˈkɔːz/ /ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+
+141
+to know
+知道；认识
+/tuː; tə/ /noʊ/
+
+142
+You want to know
+你想要知道
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/
+
+143
+if
+是否
+/ɪf/
+
+144
+It is important
+它是重要的
+/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+
+145
+You want to know if it is important
+你想要知道是否它是重要的
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+
+146
+it is possible
+它是可能的
+/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
+
+147
+You want to know if it is possible
+你想要知道是否它是可能的
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
+
+148
+good
+好的
+/ɡʊd/
+
+149
+important
+重要的
+/ɪmˈpɔːrt(ə)nt/
+
+150
+perfect
+完美的
+/ˈpɜːrfɪkt/
+
+151
+rich
+富有的
+/rɪtʃ/
+
+152
+I am
+我是
+/aɪ/ /æm; əm/
+
+153
+you are
+你是
+/juː; jʊ/ /ɑr/
+
+154
+it is
+它是
+/ɪt/ /ɪz/
+
+155
+he is
+他是
+/hiː/ /ɪz/
+
+156
+she is
+她是
+/ʃiː; ʃi/ /ɪz/
+
+157
+you like to do it
+你喜欢做这件事
+/juː; jʊ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
+
+158
+you need to do it
+你需要做这件事
+/juː; jʊ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
+
+159
+you have to do it
+你必须做这件事情
+/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
+
+160
+you want to do it
+你想要做这件事
+/juː; jʊ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
+
+161
+to help
+帮助
+/tuː; tə/ /help/
+
+162
+to believe
+相信
+/tuː; tə/ /bɪˈliːv/
+
+163
+to talk
+说话
+/tuː; tə/ /tɔːk/
+
+164
+to study
+学习
+/tuː; tə/ /ˈstʌdi/
+
+165
+to tell
+告诉
+/tuː; tə/ /tel/
