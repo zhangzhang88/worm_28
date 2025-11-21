@@ -67,28 +67,28 @@ npm start
 2. 编辑 `data/courses/index.ts`：引入该 lesson，并在 `courseId1Lessons` 数组中追加 `{ lessonNumber: X, title: 'Lesson X - ...', sentences: lessonXSentences }`
 3. 保存后，`/courses/courseId_1/lessons/X` 自动生效
 
-### 新增新的 courseId（例如 courseId_2）
+### 新增新的 courseId（例如 courseId_X）
 
-1. 新建目录 `data/courses/courseId_2`，逐个 lesson 写入 `lesson1.ts`、`lesson2.ts` 等
+1. 新建目录 `data/courses/courseId_X`，逐个 lesson 写入 `lesson1.ts`、`lesson2.ts` 等
 2. 在 `data/courses/index.ts` 中：
-   - `import { sentences as course2Lesson1 } from './courseId_2/lesson1';` 等
-   - 维护 `const courseId2Lessons: LessonConfig[] = [...]`
+   - `import { sentences as courseIdXLesson1 } from './courseId_X/lesson1';` 等
+   - 维护 `const courseIdXLessons: LessonConfig[] = [...]`
    - 在 `courseConfigs` 中追加：
    ```ts
-   courseId_2: {
-     courseId: 'courseId_2',
-     title: '课程 2',
-     lessons: courseId2Lessons
+   courseId_X: {
+     courseId: 'courseId_X',
+     title: '课程 X',
+     lessons: courseIdXLessons
    }
    ```
-> `title` 字段仍保存课程的中文名称（例如 `课程 2`），这些字符串来自后台数据。新增课程时务必让 `scripts/2-add_lesson.py` 提供的提示填写中文名，脚本在完成后会再次打印中文名以便确认后台同步。
+> `title` 字段仍保存课程的中文名称（例如 `课程 X`），这些字符串来自后台数据。新增课程时务必让 `scripts/2-add_lesson.py` 提供的提示填写中文名，脚本在完成后会再次打印中文名以便确认后台同步。
 > UI 会把 `courseId` 和这个中文名直接拼接（比如 `courseId_1零基础学英语`），因此标题一旦更新，请确保对应条目也更新。
 > 例如，当你输入 `1`/`课次 1` 并填入 `零基础学英语`，脚本会直接写入 `title: '零基础学英语'` 并最终打印 `[提示] 新课程 courseId_1 的中文名为 '零基础学英语'...`，这就是后端应该保持的值。
-3. 首页与 `/courses/courseId_2/lessons/<lessonNumber>` 将自动展示
+3. 首页与 `/courses/courseId_X/lessons/<lessonNumber>` 将自动展示
 
 ### 验证
 
-执行 `npm run build` 或 `npm run dev`，确认新课程/课次链接出现且可以正常播放。Lesson 示例可参考 `data/courses/courseId_1/lesson2.ts`、`courseId_2/lesson1.ts`。
+执行 `npm run build` 或 `npm run dev`，确认新课程/课次链接出现且可以正常播放。Lesson 示例可参考 `data/courses/courseId_1/lesson2.ts`。
 
 > 小工具：
 > - `python scripts/2-add_lesson.py`：根据提示依次输入 `courseId`、`lesson` 编号和简介。脚本会：

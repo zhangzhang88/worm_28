@@ -80,19 +80,31 @@ def ensure_course_entry(content: str, course_id: str, course_title: str) -> str:
     f"    lessons: {const_name}\n"
     f"  }},\n"
   )
-  pattern = re.compile(r"(export const courseConfigs: [\s\S]*?= {\n)([\s\S]*?)(\n};)", re.MULTILINE)
-  match = pattern.search(content)
-  if match:
-    new_body = match.group(1) + match.group(2) + "\n" + entry + match.group(3)
-    return content[:match.start()] + new_body + content[match.end():]
 
-  base_pattern = re.compile(r"(export const courseConfigs: [\s\S]*?=)\s*\{\s*\};", re.MULTILINE)
-  base_match = base_pattern.search(content)
-  if base_match:
-    reconstructed = f"{base_match.group(1)} {{\n{entry}}};"
-    return content[:base_match.start()] + reconstructed + content[base_match.end():]
+  marker = "export const courseConfigs"
+  start_idx = content.find(marker)
+  if start_idx == -1:
+    raise ValueError("未找到 courseConfigs 定义")
 
-  raise ValueError("未找到 courseConfigs 定义")
+  brace_idx = content.find("{", start_idx)
+  if brace_idx == -1:
+    raise ValueError("courseConfigs 缺少大括号")
+
+  brace_level = 1
+  pos = brace_idx + 1
+  while pos < len(content) and brace_level > 0:
+    char = content[pos]
+    if char == "{":
+      brace_level += 1
+    elif char == "}":
+      brace_level -= 1
+    pos += 1
+
+  if brace_level != 0:
+    raise ValueError("无法解析 courseConfigs 的大括号")
+
+  insert_pos = pos - 1
+  return content[:insert_pos] + "\n" + entry + content[insert_pos:]
 
 
 def ensure_raw_data() -> None:
