@@ -8,731 +8,211 @@
 
 当前练习
 1
-I need
-我需要
-/aɪ/ /niːd/
+Excuse me
+打扰一下
+/ɪkˈskjuːs/ /miː/
 
 2
-I don't need
-我不需要
-/aɪ/ /doʊnt/ /niːd/
+do
+构成疑问句
+/duː; də/
 
 3
-to do it
-做这件事
-/tuː; tə/ /duː; də/ /ɪt/
+you
+你
+/juː; jʊ/
 
 4
-I don't need to do it
-我不需要做这件事
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
+have
+有
+/hæv/
 
 5
+this shirt
+这件衬衫
+/ðɪs/ /ʃɜrt/
+
+6
+do you have this shirt
+这件衬衫
+/duː; də/ /juː; jʊ/ /hæv/ /ðɪs/ /ʃɜrt/
+
+7
+Excuse me , do you have this shirt
+请问，这件衬衫有货吗
+/ɪkˈskjuːs/ /miː/ /duː; də/ /juː; jʊ/ /hæv/ /ðɪs/ /ʃɜrt/
+
+8
+in
+在...里
+/ɪn/
+
+9
+a smaller size
+较小的尺寸
+/ə; eɪ/ /ˈsmɔːlər/ /saɪz/
+
+10
+in a smaller size ?
+有小一码的吗？
+/ɪn/ /ə; eɪ/ /ˈsmɔːlər/ /saɪz/
+
+11
+Excuse me , do you have this shirt in a smaller size ?
+请问，这件衬衫有小一号的吗？
+/ɪkˈskjuːs/ /miː/ /duː; də/ /juː; jʊ/ /hæv/ /ðɪs/ /ʃɜrt/ /ɪn/ /ə; eɪ/ /ˈsmɔːlər/ /saɪz/
+
+12
+Just a moment
+稍等片刻
+/dʒʌst/ /ə; eɪ/ /ˈmoʊmənt/
+
+13
+please
+请
+/pliːz/
+
+14
+let me
+让我
+/let/ /miː/
+
+15
+check
+检查
+/tʃek/
+
+16
+for you
+为你
+/fɔːr; fər/ /juː; jʊ/
+
+17
+please let me check for you
+请让我为您查询
+/pliːz/ /let/ /miː/ /tʃek/ /fɔːr; fər/ /juː; jʊ/
+
+18
+Just a moment , please let me check for you
+请稍等，我为您查一下
+/dʒʌst/ /ə; eɪ/ /ˈmoʊmənt/ /pliːz/ /let/ /miː/ /tʃek/ /fɔːr; fər/ /juː; jʊ/
+
+19
+Thank you
+谢谢您
+/θæŋk/ /juː; jʊ/
+
+20
+are
+是
+/ɑr/
+
+21
+there
+那里
+/ðer; ðər/
+
+22
+any discounts
+任何折扣
+/ˈeni/ /dɪsˈkaʊnts/
+
+23
+available
+可用的
+/əˈveɪləb(ə)l/
+
+24
+are there any discounts available ?
+有可用的折扣吗？
+/ɑr/ /ðer; ðər/ /ˈeni/ /dɪsˈkaʊnts/ /əˈveɪləb(ə)l/
+
+25
+Thank you , are there any discounts available ?
+谢谢，请问有任何折扣吗？
+/θæŋk/ /juː; jʊ/ /ɑr/ /ðer; ðər/ /ˈeni/ /dɪsˈkaʊnts/ /əˈveɪləb(ə)l/
+
+26
+yes
+是的
+/jes/
+
+27
+we
+我们
+/wiː; wi/
+
+28
+have
+有
+/hæv/
+
+29
+a 10% discount
+10%的折扣
+/ə; eɪ/ /ten/ /ˈdɪskaʊnt/
+
+30
+we have a 10% discount
+我们有10%的折扣
+/wiː; wi/ /hæv/ /ə; eɪ/ /ten/ /ˈdɪskaʊnt/
+
+31
+yes we have a 10% discount
+是的，我们有10%的折扣
+/jes/ /wiː; wi/ /hæv/ /ə; eɪ/ /ten/ /ˈdɪskaʊnt/
+
+32
+on
+在...上
+/ɑːn/
+
+33
+all items
+所有物品
+/ɔːl/ /ˈaɪtəmz/
+
+34
 today
 今天
 /təˈdeɪ/
 
-6
-I don't need to do it today
-我今天不需要做这件事
-/aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-7
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
-
-8
-not important
-不重要的
-/nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-9
-it is not important
-它是不重要的
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-10
-so
-所以
-/soʊ/
-
-11
-it is not important so I don't need to do it today
-它是不重要的所以我今天不需要做这件事
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/ /soʊ/ /aɪ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /təˈdeɪ/
-
-12
-you need
-你需要
-/juː; jʊ/ /niːd/
-
-13
-you don't need
-你不需要
-/juː; jʊ/ /doʊnt/ /niːd/
-
-14
-you don't need to do it
-你不需要做这件事
-/juː; jʊ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-15
-now
-现在
-/naʊ/
-
-16
-you don't need to do it now
-你现在不需要做这件事
-/juː; jʊ/ /doʊnt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-17
-urgent
-紧急的
-/ˈɜːrdʒənt/
-
-18
-it is urgent
-它是紧急的
-/ɪt/ /ɪz/ /ˈɜːrdʒənt/
-
-19
-and
-而且
-/ænd; ənd/
-
-20
-it is urgent and you need to do it now
-它是紧急的而且你需要现在做这件事
-/ɪt/ /ɪz/ /ˈɜːrdʒənt/ /ænd; ənd/ /juː; jʊ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/ /naʊ/
-
-21
-he needs
-他需要
-/hiː/ /niːdz/
-
-22
-he needs to do it
-他需要做这件事
-/hiː/ /niːdz/ /tuː; tə/ /duː; də/ /ɪt/
-
-23
-he doesn't need
-他不需要
-/hiː/ /ˈdʌznt/ /niːd/
-
-24
-he doesn't need to do it
-他不需要做这件事
-/hiː/ /ˈdʌznt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-25
-she doesn't need to do it
-她不需要做这件事
-/ʃiː; ʃi/ /ˈdʌznt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-26
-it doesn't need to do it
-它不需要做这件事
-/ɪt/ /ˈdʌznt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-27
-Xingrong doesn't need to do it
-星荣不需要做这件事情
-/ˈsɪŋrɔːŋ/ /ˈdʌznt/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
-
-28
-I want
-我想要
-/aɪ/ /wɑːnt/
-
-29
-I want to do it
-我想要做这件事
-/aɪ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-30
-I don't want
-我不想要
-/aɪ/ /doʊnt/ /wɑːnt/
-
-31
-I don't want to do it
-我不想要做这件事
-/aɪ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-32
-you want
-你想要
-/juː; jʊ/ /wɑːnt/
-
-33
-you don't want
-你不想要
-/juː; jʊ/ /doʊnt/ /wɑːnt/
-
-34
-you don't want to do it
-你不想要做这件事
-/juː; jʊ/ /doʊnt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
 35
-he wants
-他想要
-/hiː/ /ˈwɒnts/
+on all items today
+今天所有商品
+/ɑːn/ /ɔːl/ /ˈaɪtəmz/ /təˈdeɪ/
 
 36
-he wants to do it
-他想要做这件事
-/hiː/ /ˈwɒnts/ /tuː; tə/ /duː; də/ /ɪt/
+yes we have a 10% discount on all items today
+是的，今天所有商品都有10%的折扣
+/jes/ /wiː; wi/ /hæv/ /ə; eɪ/ /ten/ /ˈdɪskaʊnt/ /ɑːn/ /ɔːl/ /ˈaɪtəmz/ /təˈdeɪ/
 
 37
-I need
-我需要
-/aɪ/ /niːd/
+Great
+太好了
+/ɡreɪt/
 
 38
-to know
-知道
-/tuː; tə/ /noʊ/
+I'll
+我将
+/aɪl/
 
 39
-I need to know
-我需要知道
-/aɪ/ /niːd/ /tuː; tə/ /noʊ/
+take
+拿
+/teɪk/
 
 40
-if
-是否
-/ɪf/
+two of these shirts
+两件这些衬衫
+/tuː/ /ʌv/ /ðiːz/ /ʃɝːts/
 
 41
-I need to know if he wants to do it
-我需要知道是否他想要做这件事
-/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /hiː/ /ˈwɒnts/ /tuː; tə/ /duː; də/ /ɪt/
+please
+请
+/pliːz/
 
 42
-he doesn't want
-他不想要
-/hiː/ /ˈdʌznt/ /wɑːnt/
-
-43
-he doesn't want to do it
-他不想要做这件事
-/hiː/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-44
-because
-因为
-/bɪˈkəz, bɪˈkɔːz/
-
-45
-it is not important
-它是不重要的
-/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-46
-he doesn't want to do it because it is not important
-他不想做这件事因为它是不重要的
-/hiː/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/ /bɪˈkəz, bɪˈkɔːz/ /ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/
-
-47
-she doesn't want to do it
-她不想要做这件事
-/ʃiː; ʃi/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-48
-it doesn't want to do it
-它不想要做这件事
-/ɪt/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
-
-49
-I like
-我喜欢
-/aɪ/ /laɪk/
-
-50
-I like to do it
-我喜欢做这件事
-/aɪ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-51
-I don't like
-我不喜欢
-/aɪ/ /doʊnt/ /laɪk/
-
-52
-I don't like to do it
-我不喜欢做这件事
-/aɪ/ /doʊnt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-53
-you like
-你喜欢
-/juː; jʊ/ /laɪk/
-
-54
-you don't like
-你不喜欢
-/juː; jʊ/ /doʊnt/ /laɪk/
-
-55
-you don't like to do it
-你不喜欢做这件事
-/juː; jʊ/ /doʊnt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-56
-he likes
-他喜欢
-/hiː/ /laɪks/
-
-57
-he doesn't like
-他不喜欢
-/hiː/ /ˈdʌznt/ /laɪk/
-
-58
-he doesn't like to do it
-他不喜欢做这件事
-/hiː/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-59
-she doesn't like to do it
-她不喜欢做这件事
-/ʃiː; ʃi/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-60
-it doesn't like to do it
-它不喜欢做这件事
-/ɪt/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
-61
-I have to do it
-我必须做这件事
-/aɪ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-62
-I don't have to do it
-我不必做这件事
-/aɪ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-63
-you have to do it
-你必须做这件事
-/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-64
-you don't have to do it
-你不必做这件事
-/juː; jʊ/ /doʊnt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-65
-he has to do it
-他必须做这件事
-/hiː/ /hæz; həz/ /tuː; tə/ /duː; də/ /ɪt/
-
-66
-he doesn't have to do it
-他不必做这件事
-/hiː/ /ˈdʌznt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-67
-she has to do it
-她必须做这件事
-/ʃiː; ʃi/ /hæz; həz/ /tuː; tə/ /duː; də/ /ɪt/
-
-68
-she doesn't have to do it
-她不必做这件事
-/ʃiː; ʃi/ /ˈdʌznt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-69
-it has to do it
-它必须做这件事
-/ɪt/ /hæz; həz/ /tuː; tə/ /duː; də/ /ɪt/
-
-70
-it doesn't have to do it
-它不必做这件事
-/ɪt/ /ˈdʌznt/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-71
-it needs
-它需要
-/ɪt/ /niːdz/
-
-72
-it doesn't need
-它不需要
-/ɪt/ /ˈdʌznt/ /niːd/
-
-73
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-74
-it needs to eat the food
-它需要吃这个食物
-/ɪt/ /niːdz/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-75
-now
-现在
-/naʊ/
-
-76
-it needs to eat the food now
-它需要现在吃这个食物
-/ɪt/ /niːdz/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-77
-it doesn't need to eat the food now
-它不需要现在吃这个食物
-/ɪt/ /ˈdʌznt/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-78
-Xingrong needs
-星荣需要
-/ˈsɪŋrɔːŋ/ /niːdz/
-
-79
-to rest
-休息
-/tuː; tə/ /rest/
-
-80
-Xingrong needs to rest
-星荣需要休息
-/ˈsɪŋrɔːŋ/ /niːdz/ /tuː; tə/ /rest/
-
-81
-Xingrong doesn't need
-星荣不需要
-/ˈsɪŋrɔːŋ/ /ˈdʌznt/ /niːd/
-
-82
-Xingrong doesn't need to rest
-星荣不需要休息
-/ˈsɪŋrɔːŋ/ /ˈdʌznt/ /niːd/ /tuː; tə/ /rest/
-
-83
-he wants
-他想要
-/hiː/ /ˈwɒnts/
-
-84
-he doesn't want
-他不想
-/hiː/ /ˈdʌznt/ /wɑːnt/
-
-85
-to tell me
-告诉我
-/tuː; tə/ /tel/ /miː/
-
-86
-something important
-重要的某事
-/ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-87
-he wants to tell me something important
-他想要告诉我重要的某事
-/hiː/ /ˈwɒnts/ /tuː; tə/ /tel/ /miː/ /ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-88
-he doesn't want to tell me something important
-他不想告诉我重要的某件事
-/hiː/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /tel/ /miː/ /ˈsʌmθɪŋ/ /ɪmˈpɔːrt(ə)nt/
-
-89
-she wants
-她想
-/ʃiː; ʃi/ /ˈwɒnts/
-
-90
-she doesn't want
-她不想
-/ʃiː; ʃi/ /ˈdʌznt/ /wɑːnt/
-
-91
-to explain
-解释
-/tuː; tə/ /ɪkˈspleɪn/
-
-92
-the reason
-原因
-/ðə/ /ˈriːz(ə)n/
-
-93
-to explain the reason
-解释原因
-/tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-94
-she wants to explain the reason
-她想要解释原因
-/ʃiː; ʃi/ /ˈwɒnts/ /tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-95
-she doesn't want to explain the reason
-她不想解释原因
-/ʃiː; ʃi/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-96
-to ask me
-问我
-/tuː; tə/ /æsk/ /miː/
-
-97
-a question
-一个问题
-/ə; eɪ/ /ˈkwestʃən/
-
-98
-to ask me a question
-问我一个问题
-/tuː; tə/ /æsk/ /miː/ /ə; eɪ/ /ˈkwestʃən/
-
-99
-she wants to ask me a question
-她想要问我一个问题
-/ʃiː; ʃi/ /ˈwɒnts/ /tuː; tə/ /æsk/ /miː/ /ə; eɪ/ /ˈkwestʃən/
-
-100
-she doesn't want to ask me a question
-她不想问我一个问题
-/ʃiː; ʃi/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /æsk/ /miː/ /ə; eɪ/ /ˈkwestʃən/
-
-101
-it wants
-它想
-/ɪt/ /ˈwɒnts/
-
-102
-it doesn't want
-它不想
-/ɪt/ /ˈdʌznt/ /wɑːnt/
-
-103
-to fly
-飞翔
-/tuː; tə/ /flaɪ/
-
-104
-in the sky
-在天空中
-/ɪn/ /ðə/ /skaɪ/
-
-105
-to fly in the sky
-在天空中飞翔
-/tuː; tə/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
-
-106
-it wants to fly in the sky
-它想在天空中飞翔
-/ɪt/ /ˈwɒnts/ /tuː; tə/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
-
-107
-it doesn't want to fly in the sky
-它不想在天空中飞翔
-/ɪt/ /ˈdʌznt/ /wɑːnt/ /tuː; tə/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
-
-108
-he likes
-他喜欢
-/hiː/ /laɪks/
-
-109
-he doesn't like
-他不喜欢
-/hiː/ /ˈdʌznt/ /laɪk/
-
-110
-to walk
-散步
-/tuː; tə/ /wɔːk/
-
-111
-in the park
-在公园里
-/ɪn/ /ðə/ /pɑːrk/
-
-112
-to walk in the park
-在公园里散步
-/tuː; tə/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
-
-113
-he likes to walk in the park
-他喜欢在公园里散步
-/hiː/ /laɪks/ /tuː; tə/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
-
-114
-he doesn't like to walk in the park
-他不喜欢在公园里散步
-/hiː/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
-
-115
-she likes
-她喜欢
-/ʃiː; ʃi/ /laɪks/
-
-116
-she doesn't like
-她不喜欢
-/ʃiː; ʃi/ /ˈdʌznt/ /laɪk/
-
-117
-to read
-阅读
-/tuː; tə/ /riːd/
-
-118
-at home
-在家里
-/æt; ət/ /hoʊm/
-
-119
-to read at home
-在家里阅读
-/tuː; tə/ /riːd/ /æt; ət/ /hoʊm/
-
-120
-she likes to read at home
-她喜欢在家里阅读
-/ʃiː; ʃi/ /laɪks/ /tuː; tə/ /riːd/ /æt; ət/ /hoʊm/
-
-121
-she doesn't like to read at home
-她不喜欢在家里阅读
-/ʃiː; ʃi/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /riːd/ /æt; ət/ /hoʊm/
-
-122
-it likes
-它喜欢
-/ɪt/ /laɪks/
-
-123
-it doesn't like
-它不喜欢
-/ɪt/ /ˈdʌznt/ /laɪk/
-
-124
-to sleep
-睡觉
-/tuː; tə/ /sliːp/
-
-125
-on the bed
-在床上
-/ɑːn/ /ðə/ /bed/
-
-126
-to sleep on the bed
-在床上睡觉
-/tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
-
-127
-it likes to sleep on the bed
-它喜欢在床上睡觉
-/ɪt/ /laɪks/ /tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
-
-128
-it doesn't like to sleep on the bed
-它不喜欢在床上睡觉
-/ɪt/ /ˈdʌznt/ /laɪk/ /tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
-
-129
-to explain
-解释
-/tuː; tə/ /ɪkˈspleɪn/
-
-130
-the reason
-原因
-/ðə/ /ˈriːz(ə)n/
-
-131
-to explain the reason
-解释原因
-/tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-132
-he has to explain the reason
-他必须解释原因
-/hiː/ /hæz; həz/ /tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-133
-he doesn't have to explain the reason
-他不必解释原因
-/hiː/ /ˈdʌznt/ /hæv/ /tuː; tə/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
-
-134
-to read at home
-在家里阅读
-/tuː; tə/ /riːd/ /æt; ət/ /hoʊm/
-
-135
-she doesn't have to read at home
-她不必在家里阅读
-/ʃiː; ʃi/ /ˈdʌznt/ /hæv/ /tuː; tə/ /riːd/ /æt; ət/ /hoʊm/
-
-136
-to tell me
-告诉我
-/tuː; tə/ /tel/ /miː/
-
-137
-the truth
-事实
-/ðə/ /truːθ/
-
-138
-to tell me the truth
-告诉我事实
-/tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-139
-she has to tell me the truth
-她必须告诉我事实
-/ʃiː; ʃi/ /hæz; həz/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-140
-she doesn't have to tell me the truth
-她不必告诉我事实
-/ʃiː; ʃi/ /ˈdʌznt/ /hæv/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-141
-to sleep
-睡觉
-/tuː; tə/ /sliːp/
-
-142
-on the bed
-在床上
-/ɑːn/ /ðə/ /bed/
-
-143
-to sleep on the bed
-在床上睡觉
-/tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
-
-144
-it has to sleep on the bed
-它必须在床上睡觉
-/ɪt/ /hæz; həz/ /tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
-
-145
-it doesn't have
-它不必
-/ɪt/ /ˈdʌznt/ /hæv/
-
-146
-it doesn't have to sleep on the bed
-它不必在床上睡觉
-/ɪt/ /ˈdʌznt/ /hæv/ /tuː; tə/ /sliːp/ /ɑːn/ /ðə/ /bed/
+Great I'll take two of these shirts please
+太好了，我要两件这样的衬衫
+/ɡreɪt/ /aɪl/ /teɪk/ /tuː/ /ʌv/ /ðiːz/ /ʃɝːts/ /pliːz/

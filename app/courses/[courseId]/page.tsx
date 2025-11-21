@@ -51,7 +51,7 @@ export default function CoursePage({ params }: CoursePageProps) {
         >
           ← 返回课程列表
         </Link>
-        <h1 style={{ margin: "0.25rem 0" }}>{course.courseId}</h1>
+        <h1 style={{ margin: "0.25rem 0" }}>{`${course.courseId}${course.title ?? ""}`}</h1>
         <p style={{ marginTop: 0, color: "#b2b2ff" }}>
           选择课次开始练习，共 {course.lessons.length} 课。
         </p>

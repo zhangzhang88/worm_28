@@ -74,13 +74,16 @@ npm start
    - `import { sentences as course2Lesson1 } from './courseId_2/lesson1';` 等
    - 维护 `const courseId2Lessons: LessonConfig[] = [...]`
    - 在 `courseConfigs` 中追加：
-     ```ts
-     courseId_2: {
-       courseId: 'courseId_2',
-       title: '课程 2',
-       lessons: courseId2Lessons
-     }
-     ```
+   ```ts
+   courseId_2: {
+     courseId: 'courseId_2',
+     title: '课程 2',
+     lessons: courseId2Lessons
+   }
+   ```
+> `title` 字段仍保存课程的中文名称（例如 `课程 2`），这些字符串来自后台数据。新增课程时务必让 `scripts/2-add_lesson.py` 提供的提示填写中文名，脚本在完成后会再次打印中文名以便确认后台同步。
+> UI 会把 `courseId` 和这个中文名直接拼接（比如 `courseId_1零基础学英语`），因此标题一旦更新，请确保对应条目也更新。
+> 例如，当你输入 `1`/`课次 1` 并填入 `零基础学英语`，脚本会直接写入 `title: '零基础学英语'` 并最终打印 `[提示] 新课程 courseId_1 的中文名为 '零基础学英语'...`，这就是后端应该保持的值。
 3. 首页与 `/courses/courseId_2/lessons/<lessonNumber>` 将自动展示
 
 ### 验证
@@ -92,6 +95,7 @@ npm start
 > 1. 自动调用 `scripts/convert_new_data.py`（读取 `scripts/1-new_data.txt`，生成 `scripts/generated_lesson.ts`）
 > 2. 在 `data/courses/<courseId>/lessonX.ts` 写入转换后的句子数据
 > 3. 更新 `data/courses/index.ts` 的 import、lesson 列表与 course 配置
+> 4. 若该 `courseId` 为全新课程，会额外询问中文名称并在结束时打印 `[提示] 新课程 ... 中文名为 '课程 X'` 以提醒同步后台数据。
 > - `python scripts/remove_lesson.py`：输入课程编号和 lesson 编号，删除 `data/courses/<courseId>/lessonX.ts` 并移除 `data/courses/index.ts` 中对应的 import 和 lesson 条目
 > - `python scripts/remove_course.py`：输入课程编号（例如 4），即可删除 `courseId_4` 目录并移除 `data/courses/index.ts` 中对应的 import、lesson 配置和 course 配置
 

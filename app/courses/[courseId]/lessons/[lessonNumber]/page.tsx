@@ -18,6 +18,8 @@ export function generateStaticParams() {
   );
 }
 
+const LESSON_TITLE_REGEX = /^Lesson\s*\d+\s*-\s*/i;
+
 export default function LessonPage({ params }: LessonPageProps) {
   const courseId = params.courseId;
   const lessonNumber = Number(params.lessonNumber);
@@ -28,13 +30,15 @@ export default function LessonPage({ params }: LessonPageProps) {
     notFound();
   }
 
+  const normalizedLessonTitle = lessonData.title.replace(LESSON_TITLE_REGEX, "").trim();
+
   return (
     <TypingGame
       courseId={courseId}
       lessonNumber={lessonData.lessonNumber}
       sentences={lessonData.sentences}
       totalLessons={courseData.lessons.length}
-      lessonTitle={`${courseData.title} - ${lessonData.title}`}
+      lessonTitle={`${courseId} - Lesson${lessonNumber} - ${normalizedLessonTitle}`}
     />
   );
 }

@@ -82,10 +82,17 @@ def ensure_course_entry(content: str, course_id: str, course_title: str) -> str:
   )
   pattern = re.compile(r"(export const courseConfigs: [\s\S]*?= {\n)([\s\S]*?)(\n};)", re.MULTILINE)
   match = pattern.search(content)
-  if not match:
-    raise ValueError("未找到 courseConfigs 定义")
-  new_body = match.group(1) + match.group(2) + "\n" + entry + match.group(3)
-  return content[:match.start()] + new_body + content[match.end():]
+  if match:
+    new_body = match.group(1) + match.group(2) + "\n" + entry + match.group(3)
+    return content[:match.start()] + new_body + content[match.end():]
+
+  base_pattern = re.compile(r"(export const courseConfigs: [\s\S]*?=)\s*\{\s*\};", re.MULTILINE)
+  base_match = base_pattern.search(content)
+  if base_match:
+    reconstructed = f"{base_match.group(1)} {{\n{entry}}};"
+    return content[:base_match.start()] + reconstructed + content[base_match.end():]
+
+  raise ValueError("未找到 courseConfigs 定义")
 
 
 def ensure_raw_data() -> None:
@@ -151,6 +158,9 @@ def main():
   else:
     lesson_file.write_text(lesson_content + "\n", encoding="utf-8")
     print(f"[完成] 已创建 {lesson_file} 并写入 {GENERATED_FILE} 的内容。")
+
+  if not course_exists:
+    print(f"[提示] 新课程 {course_id} 的中文名为 '{course_title}'，请确保后台也同步了该名称。")
 
   print("[完成] data/courses/index.ts 已更新。")
 
