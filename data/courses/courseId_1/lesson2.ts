@@ -3,884 +3,992 @@ import { SentenceData } from '../../types';
 export const sentences: SentenceData[] = [
   {
     "id": "1",
-    "sentence": "Voyages",
-    "chinese": "航行（复数）",
-    "pronunciation": "/ˈvɔɪ.ədʒɪz/"
+    "sentence": "good",
+    "chinese": "好的；棒的",
+    "pronunciation": "/ɡʊd/"
   },
   {
     "id": "2",
-    "sentence": "of",
-    "chinese": "的",
-    "pronunciation": "/ʌv/"
+    "sentence": "It",
+    "chinese": "它；这件事情",
+    "pronunciation": "/ɪt/"
   },
   {
     "id": "3",
-    "sentence": "people",
-    "chinese": "人们（复数）",
-    "pronunciation": "/ˈpipl/"
+    "sentence": "It is",
+    "chinese": "它是",
+    "pronunciation": "/ɪt/ /ɪz/"
   },
   {
     "id": "4",
-    "sentence": "from",
-    "chinese": "来自",
-    "pronunciation": "/frʌm/"
+    "sentence": "It is good",
+    "chinese": "它是好的",
+    "pronunciation": "/ɪt/ /ɪz/ /ɡʊd/"
   },
   {
     "id": "5",
-    "sentence": "England",
-    "chinese": "英格兰",
-    "pronunciation": "/ˈɪŋɡlənd/"
+    "sentence": "important",
+    "chinese": "重要的",
+    "pronunciation": "/ɪmˈpɔːrt(ə)nt/"
   },
   {
     "id": "6",
-    "sentence": "Voyages of people from England",
-    "chinese": "来自英格兰的人们的航行",
-    "pronunciation": "/ˈvɔɪ.ədʒɪz/ /ʌv/ /ˈpipl/ /frʌm/ /ˈɪŋɡlənd/"
+    "sentence": "It is important",
+    "chinese": "它是重要的",
+    "pronunciation": "/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/"
   },
   {
     "id": "7",
-    "sentence": "play",
-    "chinese": "扮演",
-    "pronunciation": "/pleɪ/"
+    "sentence": "I",
+    "chinese": "我",
+    "pronunciation": "/aɪ/"
   },
   {
     "id": "8",
-    "sentence": "an important part",
-    "chinese": "一个重要角色",
+    "sentence": "I am",
+    "chinese": "我是",
     "pronunciation": ""
   },
   {
     "id": "9",
-    "sentence": "play an important part",
-    "chinese": "扮演着重要角色",
+    "sentence": "I am important",
+    "chinese": "我是重要的",
     "pronunciation": ""
   },
   {
     "id": "10",
-    "sentence": "Voyages of people from England play an important part",
-    "chinese": "来自英格兰的人们的航行扮演着重要角色",
-    "pronunciation": ""
+    "sentence": "want",
+    "chinese": "想要",
+    "pronunciation": "/wɑːnt/"
   },
   {
     "id": "11",
-    "sentence": "in",
-    "chinese": "在...中",
-    "pronunciation": "/ɪn/"
+    "sentence": "to know",
+    "chinese": "知道",
+    "pronunciation": ""
   },
   {
     "id": "12",
-    "sentence": "spreading",
-    "chinese": "spread（现在分词）: 传播",
-    "pronunciation": "/ˈspredɪŋ/"
+    "sentence": "I want to know",
+    "chinese": "我想要知道",
+    "pronunciation": ""
   },
   {
     "id": "13",
-    "sentence": "the English language",
-    "chinese": "英语",
-    "pronunciation": "/ðə/ /ˈɪŋɡlɪʃ/ /ˈlæŋɡwɪdʒ/"
+    "sentence": "if",
+    "chinese": "是否",
+    "pronunciation": "/ɪf/"
   },
   {
     "id": "14",
-    "sentence": "in spreading the English language",
-    "chinese": "在传播英语方面",
-    "pronunciation": "/ɪn/ /ˈspredɪŋ/ /ðə/ /ˈɪŋɡlɪʃ/ /ˈlæŋɡwɪdʒ/"
+    "sentence": "I want to know if I am important",
+    "chinese": "我想要知道是否我是重要的",
+    "pronunciation": ""
   },
   {
     "id": "15",
-    "sentence": "Voyages of people from England play an important part in spreading the English language",
-    "chinese": "英国人的航海在英语的传播中扮演了重要的角色",
+    "sentence": "need to know",
+    "chinese": "需要知道",
     "pronunciation": ""
   },
   {
     "id": "16",
-    "sentence": "At present",
-    "chinese": "目前",
+    "sentence": "I need to know if I am important",
+    "chinese": "我需要知道是否我是重要的",
     "pronunciation": ""
   },
   {
     "id": "17",
-    "sentence": "English",
-    "chinese": "英语",
-    "pronunciation": "/ˈɪŋɡlɪʃ/"
+    "sentence": "perfect",
+    "chinese": "完美的",
+    "pronunciation": "/ˈpɜːrfɪkt/"
   },
   {
     "id": "18",
-    "sentence": "is frequently spoken",
-    "chinese": "经常被说",
-    "pronunciation": "/ɪz/ /ˈfriːkwəntli/ /ˈspoʊkən/"
+    "sentence": "I am perfect",
+    "chinese": "我是完美的",
+    "pronunciation": ""
   },
   {
     "id": "19",
-    "sentence": "English is frequently spoken",
-    "chinese": "英语被频繁使用",
-    "pronunciation": "/ˈɪŋɡlɪʃ/ /ɪz/ /ˈfriːkwəntli/ /ˈspoʊkən/"
+    "sentence": "I need to know if I am perfect",
+    "chinese": "我需要知道是否我是完美的",
+    "pronunciation": ""
   },
   {
     "id": "20",
-    "sentence": "At present , English is frequently spoken",
-    "chinese": "目前，英语被频繁使用",
+    "sentence": "have to know",
+    "chinese": "必须知道",
     "pronunciation": ""
   },
   {
     "id": "21",
-    "sentence": "as",
-    "chinese": "作为",
+    "sentence": "I have to know if I am perfect",
+    "chinese": "我必须知道是否我是完美的",
     "pronunciation": ""
   },
   {
     "id": "22",
-    "sentence": "an official or common language",
-    "chinese": "官方或通用语言",
-    "pronunciation": ""
+    "sentence": "healthy",
+    "chinese": "健康的",
+    "pronunciation": "/ˈhelθi/"
   },
   {
     "id": "23",
-    "sentence": "as an official or common language",
-    "chinese": "作为官方或通用语言",
+    "sentence": "I am healthy",
+    "chinese": "我是健康的",
     "pronunciation": ""
   },
   {
     "id": "24",
-    "sentence": "At present , English is frequently spoken as an official or common language",
-    "chinese": "目前，英语常被作为官方或通用语言使用",
+    "sentence": "I have to know if I am healthy",
+    "chinese": "我必须知道是否我是健康的",
     "pronunciation": ""
   },
   {
     "id": "25",
-    "sentence": "in",
-    "chinese": "在",
-    "pronunciation": "/ɪn/"
-  },
-  {
-    "id": "26",
-    "sentence": "many countries",
-    "chinese": "许多国家",
-    "pronunciation": "/ˈmeni/ /ˈkʌntriz/"
-  },
-  {
-    "id": "27",
-    "sentence": "in many countries",
-    "chinese": "在许多国家",
-    "pronunciation": "/ɪn/ /ˈmeni/ /ˈkʌntriz/"
-  },
-  {
-    "id": "28",
-    "sentence": "At present , English is frequently spoken as an official or common language in many countries",
-    "chinese": "目前，英语在许多国家被频繁用作官方语言或通用语言",
+    "sentence": "I am",
+    "chinese": "我是",
     "pronunciation": ""
   },
   {
+    "id": "26",
+    "sentence": "Xingrong",
+    "chinese": "星荣",
+    "pronunciation": "/ˈsɪŋrɔːŋ/"
+  },
+  {
+    "id": "27",
+    "sentence": "I am Xingrong",
+    "chinese": "我是星荣",
+    "pronunciation": ""
+  },
+  {
+    "id": "28",
+    "sentence": "here",
+    "chinese": "这里",
+    "pronunciation": "/hɪr/"
+  },
+  {
     "id": "29",
-    "sentence": "such as",
-    "chinese": "例如",
+    "sentence": "I am here",
+    "chinese": "我在这里",
     "pronunciation": ""
   },
   {
     "id": "30",
-    "sentence": "America",
-    "chinese": "美国",
-    "pronunciation": "/əˈmerɪkə/"
+    "sentence": "I am eighteen",
+    "chinese": "我18岁",
+    "pronunciation": ""
   },
   {
     "id": "31",
-    "sentence": "Singapore",
-    "chinese": "新加坡",
-    "pronunciation": "/ˌsɪŋɡəˈpɔr/"
-  },
-  {
-    "id": "32",
-    "sentence": "such as America , Singapore",
-    "chinese": "例如美国、新加坡、",
-    "pronunciation": ""
-  },
-  {
-    "id": "33",
-    "sentence": "At present , English is frequently spoken as an official or common language in many countries , such as America , Singapore",
-    "chinese": "目前，英语在许多国家被频繁用作官方语言或通用语言，例如美国、新加坡、",
-    "pronunciation": ""
-  },
-  {
-    "id": "34",
-    "sentence": "Malaysia",
-    "chinese": "马来西亚",
-    "pronunciation": "/məˈlezɪr/"
-  },
-  {
-    "id": "35",
-    "sentence": "and",
-    "chinese": "和",
-    "pronunciation": ""
-  },
-  {
-    "id": "36",
-    "sentence": "some African countries",
-    "chinese": "一些非洲国家",
-    "pronunciation": ""
-  },
-  {
-    "id": "37",
-    "sentence": "Malaysia and some African countries",
-    "chinese": "马来西亚和一些非洲国家",
-    "pronunciation": ""
-  },
-  {
-    "id": "38",
-    "sentence": "At present , English is frequently spoken as an official or common language in many countries , such as America , Singapore , Malaysia and some African countries",
-    "chinese": "目前，英语在许多国家被作为官方语言或通用语言频繁地使用，例如美国、新加坡、马来西亚和一些非洲的国家",
-    "pronunciation": ""
-  },
-  {
-    "id": "39",
-    "sentence": "All",
-    "chinese": "所有",
-    "pronunciation": "/ɔːl/"
-  },
-  {
-    "id": "40",
-    "sentence": "based on",
-    "chinese": "基于",
-    "pronunciation": "/beɪst/ /ɑːn/"
-  },
-  {
-    "id": "41",
-    "sentence": "British English",
-    "chinese": "英式英语",
-    "pronunciation": "/ˈbrɪtɪʃ/ /ˈɪŋɡlɪʃ/"
-  },
-  {
-    "id": "42",
-    "sentence": "All based on British English",
-    "chinese": "全部基于英式英语,",
-    "pronunciation": "/ɔːl/ /beɪst/ /ɑːn/ /ˈbrɪtɪʃ/ /ˈɪŋɡlɪʃ/"
-  },
-  {
-    "id": "43",
-    "sentence": "the English",
-    "chinese": "英语",
-    "pronunciation": "/ðə/ /ˈɪŋɡlɪʃ/"
-  },
-  {
-    "id": "44",
-    "sentence": "spoken",
-    "chinese": "speak（过去分词）: 说",
-    "pronunciation": "/ˈspoʊkən/"
-  },
-  {
-    "id": "45",
-    "sentence": "in these countries",
-    "chinese": "在这些国家",
-    "pronunciation": "/ɪn/ /ðiːz/ /ˈkʌntriz/"
-  },
-  {
-    "id": "46",
-    "sentence": "the English spoken in these countries",
-    "chinese": "这些国家所说的英语",
-    "pronunciation": "/ðə/ /ˈɪŋɡlɪʃ/ /ˈspoʊkən/ /ɪn/ /ðiːz/ /ˈkʌntriz/"
-  },
-  {
-    "id": "47",
-    "sentence": "All based on British English , the English spoken in these countries",
-    "chinese": "均以英式英语为基础，这些国家所说的英语",
-    "pronunciation": "/ɔːl/ /beɪst/ /ɑːn/ /ˈbrɪtɪʃ/ /ˈɪŋɡlɪʃ/ /ðə/ /ˈɪŋɡlɪʃ/ /ˈspoʊkən/ /ɪn/ /ðiːz/ /ˈkʌntriz/"
-  },
-  {
-    "id": "48",
-    "sentence": "can be",
-    "chinese": "可以被",
-    "pronunciation": "/kæn/ /biː/"
-  },
-  {
-    "id": "49",
-    "sentence": "well understood",
-    "chinese": "很好地理解",
-    "pronunciation": "/wel/ /ˌʌndərˈstʊd/"
-  },
-  {
-    "id": "50",
-    "sentence": "can be well understood",
-    "chinese": "可以被很好地理解",
-    "pronunciation": "/kæn/ /biː/ /wel/ /ˌʌndərˈstʊd/"
-  },
-  {
-    "id": "51",
-    "sentence": "All based on British English , the English spoken in these countries can be well understood",
-    "chinese": "所有这些都基于英式英语，这些国家所说的英语都可以很好地被理解",
-    "pronunciation": "/ɔːl/ /beɪst/ /ɑːn/ /ˈbrɪtɪʃ/ /ˈɪŋɡlɪʃ/ /ðə/ /ˈɪŋɡlɪʃ/ /ˈspoʊkən/ /ɪn/ /ðiːz/ /ˈkʌntriz/ /kæn/ /biː/ /wel/ /ˌʌndərˈstʊd/"
-  },
-  {
-    "id": "52",
-    "sentence": "by",
-    "chinese": "被",
-    "pronunciation": "/baɪ/"
-  },
-  {
-    "id": "53",
-    "sentence": "native English speakers",
-    "chinese": "以英语为母语的人",
-    "pronunciation": "/ˈneɪtɪv/ /ˈɪŋɡlɪʃ/ /ˈspiːkərz/"
-  },
-  {
-    "id": "54",
-    "sentence": "by native English speakers",
-    "chinese": "被以英语为母语的人",
-    "pronunciation": "/baɪ/ /ˈneɪtɪv/ /ˈɪŋɡlɪʃ/ /ˈspiːkərz/"
-  },
-  {
-    "id": "55",
-    "sentence": "All based on British English , the English spoken in these countries can be well understood by native English speakers",
-    "chinese": "这些国家的英语都以英式英语为基础，能很好地为以英语为本族语的人所理解",
-    "pronunciation": "/ɔːl/ /beɪst/ /ɑːn/ /ˈbrɪtɪʃ/ /ˈɪŋɡlɪʃ/ /ðə/ /ˈɪŋɡlɪʃ/ /ˈspoʊkən/ /ɪn/ /ðiːz/ /ˈkʌntriz/ /kæn/ /biː/ /wel/ /ˌʌndərˈstʊd/ /baɪ/ /ˈneɪtɪv/ /ˈɪŋɡlɪʃ/ /ˈspiːkərz/"
-  },
-  {
-    "id": "56",
-    "sentence": "But",
-    "chinese": "但是",
-    "pronunciation": "/bʌt/"
-  },
-  {
-    "id": "57",
-    "sentence": "actually",
-    "chinese": "实际上",
-    "pronunciation": "/ˈæktʃuəli/"
-  },
-  {
-    "id": "58",
-    "sentence": "But actually",
-    "chinese": "但实际上",
-    "pronunciation": "/bʌt/ /ˈæktʃuəli/"
-  },
-  {
-    "id": "59",
-    "sentence": "these",
-    "chinese": "这些",
-    "pronunciation": "/ðiːz/"
-  },
-  {
-    "id": "60",
-    "sentence": "Englishes",
-    "chinese": "英语（复数）",
-    "pronunciation": "/ˈɪŋɡlɪʃɪz/"
-  },
-  {
-    "id": "61",
-    "sentence": "have been",
-    "chinese": "一直在",
-    "pronunciation": "/hæv/ /bɪn/"
-  },
-  {
-    "id": "62",
-    "sentence": "gradually changing",
-    "chinese": "逐渐变化",
-    "pronunciation": "/ˈɡrædʒuəli/ /ˈtʃeɪndʒɪŋ/"
-  },
-  {
-    "id": "63",
-    "sentence": "these Englishes have been gradually changing",
-    "chinese": "这些英语一直在逐渐变化",
-    "pronunciation": "/ðiːz/ /ˈɪŋɡlɪʃɪz/ /hæv/ /bɪn/ /ˈɡrædʒuəli/ /ˈtʃeɪndʒɪŋ/"
-  },
-  {
-    "id": "64",
-    "sentence": "But actually , these Englishes have been gradually changing",
-    "chinese": "但实际上，这些英语变体一直在逐渐变化",
-    "pronunciation": "/bʌt/ /ˈæktʃuəli/ /ðiːz/ /ˈɪŋɡlɪʃɪz/ /hæv/ /bɪn/ /ˈɡrædʒuəli/ /ˈtʃeɪndʒɪŋ/"
-  },
-  {
-    "id": "65",
-    "sentence": "in",
-    "chinese": "在...方面",
-    "pronunciation": "/ɪn/"
-  },
-  {
-    "id": "66",
-    "sentence": "accents",
-    "chinese": "口音（复数）",
-    "pronunciation": "/ˈæksənts/"
-  },
-  {
-    "id": "67",
-    "sentence": "spellings",
-    "chinese": "拼写（复数）",
-    "pronunciation": "/ˈspelɪŋz/"
-  },
-  {
-    "id": "68",
-    "sentence": "expressions",
-    "chinese": "表达（复数）",
-    "pronunciation": "/ɪkˈsprɛʃnz/"
-  },
-  {
-    "id": "69",
-    "sentence": "in accents , spellings , expressions",
-    "chinese": "在口音、拼写、表达方式",
-    "pronunciation": "/ɪn/ /ˈæksənts/ /ˈspelɪŋz/ /ɪkˈsprɛʃnz/"
-  },
-  {
-    "id": "70",
-    "sentence": "But actually , these Englishes have been gradually changing in accents , spellings , expressions",
-    "chinese": "但实际上，这些英语在口音、拼写和表达方式上一直在逐渐变化",
-    "pronunciation": "/bʌt/ /ˈæktʃuəli/ /ðiːz/ /ˈɪŋɡlɪʃɪz/ /hæv/ /bɪn/ /ˈɡrædʒuəli/ /ˈtʃeɪndʒɪŋ/ /ɪn/ /ˈæksənts/ /ˈspelɪŋz/ /ɪkˈsprɛʃnz/"
-  },
-  {
-    "id": "71",
-    "sentence": "and",
-    "chinese": "和",
-    "pronunciation": ""
-  },
-  {
-    "id": "72",
-    "sentence": "the usage",
-    "chinese": "使用",
-    "pronunciation": "/ðə/ /ˈjuːsɪdʒ/"
-  },
-  {
-    "id": "73",
-    "sentence": "of vocabulary",
-    "chinese": "词汇的",
-    "pronunciation": "/ʌv/ /vəˈkæbjəleri/"
-  },
-  {
-    "id": "74",
-    "sentence": "and the usage of vocabulary",
-    "chinese": "以及词汇的用法上",
-    "pronunciation": ""
-  },
-  {
-    "id": "75",
-    "sentence": "But actually , these Englishes have been gradually changing in accents , spellings , expressions and the usage of vocabulary",
-    "chinese": "但是实际上，这些英语在口音、拼写、表达和词汇的使用方面都在逐渐变化",
-    "pronunciation": ""
-  },
-  {
-    "id": "76",
-    "sentence": "Because of",
-    "chinese": "由于",
-    "pronunciation": ""
-  },
-  {
-    "id": "77",
-    "sentence": "this fact",
-    "chinese": "这个事实",
-    "pronunciation": "/ðɪs/ /fækt/"
-  },
-  {
-    "id": "78",
-    "sentence": "Because of this fact",
-    "chinese": "由于这个事实,",
-    "pronunciation": ""
-  },
-  {
-    "id": "79",
     "sentence": "you",
     "chinese": "你",
     "pronunciation": ""
   },
   {
+    "id": "32",
+    "sentence": "you are",
+    "chinese": "你是",
+    "pronunciation": ""
+  },
+  {
+    "id": "33",
+    "sentence": "important",
+    "chinese": "重要的",
+    "pronunciation": "/ɪmˈpɔːrt(ə)nt/"
+  },
+  {
+    "id": "34",
+    "sentence": "You are important",
+    "chinese": "你是重要的",
+    "pronunciation": ""
+  },
+  {
+    "id": "35",
+    "sentence": "very",
+    "chinese": "非常",
+    "pronunciation": "/ˈveri/"
+  },
+  {
+    "id": "36",
+    "sentence": "You are very important",
+    "chinese": "你是非常重要的",
+    "pronunciation": ""
+  },
+  {
+    "id": "37",
+    "sentence": "perfect",
+    "chinese": "完美的",
+    "pronunciation": "/ˈpɜːrfɪkt/"
+  },
+  {
+    "id": "38",
+    "sentence": "You are perfect",
+    "chinese": "你是完美的",
+    "pronunciation": ""
+  },
+  {
+    "id": "39",
+    "sentence": "healthy",
+    "chinese": "健康的",
+    "pronunciation": "/ˈhelθi/"
+  },
+  {
+    "id": "40",
+    "sentence": "You are healthy",
+    "chinese": "你是健康的",
+    "pronunciation": ""
+  },
+  {
+    "id": "41",
+    "sentence": "Jay Chou",
+    "chinese": "周杰伦",
+    "pronunciation": "/dʒeɪ/ /dʒoʊ/"
+  },
+  {
+    "id": "42",
+    "sentence": "You are Jay Chou",
+    "chinese": "你是周杰伦",
+    "pronunciation": ""
+  },
+  {
+    "id": "43",
+    "sentence": "want to know",
+    "chinese": "想要知道",
+    "pronunciation": ""
+  },
+  {
+    "id": "44",
+    "sentence": "if",
+    "chinese": "是否",
+    "pronunciation": "/ɪf/"
+  },
+  {
+    "id": "45",
+    "sentence": "I want to know if you are Jay Chou",
+    "chinese": "我想要知道是否你是周杰伦",
+    "pronunciation": ""
+  },
+  {
+    "id": "46",
+    "sentence": "need to know",
+    "chinese": "需要知道",
+    "pronunciation": ""
+  },
+  {
+    "id": "47",
+    "sentence": "You are healthy",
+    "chinese": "你是健康的",
+    "pronunciation": ""
+  },
+  {
+    "id": "48",
+    "sentence": "I need to know if you are healthy",
+    "chinese": "我需要知道是否你是健康的",
+    "pronunciation": ""
+  },
+  {
+    "id": "49",
+    "sentence": "have to know",
+    "chinese": "必须知道",
+    "pronunciation": ""
+  },
+  {
+    "id": "50",
+    "sentence": "You are perfect",
+    "chinese": "你是完美的",
+    "pronunciation": ""
+  },
+  {
+    "id": "51",
+    "sentence": "I have to know if you are perfect",
+    "chinese": "我必须知道是否你是完美的",
+    "pronunciation": ""
+  },
+  {
+    "id": "52",
+    "sentence": "rich",
+    "chinese": "富有的",
+    "pronunciation": "/rɪtʃ/"
+  },
+  {
+    "id": "53",
+    "sentence": "he is",
+    "chinese": "他是",
+    "pronunciation": "/hiː/ /ɪz/"
+  },
+  {
+    "id": "54",
+    "sentence": "He is rich",
+    "chinese": "他是富有的",
+    "pronunciation": "/hiː/ /ɪz/ /rɪtʃ/"
+  },
+  {
+    "id": "55",
+    "sentence": "she is",
+    "chinese": "她是",
+    "pronunciation": ""
+  },
+  {
+    "id": "56",
+    "sentence": "She is rich",
+    "chinese": "她是富有的",
+    "pronunciation": ""
+  },
+  {
+    "id": "57",
+    "sentence": "perfect",
+    "chinese": "完美的",
+    "pronunciation": "/ˈpɜːrfɪkt/"
+  },
+  {
+    "id": "58",
+    "sentence": "She is perfect",
+    "chinese": "她是完美的",
+    "pronunciation": ""
+  },
+  {
+    "id": "59",
+    "sentence": "it is",
+    "chinese": "它是",
+    "pronunciation": "/ɪt/ /ɪz/"
+  },
+  {
+    "id": "60",
+    "sentence": "important",
+    "chinese": "重要的",
+    "pronunciation": "/ɪmˈpɔːrt(ə)nt/"
+  },
+  {
+    "id": "61",
+    "sentence": "It is important",
+    "chinese": "它是重要的",
+    "pronunciation": "/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/"
+  },
+  {
+    "id": "62",
+    "sentence": "rich",
+    "chinese": "富有的",
+    "pronunciation": "/rɪtʃ/"
+  },
+  {
+    "id": "63",
+    "sentence": "I am",
+    "chinese": "我是",
+    "pronunciation": ""
+  },
+  {
+    "id": "64",
+    "sentence": "I am rich",
+    "chinese": "我是富有的",
+    "pronunciation": ""
+  },
+  {
+    "id": "65",
+    "sentence": "very",
+    "chinese": "非常",
+    "pronunciation": "/ˈveri/"
+  },
+  {
+    "id": "66",
+    "sentence": "I am very rich",
+    "chinese": "我是非常富有的",
+    "pronunciation": ""
+  },
+  {
+    "id": "67",
+    "sentence": "perfect",
+    "chinese": "完美的",
+    "pronunciation": "/ˈpɜːrfɪkt/"
+  },
+  {
+    "id": "68",
+    "sentence": "you are",
+    "chinese": "你是",
+    "pronunciation": ""
+  },
+  {
+    "id": "69",
+    "sentence": "You are perfect",
+    "chinese": "你是完美的",
+    "pronunciation": ""
+  },
+  {
+    "id": "70",
+    "sentence": "pretty",
+    "chinese": "漂亮的",
+    "pronunciation": "/ˈprɪti/"
+  },
+  {
+    "id": "71",
+    "sentence": "You are pretty",
+    "chinese": "你是漂亮的",
+    "pronunciation": ""
+  },
+  {
+    "id": "72",
+    "sentence": "He is pretty",
+    "chinese": "他是漂亮的",
+    "pronunciation": "/hiː/ /ɪz/ /ˈprɪti/"
+  },
+  {
+    "id": "73",
+    "sentence": "She is pretty",
+    "chinese": "她是漂亮的",
+    "pronunciation": ""
+  },
+  {
+    "id": "74",
+    "sentence": "It is pretty",
+    "chinese": "它是漂亮的",
+    "pronunciation": "/ɪt/ /ɪz/ /ˈprɪti/"
+  },
+  {
+    "id": "75",
+    "sentence": "I am pretty",
+    "chinese": "我是漂亮的",
+    "pronunciation": ""
+  },
+  {
+    "id": "76",
+    "sentence": "here",
+    "chinese": "这里",
+    "pronunciation": "/hɪr/"
+  },
+  {
+    "id": "77",
+    "sentence": "to be here",
+    "chinese": "在这里",
+    "pronunciation": ""
+  },
+  {
+    "id": "78",
+    "sentence": "You want to be here",
+    "chinese": "你想要在这里",
+    "pronunciation": ""
+  },
+  {
+    "id": "79",
+    "sentence": "tomorrow",
+    "chinese": "明天",
+    "pronunciation": "/təˈmɑːroʊ/"
+  },
+  {
     "id": "80",
-    "sentence": "can",
-    "chinese": "可以",
-    "pronunciation": "/kæn/"
+    "sentence": "You want to be here tomorrow",
+    "chinese": "你明天想要在这里",
+    "pronunciation": ""
   },
   {
     "id": "81",
-    "sentence": "make use of",
-    "chinese": "利用",
-    "pronunciation": "/meɪk/ /juːz/ /ʌv/"
+    "sentence": "to see",
+    "chinese": "见到",
+    "pronunciation": ""
   },
   {
     "id": "82",
-    "sentence": "the differences",
-    "chinese": "这些差异",
-    "pronunciation": "/ðə/ /ˈdɪfərənsɪz/"
+    "sentence": "to see me",
+    "chinese": "见到我",
+    "pronunciation": ""
   },
   {
     "id": "83",
-    "sentence": "you can make use of the differences",
-    "chinese": "你可以利用这些差异",
+    "sentence": "You want to see me",
+    "chinese": "你想要见到我",
     "pronunciation": ""
   },
   {
     "id": "84",
-    "sentence": "Because of this fact , you can make use of the differences",
-    "chinese": "正因为如此，你可以利用这些差异",
-    "pronunciation": ""
+    "sentence": "today",
+    "chinese": "今天",
+    "pronunciation": "/təˈdeɪ/"
   },
   {
     "id": "85",
+    "sentence": "You want to see me today",
+    "chinese": "你想要今天见到我",
+    "pronunciation": ""
+  },
+  {
+    "id": "86",
+    "sentence": "to talk",
+    "chinese": "说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "87",
+    "sentence": "with",
+    "chinese": "和",
+    "pronunciation": ""
+  },
+  {
+    "id": "88",
+    "sentence": "with me",
+    "chinese": "和我",
+    "pronunciation": ""
+  },
+  {
+    "id": "89",
+    "sentence": "to talk with me",
+    "chinese": "和我说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "90",
+    "sentence": "You want to talk with me",
+    "chinese": "你想要和我说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "91",
+    "sentence": "now",
+    "chinese": "现在",
+    "pronunciation": "/naʊ/"
+  },
+  {
+    "id": "92",
+    "sentence": "You want to talk with me now",
+    "chinese": "你想要现在和我说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "93",
+    "sentence": "have to do",
+    "chinese": "必须做",
+    "pronunciation": ""
+  },
+  {
+    "id": "94",
+    "sentence": "You have to do it",
+    "chinese": "你必须做这件事情",
+    "pronunciation": ""
+  },
+  {
+    "id": "95",
+    "sentence": "every day",
+    "chinese": "每天",
+    "pronunciation": "/ˈevri/ /deɪ/"
+  },
+  {
+    "id": "96",
+    "sentence": "You have to do it every day",
+    "chinese": "你必须每天做这件事情",
+    "pronunciation": ""
+  },
+  {
+    "id": "97",
+    "sentence": "to help",
+    "chinese": "帮助",
+    "pronunciation": ""
+  },
+  {
+    "id": "98",
+    "sentence": "me",
+    "chinese": "我",
+    "pronunciation": "/miː/"
+  },
+  {
+    "id": "99",
+    "sentence": "to help me",
+    "chinese": "帮助我",
+    "pronunciation": ""
+  },
+  {
+    "id": "100",
+    "sentence": "You have to help me",
+    "chinese": "你必须帮助我",
+    "pronunciation": ""
+  },
+  {
+    "id": "101",
+    "sentence": "You have to help me now",
+    "chinese": "你必须现在帮助我",
+    "pronunciation": ""
+  },
+  {
+    "id": "102",
+    "sentence": "to believe",
+    "chinese": "相信",
+    "pronunciation": ""
+  },
+  {
+    "id": "103",
+    "sentence": "me",
+    "chinese": "我",
+    "pronunciation": "/miː/"
+  },
+  {
+    "id": "104",
+    "sentence": "to believe me",
+    "chinese": "相信我",
+    "pronunciation": ""
+  },
+  {
+    "id": "105",
+    "sentence": "You have to believe me",
+    "chinese": "你必须相信我",
+    "pronunciation": ""
+  },
+  {
+    "id": "106",
+    "sentence": "the food",
+    "chinese": "这个食物",
+    "pronunciation": "/ðə/ /fuːd/"
+  },
+  {
+    "id": "107",
+    "sentence": "to eat",
+    "chinese": "吃",
+    "pronunciation": ""
+  },
+  {
+    "id": "108",
+    "sentence": "to eat the food",
+    "chinese": "吃这个食物",
+    "pronunciation": ""
+  },
+  {
+    "id": "109",
+    "sentence": "You need to eat the food",
+    "chinese": "你需要吃这个食物",
+    "pronunciation": ""
+  },
+  {
+    "id": "110",
+    "sentence": "You need to eat the food now",
+    "chinese": "你需要现在吃这个食物",
+    "pronunciation": ""
+  },
+  {
+    "id": "111",
     "sentence": "to tell",
     "chinese": "告诉",
     "pronunciation": ""
   },
   {
-    "id": "86",
-    "sentence": "which country",
-    "chinese": "哪个国家",
-    "pronunciation": "/wɪtʃ/ /ˈkʌntri/"
-  },
-  {
-    "id": "87",
-    "sentence": "to tell which country",
-    "chinese": "来判断哪个国家",
-    "pronunciation": ""
-  },
-  {
-    "id": "88",
-    "sentence": "Because of this fact , you can make use of the differences to tell which country",
-    "chinese": "正因为如此，你可以利用这些差异来判断哪个国家",
-    "pronunciation": ""
-  },
-  {
-    "id": "89",
-    "sentence": "the foreigners",
-    "chinese": "那些外国人",
-    "pronunciation": "/ðə/ /ˈfɔːrənərz/"
-  },
-  {
-    "id": "90",
-    "sentence": "of your block",
-    "chinese": "你们街区的",
-    "pronunciation": ""
-  },
-  {
-    "id": "91",
-    "sentence": "are from",
-    "chinese": "来自",
-    "pronunciation": "/ɑr/ /frʌm/"
-  },
-  {
-    "id": "92",
-    "sentence": "the foreigners of your block are from",
-    "chinese": "你所在街区的外国人来自",
-    "pronunciation": ""
-  },
-  {
-    "id": "93",
-    "sentence": "Because of this fact , you can make use of the differences to tell which country the foreigners of your block are from",
-    "chinese": "因为这一情况的存在，你就可以利用这些英语之间的区别说出你们街区的外国人是哪个国家来的了",
-    "pronunciation": ""
-  },
-  {
-    "id": "94",
-    "sentence": "If",
-    "chinese": "如果",
-    "pronunciation": "/ɪf/"
-  },
-  {
-    "id": "95",
-    "sentence": "a boss",
-    "chinese": "一位老板",
-    "pronunciation": ""
-  },
-  {
-    "id": "96",
-    "sentence": "fluently",
-    "chinese": "流利地",
-    "pronunciation": "/ˈfluːəntli/"
-  },
-  {
-    "id": "97",
-    "sentence": "commands",
-    "chinese": "命令（第三人称单数现在时）: 命令",
-    "pronunciation": "/kəˈmændz/"
-  },
-  {
-    "id": "98",
-    "sentence": "his driver",
-    "chinese": "他的司机",
-    "pronunciation": ""
-  },
-  {
-    "id": "99",
-    "sentence": "If a boss fluently commands his driver",
-    "chinese": "如果一个老板流利地命令他的司机",
-    "pronunciation": ""
-  },
-  {
-    "id": "100",
-    "sentence": "Come up",
-    "chinese": "上来",
-    "pronunciation": "/kʌm/ /ʌp/"
-  },
-  {
-    "id": "101",
-    "sentence": "straight",
-    "chinese": "直接",
-    "pronunciation": "/streɪt/"
-  },
-  {
-    "id": "102",
-    "sentence": "to",
-    "chinese": "到",
-    "pronunciation": ""
-  },
-  {
-    "id": "103",
-    "sentence": "my apartment",
-    "chinese": "我的公寓",
-    "pronunciation": "/maɪ/ /əˈpɑːrtmənt/"
-  },
-  {
-    "id": "104",
-    "sentence": "Come up straight to my apartment",
-    "chinese": "直接上来我的公寓",
-    "pronunciation": ""
-  },
-  {
-    "id": "105",
-    "sentence": "by elevator",
-    "chinese": "乘电梯",
-    "pronunciation": "/baɪ/ /ˈelɪveɪtər/"
-  },
-  {
-    "id": "106",
-    "sentence": "Come up straight to my apartment by elevator",
-    "chinese": "直接乘电梯来我的公寓",
-    "pronunciation": ""
-  },
-  {
-    "id": "107",
-    "sentence": "and",
-    "chinese": "和",
-    "pronunciation": ""
-  },
-  {
-    "id": "108",
-    "sentence": "take",
-    "chinese": "拿",
-    "pronunciation": "/teɪk/"
-  },
-  {
-    "id": "109",
-    "sentence": "some gas",
-    "chinese": "一些汽油",
-    "pronunciation": ""
-  },
-  {
-    "id": "110",
-    "sentence": "and take some gas",
-    "chinese": "并拿一些汽油",
-    "pronunciation": ""
-  },
-  {
-    "id": "111",
-    "sentence": "Come up straight to my apartment by elevator and take some gas",
-    "chinese": "乘电梯直接来我的公寓，取些汽油",
-    "pronunciation": ""
-  },
-  {
     "id": "112",
-    "sentence": "for",
-    "chinese": "为",
+    "sentence": "to tell me",
+    "chinese": "告诉我",
     "pronunciation": ""
   },
   {
     "id": "113",
-    "sentence": "my trucks",
-    "chinese": "我的卡车",
-    "pronunciation": "/maɪ/ /trʌks/"
+    "sentence": "the truth",
+    "chinese": "事实",
+    "pronunciation": "/ðə/ /truːθ/"
   },
   {
     "id": "114",
-    "sentence": "cabs",
-    "chinese": "出租车（复数）",
-    "pronunciation": "/kæbz/"
+    "sentence": "to tell me the truth",
+    "chinese": "告诉我事实",
+    "pronunciation": ""
   },
   {
     "id": "115",
-    "sentence": "for my trucks and cabs",
-    "chinese": "给我的卡车和出租车",
+    "sentence": "You need to tell me the truth",
+    "chinese": "你需要告诉我事实",
     "pronunciation": ""
   },
   {
     "id": "116",
-    "sentence": "Come up straight to my apartment by elevator and take some gas for my trucks and cabs",
-    "chinese": "直接乘电梯到我的公寓，并给我的卡车和出租车加些汽油",
+    "sentence": "to know",
+    "chinese": "知道；认识",
     "pronunciation": ""
   },
   {
     "id": "117",
-    "sentence": "Instead of",
-    "chinese": "而不是",
-    "pronunciation": "/ɪnˈsted/ /ʌv/"
+    "sentence": "the truth",
+    "chinese": "事实",
+    "pronunciation": "/ðə/ /truːθ/"
   },
   {
     "id": "118",
-    "sentence": "requesting",
-    "chinese": "request（现在分词）: 请求",
-    "pronunciation": "/rɪˈkwɛstɪŋ/"
-  },
-  {
-    "id": "119",
-    "sentence": "Instead of requesting",
-    "chinese": "而不是请求",
-    "pronunciation": "/ɪnˈsted/ /ʌv/ /rɪˈkwɛstɪŋ/"
-  },
-  {
-    "id": "120",
-    "sentence": "Please",
-    "chinese": "请",
-    "pronunciation": "/pliːz/"
-  },
-  {
-    "id": "121",
-    "sentence": "come",
-    "chinese": "来",
-    "pronunciation": "/kʌm/"
-  },
-  {
-    "id": "122",
-    "sentence": "to my flat",
-    "chinese": "到我的公寓",
+    "sentence": "to know the truth",
+    "chinese": "知道事实",
     "pronunciation": ""
   },
   {
+    "id": "119",
+    "sentence": "You need to know the truth",
+    "chinese": "你需要知道事实",
+    "pronunciation": ""
+  },
+  {
+    "id": "120",
+    "sentence": "to talk with me",
+    "chinese": "和我说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "121",
+    "sentence": "You like to talk with me",
+    "chinese": "你喜欢和我说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "122",
+    "sentence": "every day",
+    "chinese": "每天",
+    "pronunciation": "/ˈevri/ /deɪ/"
+  },
+  {
     "id": "123",
-    "sentence": "by lift",
-    "chinese": "乘电梯",
-    "pronunciation": "/baɪ/ /lɪft/"
+    "sentence": "You like to talk with me every day",
+    "chinese": "你喜欢每天和我说话",
+    "pronunciation": ""
   },
   {
     "id": "124",
-    "sentence": "Please come to my flat by lift",
-    "chinese": "请乘电梯来我的公寓",
+    "sentence": "to be here",
+    "chinese": "在这里",
     "pronunciation": ""
   },
   {
     "id": "125",
-    "sentence": "and",
-    "chinese": "和",
+    "sentence": "You like to be here",
+    "chinese": "你喜欢在这里",
     "pronunciation": ""
   },
   {
     "id": "126",
-    "sentence": "take",
-    "chinese": "拿",
-    "pronunciation": "/teɪk/"
+    "sentence": "every day",
+    "chinese": "每天",
+    "pronunciation": "/ˈevri/ /deɪ/"
   },
   {
     "id": "127",
-    "sentence": "some petrol",
-    "chinese": "一些汽油",
+    "sentence": "You like to be here every day",
+    "chinese": "你喜欢每天在这里",
     "pronunciation": ""
   },
   {
     "id": "128",
-    "sentence": "for",
-    "chinese": "为",
+    "sentence": "to study",
+    "chinese": "学习",
     "pronunciation": ""
   },
   {
     "id": "129",
-    "sentence": "my lorries",
-    "chinese": "我的卡车",
-    "pronunciation": "/maɪ/ /ˈlɔriːz/"
+    "sentence": "You like to study",
+    "chinese": "你喜欢学习",
+    "pronunciation": ""
   },
   {
     "id": "130",
-    "sentence": "taxis",
-    "chinese": "出租车（复数）",
-    "pronunciation": "/ˈtæksiːz/"
+    "sentence": "You like to study every day",
+    "chinese": "你喜欢每天学习",
+    "pronunciation": ""
   },
   {
     "id": "131",
-    "sentence": "and take some petrol for my lorries and taxis",
-    "chinese": "并取一些汽油给我的卡车和出租车",
+    "sentence": "to tell",
+    "chinese": "告诉",
     "pronunciation": ""
   },
   {
     "id": "132",
-    "sentence": "Please come to my flat by lift and take some petrol for my lorries and taxis",
-    "chinese": "请乘电梯到我的公寓，并给我的卡车和出租车加些汽油",
+    "sentence": "to tell me",
+    "chinese": "告诉我",
     "pronunciation": ""
   },
   {
     "id": "133",
-    "sentence": "You",
-    "chinese": "你",
-    "pronunciation": ""
+    "sentence": "the truth",
+    "chinese": "事实",
+    "pronunciation": "/ðə/ /truːθ/"
   },
   {
     "id": "134",
-    "sentence": "can recognize",
-    "chinese": "可以辨认出",
-    "pronunciation": "/kæn/ /ˈrekəɡnaɪz/"
+    "sentence": "to tell me the truth",
+    "chinese": "告诉我事实",
+    "pronunciation": ""
   },
   {
     "id": "135",
-    "sentence": "his",
-    "chinese": "他的",
+    "sentence": "You want to tell me the truth",
+    "chinese": "你想要告诉我事实",
     "pronunciation": ""
   },
   {
     "id": "136",
-    "sentence": "American identity",
-    "chinese": "美国身份",
-    "pronunciation": "/əˈmerɪkən/ /aɪˈdentəti/"
-  },
-  {
-    "id": "137",
-    "sentence": "You can recognize his American identity",
-    "chinese": "你可以识别出他的美国身份",
+    "sentence": "You have to tell me the truth",
+    "chinese": "你必须告诉我事实",
     "pronunciation": ""
   },
   {
+    "id": "137",
+    "sentence": "important",
+    "chinese": "重要的",
+    "pronunciation": "/ɪmˈpɔːrt(ə)nt/"
+  },
+  {
     "id": "138",
-    "sentence": "While",
-    "chinese": "尽管",
-    "pronunciation": "/waɪl/"
+    "sentence": "It is important",
+    "chinese": "它是重要的",
+    "pronunciation": "/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/"
   },
   {
     "id": "139",
-    "sentence": "the latter",
-    "chinese": "后者",
-    "pronunciation": "/ðə/ /ˈlætər/"
+    "sentence": "because",
+    "chinese": "因为",
+    "pronunciation": ""
   },
   {
     "id": "140",
-    "sentence": "suggests",
-    "chinese": "suggest（第三人称单数现在时）: 暗示",
-    "pronunciation": "/səˈdʒest/"
+    "sentence": "You have to tell me the truth because it is important",
+    "chinese": "你必须告诉我事实因为它是重要的",
+    "pronunciation": ""
   },
   {
     "id": "141",
-    "sentence": "While the latter suggests",
-    "chinese": "尽管后者暗示",
-    "pronunciation": "/waɪl/ /ðə/ /ˈlætər/ /səˈdʒest/"
+    "sentence": "to know",
+    "chinese": "知道；认识",
+    "pronunciation": ""
   },
   {
     "id": "142",
-    "sentence": "that",
-    "chinese": "引导宾语从句",
-    "pronunciation": "/ðæt/"
+    "sentence": "You want to know",
+    "chinese": "你想要知道",
+    "pronunciation": ""
   },
   {
     "id": "143",
-    "sentence": "he",
-    "chinese": "他",
-    "pronunciation": "/hiː/"
+    "sentence": "if",
+    "chinese": "是否",
+    "pronunciation": "/ɪf/"
   },
   {
     "id": "144",
-    "sentence": "is",
-    "chinese": "be（第三人称单数现在时）: 是",
-    "pronunciation": "/ɪz/"
+    "sentence": "It is important",
+    "chinese": "它是重要的",
+    "pronunciation": "/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/"
   },
   {
     "id": "145",
-    "sentence": "British",
-    "chinese": "英国的",
-    "pronunciation": "/ˈbrɪtɪʃ/"
+    "sentence": "You want to know if it is important",
+    "chinese": "你想要知道是否它是重要的",
+    "pronunciation": ""
   },
   {
     "id": "146",
-    "sentence": "that he is British",
-    "chinese": "他是英国人",
-    "pronunciation": "/ðæt/ /hiː/ /ɪz/ /ˈbrɪtɪʃ/"
+    "sentence": "it is possible",
+    "chinese": "它是可能的",
+    "pronunciation": "/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/"
   },
   {
     "id": "147",
-    "sentence": "While the latter suggests that he is British",
-    "chinese": "后者暗示他是英国人",
-    "pronunciation": "/waɪl/ /ðə/ /ˈlætər/ /səˈdʒest/ /ðæt/ /hiː/ /ɪz/ /ˈbrɪtɪʃ/"
+    "sentence": "You want to know if it is possible",
+    "chinese": "你想要知道是否它是可能的",
+    "pronunciation": ""
+  },
+  {
+    "id": "148",
+    "sentence": "good",
+    "chinese": "好的",
+    "pronunciation": "/ɡʊd/"
+  },
+  {
+    "id": "149",
+    "sentence": "important",
+    "chinese": "重要的",
+    "pronunciation": "/ɪmˈpɔːrt(ə)nt/"
+  },
+  {
+    "id": "150",
+    "sentence": "perfect",
+    "chinese": "完美的",
+    "pronunciation": "/ˈpɜːrfɪkt/"
+  },
+  {
+    "id": "151",
+    "sentence": "rich",
+    "chinese": "富有的",
+    "pronunciation": "/rɪtʃ/"
+  },
+  {
+    "id": "152",
+    "sentence": "I am",
+    "chinese": "我是",
+    "pronunciation": ""
+  },
+  {
+    "id": "153",
+    "sentence": "you are",
+    "chinese": "你是",
+    "pronunciation": ""
+  },
+  {
+    "id": "154",
+    "sentence": "it is",
+    "chinese": "它是",
+    "pronunciation": "/ɪt/ /ɪz/"
+  },
+  {
+    "id": "155",
+    "sentence": "he is",
+    "chinese": "他是",
+    "pronunciation": "/hiː/ /ɪz/"
+  },
+  {
+    "id": "156",
+    "sentence": "she is",
+    "chinese": "她是",
+    "pronunciation": ""
+  },
+  {
+    "id": "157",
+    "sentence": "you like to do it",
+    "chinese": "你喜欢做这件事",
+    "pronunciation": ""
+  },
+  {
+    "id": "158",
+    "sentence": "you need to do it",
+    "chinese": "你需要做这件事",
+    "pronunciation": ""
+  },
+  {
+    "id": "159",
+    "sentence": "you have to do it",
+    "chinese": "你必须做这件事情",
+    "pronunciation": ""
+  },
+  {
+    "id": "160",
+    "sentence": "you want to do it",
+    "chinese": "你想要做这件事",
+    "pronunciation": ""
+  },
+  {
+    "id": "161",
+    "sentence": "to help",
+    "chinese": "帮助",
+    "pronunciation": ""
+  },
+  {
+    "id": "162",
+    "sentence": "to believe",
+    "chinese": "相信",
+    "pronunciation": ""
+  },
+  {
+    "id": "163",
+    "sentence": "to talk",
+    "chinese": "说话",
+    "pronunciation": ""
+  },
+  {
+    "id": "164",
+    "sentence": "to study",
+    "chinese": "学习",
+    "pronunciation": ""
+  },
+  {
+    "id": "165",
+    "sentence": "to tell",
+    "chinese": "告诉",
+    "pronunciation": ""
   }
 ];

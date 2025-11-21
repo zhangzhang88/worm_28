@@ -95,4 +95,7 @@ npm start
 
 当前流程仅需两步：
 1. 先把“句乐部”复制的原始文本粘贴到 `scripts/1-new_data.txt`
-2. 运行 `python scripts/2-add_lesson.py` 并按提示输入课程信息，脚本会完成数据转换、创建 lesson 文件并写入 `scripts/generated_lesson.ts` 的内容
+2. 运行 `python3 scripts/2-add_lesson.py` 并按提示输入课程信息，脚本会完成数据转换、创建 lesson 文件并写入 `scripts/generated_lesson.ts` 的内容
+
+删除lesson python3 scripts/remove_lesson.py    
+删除course python3 scripts/remove_course.py
