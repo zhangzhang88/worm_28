@@ -14,6 +14,8 @@ interface UseRemoteTTSOptions {
   model?: string;
   responseFormat?: 'mp3' | 'wav' | 'ogg';
   playbackGapMs?: number;
+  courseId?: string;
+  lessonNumber?: number | string;
 }
 
 interface UseRemoteTTSReturn {
@@ -46,20 +48,19 @@ const DEFAULT_RESPONSE_FORMAT = (process.env.NEXT_PUBLIC_TTS_AUDIO_FORMAT as
   | 'mp3'
   | 'wav'
   | 'ogg') || 'mp3';
-const DEFAULT_API_URL =
-  process.env.NEXT_PUBLIC_TTS_API_URL ||
-  process.env.NEXT_PUBLIC_TTS_API_ENDPOINT ||
-  'https://edge.ztr8.uk/v1/audio/speech';
-const DEFAULT_API_KEY = process.env.NEXT_PUBLIC_TTS_API_KEY;
+const DEFAULT_CACHE_ENDPOINT =
+  process.env.NEXT_PUBLIC_TTS_CACHE_ENDPOINT || '/api/tts';
 
 export function useRemoteTTS({
   voices: customVoices,
   defaultVoiceId,
-  apiUrl = DEFAULT_API_URL,
-  apiKey = DEFAULT_API_KEY,
+  apiUrl = DEFAULT_CACHE_ENDPOINT,
+  apiKey,
   model = DEFAULT_MODEL,
   responseFormat = DEFAULT_RESPONSE_FORMAT,
-  playbackGapMs = DEFAULT_GAP_MS
+  playbackGapMs = DEFAULT_GAP_MS,
+  courseId,
+  lessonNumber
 }: UseRemoteTTSOptions = {}): UseRemoteTTSReturn {
   const [isSpeechSupported, setIsSpeechSupported] = useState(true);
   const [isPlayingSpeech, setIsPlayingSpeech] = useState(false);
@@ -75,8 +76,8 @@ export function useRemoteTTS({
 
   useEffect(() => {
     const hasBrowserAPIs = typeof window !== 'undefined' && typeof Audio !== 'undefined';
-    setIsSpeechSupported(Boolean(hasBrowserAPIs && apiUrl && apiKey));
-  }, [apiKey, apiUrl]);
+    setIsSpeechSupported(Boolean(hasBrowserAPIs && apiUrl));
+  }, [apiUrl]);
 
   useEffect(() => {
     if (!selectedVoiceId && voices.length > 0) {
@@ -118,21 +119,26 @@ export function useRemoteTTS({
     };
   }, [cancelSpeech]);
 
-  const buildRequestBody = useCallback(
+  const buildRequestPayload = useCallback(
     (text: string) => {
       const activeVoice =
         voices.find((voice) => voice.id === selectedVoiceId) ?? voices[0];
       if (!activeVoice) {
         throw new Error('未找到可用的语音选项');
       }
+      if (!courseId || lessonNumber === undefined || lessonNumber === null) {
+        throw new Error('需要 courseId 和 lessonNumber 才能生成可缓存的音频');
+      }
       return {
         model: activeVoice.model ?? model,
-        input: text,
-        voice: activeVoice.id,
-        response_format: responseFormat
+        voiceId: activeVoice.id,
+        responseFormat,
+        text,
+        courseId,
+        lessonNumber: String(lessonNumber)
       };
     },
-    [model, responseFormat, selectedVoiceId, voices]
+    [model, responseFormat, selectedVoiceId, voices, courseId, lessonNumber]
   );
 
   const fetchSpeechAudio = useCallback(
@@ -143,20 +149,21 @@ export function useRemoteTTS({
       if (!apiUrl) {
         throw new Error('TTS 服务地址未配置');
       }
-      if (!apiKey) {
-        throw new Error('TTS API 密钥未配置');
-      }
       const controller = new AbortController();
       abortControllerRef.current = controller;
+      const payload = buildRequestPayload(text);
+      const headers: Record<string, string> = {
+        'Content-Type': 'application/json',
+        Accept: 'audio/mpeg'
+      };
+      if (apiKey) {
+        headers.Authorization = `Bearer ${apiKey}`;
+      }
 
       const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'audio/mpeg',
-          Authorization: `Bearer ${apiKey}`
-        },
-        body: JSON.stringify(buildRequestBody(text)),
+        headers,
+        body: JSON.stringify(payload),
         signal: controller.signal
       });
 
@@ -174,7 +181,7 @@ export function useRemoteTTS({
 
       return blob;
     },
-    [apiKey, apiUrl, buildRequestBody]
+    [apiUrl, apiKey, buildRequestPayload]
   );
 
   const playAudioBlob = useCallback(

@@ -605,7 +605,9 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
     speakTwice,
     cancelSpeech
   } = useRemoteTTS({
-    defaultVoiceId: 'en-US-JennyNeural'
+    defaultVoiceId: 'en-US-JennyNeural',
+    courseId,
+    lessonNumber
   });
 
   const [shakeWords, setShakeWords] = useState<boolean[]>([]);

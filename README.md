@@ -35,6 +35,7 @@ npm start
 - 使用 `window.speechSynthesis` API 根据句子动态朗读
 - 声音、语速取决于用户浏览器/系统提供的语音包（推荐使用支持 SpeechSynthesis 的桌面/移动浏览器）
 - 若浏览器不支持该 API，将无法播放语音
+- 语音请求会先经过 `/api/tts`，服务端调用远程 TTS 并将 `public/tts/<courseId>/lesson<lessonNumber>/voice/<hash>.mp3` 缓存；之后相同课程/课次的句子会直接复用已有文件，减少重复 API 调用，所需的 `NEXT_PUBLIC_TTS_API_KEY`/`NEXT_PUBLIC_TTS_API_URL` 等配置仍需设置。
 
 ## 项目结构速览
 
