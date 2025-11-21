@@ -1,3 +1,5 @@
+Version 0.1.0
+
 # Worm 28 - 智能语音课程系统
 
 这是一个基于 Next.js 的课程练习应用，使用浏览器自带的 Web Speech API（SpeechSynthesis）即时朗读句子，无需后端服务。
@@ -97,5 +99,5 @@ npm start
 1. 先把“句乐部”复制的原始文本粘贴到 `scripts/1-new_data.txt`
 2. 运行 `python3 scripts/2-add_lesson.py` 并按提示输入课程信息，脚本会完成数据转换、创建 lesson 文件并写入 `scripts/generated_lesson.ts` 的内容
 
-删除lesson python3 scripts/remove_lesson.py    
-删除course python3 scripts/remove_course.py
+删除lesson输入：   python3 scripts/remove_lesson.py    
+删除course输入：   python3 scripts/remove_course.py
