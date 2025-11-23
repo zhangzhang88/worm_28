@@ -59,8 +59,8 @@ export default function CoursePage({ params }: CoursePageProps) {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-          gap: "1rem",
+          gridTemplateColumns: "repeat(4, minmax(220px, 1fr))",
+          gap: "0.75rem 1rem",
           width: "100%",
           maxWidth: "1200px",
           justifyItems: "center"

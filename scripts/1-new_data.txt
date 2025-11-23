@@ -8,826 +8,1026 @@
 
 当前练习
 1
-good
-好的；棒的
-/ɡʊd/
+can
+可以
+/kæn/
 
 2
-It
-它；这件事情
-/ɪt/
+I can
+我可以
+/aɪ/ /kæn/
 
 3
-It is
-它是
-/ɪt/ /ɪz/
+to do it
+做这件事
+/tuː; tə/ /duː; də/ /ɪt/
 
 4
-It is good
-它是好的
-/ɪt/ /ɪz/ /ɡʊd/
+I can do it
+我可以做这件事
+/aɪ/ /kæn/ /duː; də/ /ɪt/
 
 5
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
+alone
+单独
+/əˈloʊn/
 
 6
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+I can do it alone
+我可以单独做这件事
+/aɪ/ /kæn/ /duː; də/ /ɪt/ /əˈloʊn/
 
 7
-I
-我
-/aɪ/
+I can not do it alone
+我不可以单独做这件事
+/aɪ/ /kæn/ /nɑːt/ /duː; də/ /ɪt/ /əˈloʊn/
 
 8
-I am
-我是
-/aɪ/ /æm; əm/
-
-9
-I am important
-我是重要的
-/aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
-
-10
-want
-想要
-/wɑːnt/
-
-11
-to know
-知道
-/tuː; tə/ /noʊ/
-
-12
-I want to know
-我想要知道
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/
-
-13
-if
-是否
-/ɪf/
-
-14
-I want to know if I am important
-我想要知道是否我是重要的
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
-
-15
-need to know
-需要知道
-/niːd/ /tuː; tə/ /noʊ/
-
-16
-I need to know if I am important
-我需要知道是否我是重要的
-/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ɪmˈpɔːrt(ə)nt/
-
-17
-perfect
-完美的
-/ˈpɜːrfɪkt/
-
-18
-I am perfect
-我是完美的
-/aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
-
-19
-I need to know if I am perfect
-我需要知道是否我是完美的
-/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
-
-20
-have to know
-必须知道
-/hæv/ /tuː; tə/ /noʊ/
-
-21
-I have to know if I am perfect
-我必须知道是否我是完美的
-/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈpɜːrfɪkt/
-
-22
-healthy
-健康的
-/ˈhelθi/
-
-23
-I am healthy
-我是健康的
-/aɪ/ /æm; əm/ /ˈhelθi/
-
-24
-I have to know if I am healthy
-我必须知道是否我是健康的
-/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /æm; əm/ /ˈhelθi/
-
-25
-I am
-我是
-/aɪ/ /æm; əm/
-
-26
-Xingrong
-星荣
-/ˈsɪŋrɔːŋ/
-
-27
-I am Xingrong
-我是星荣
-/aɪ/ /æm; əm/ /ˈsɪŋrɔːŋ/
-
-28
-here
-这里
-/hɪr/
-
-29
-I am here
-我在这里
-/aɪ/ /æm; əm/ /hɪr/
-
-30
-I am eighteen
-我18岁
-/aɪ/ /æm; əm/ /ˌeɪˈtiːn/
-
-31
-you
-你
-/juː; jʊ/
-
-32
-you are
-你是
-/juː; jʊ/ /ɑr/
-
-33
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
-
-34
-You are important
-你是重要的
-/juː; jʊ/ /ɑr/ /ɪmˈpɔːrt(ə)nt/
-
-35
-very
-非常
-/ˈveri/
-
-36
-You are very important
-你是非常重要的
-/juː; jʊ/ /ɑr/ /ˈveri/ /ɪmˈpɔːrt(ə)nt/
-
-37
-perfect
-完美的
-/ˈpɜːrfɪkt/
-
-38
-You are perfect
-你是完美的
-/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
-
-39
-healthy
-健康的
-/ˈhelθi/
-
-40
-You are healthy
-你是健康的
-/juː; jʊ/ /ɑr/ /ˈhelθi/
-
-41
-Jay Chou
-周杰伦
-/dʒeɪ/ /dʒoʊ/
-
-42
-You are Jay Chou
-你是周杰伦
-/juː; jʊ/ /ɑr/ /dʒeɪ/ /dʒoʊ/
-
-43
-want to know
-想要知道
-/wɑːnt/ /tuː; tə/ /noʊ/
-
-44
-if
-是否
-/ɪf/
-
-45
-I want to know if you are Jay Chou
-我想要知道是否你是周杰伦
-/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /dʒeɪ/ /dʒoʊ/
-
-46
-need to know
-需要知道
-/niːd/ /tuː; tə/ /noʊ/
-
-47
-You are healthy
-你是健康的
-/juː; jʊ/ /ɑr/ /ˈhelθi/
-
-48
-I need to know if you are healthy
-我需要知道是否你是健康的
-/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /ˈhelθi/
-
-49
-have to know
-必须知道
-/hæv/ /tuː; tə/ /noʊ/
-
-50
-You are perfect
-你是完美的
-/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
-
-51
-I have to know if you are perfect
-我必须知道是否你是完美的
-/aɪ/ /hæv/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
-
-52
-rich
-富有的
-/rɪtʃ/
-
-53
-he is
-他是
-/hiː/ /ɪz/
-
-54
-He is rich
-他是富有的
-/hiː/ /ɪz/ /rɪtʃ/
-
-55
-she is
-她是
-/ʃiː; ʃi/ /ɪz/
-
-56
-She is rich
-她是富有的
-/ʃiː; ʃi/ /ɪz/ /rɪtʃ/
-
-57
-perfect
-完美的
-/ˈpɜːrfɪkt/
-
-58
-She is perfect
-她是完美的
-/ʃiː; ʃi/ /ɪz/ /ˈpɜːrfɪkt/
-
-59
-it is
-它是
-/ɪt/ /ɪz/
-
-60
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
-
-61
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
-
-62
-rich
-富有的
-/rɪtʃ/
-
-63
-I am
-我是
-/aɪ/ /æm; əm/
-
-64
-I am rich
-我是富有的
-/aɪ/ /æm; əm/ /rɪtʃ/
-
-65
-very
-非常
-/ˈveri/
-
-66
-I am very rich
-我是非常富有的
-/aɪ/ /æm; əm/ /ˈveri/ /rɪtʃ/
-
-67
-perfect
-完美的
-/ˈpɜːrfɪkt/
-
-68
-you are
-你是
-/juː; jʊ/ /ɑr/
-
-69
-You are perfect
-你是完美的
-/juː; jʊ/ /ɑr/ /ˈpɜːrfɪkt/
-
-70
-pretty
-漂亮的
-/ˈprɪti/
-
-71
-You are pretty
-你是漂亮的
-/juː; jʊ/ /ɑr/ /ˈprɪti/
-
-72
-He is pretty
-他是漂亮的
-/hiː/ /ɪz/ /ˈprɪti/
-
-73
-She is pretty
-她是漂亮的
-/ʃiː; ʃi/ /ɪz/ /ˈprɪti/
-
-74
-It is pretty
-它是漂亮的
-/ɪt/ /ɪz/ /ˈprɪti/
-
-75
-I am pretty
-我是漂亮的
-/aɪ/ /æm; əm/ /ˈprɪti/
-
-76
-here
-这里
-/hɪr/
-
-77
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-78
-You want to be here
-你想要在这里
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/
-
-79
-tomorrow
-明天
-/təˈmɑːroʊ/
-
-80
-You want to be here tomorrow
-你明天想要在这里
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /biː/ /hɪr/ /təˈmɑːroʊ/
-
-81
-to see
-见到
-/tuː; tə/ /siː/
-
-82
-to see me
-见到我
-/tuː; tə/ /siː/ /miː/
-
-83
-You want to see me
-你想要见到我
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /siː/ /miː/
-
-84
-today
-今天
-/təˈdeɪ/
-
-85
-You want to see me today
-你想要今天见到我
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /siː/ /miː/ /təˈdeɪ/
-
-86
-to talk
-说话
-/tuː; tə/ /tɔːk/
-
-87
-with
-和
-/wɪð; wɪθ/
-
-88
-with me
-和我
-/wɪð; wɪθ/ /miː/
-
-89
-to talk with me
-和我说话
-/tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
-
-90
-You want to talk with me
-你想要和我说话
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
-
-91
-now
-现在
-/naʊ/
-
-92
-You want to talk with me now
-你想要现在和我说话
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/ /naʊ/
-
-93
-have to do
-必须做
-/hæv/ /tuː; tə/ /duː; də/
-
-94
-You have to do it
-你必须做这件事情
-/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
-
-95
-every day
-每天
-/ˈevri/ /deɪ/
-
-96
-You have to do it every day
-你必须每天做这件事情
-/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/ /ˈevri/ /deɪ/
-
-97
-to help
-帮助
-/tuː; tə/ /help/
-
-98
-me
-我
-/miː/
-
-99
-to help me
-帮助我
-/tuː; tə/ /help/ /miː/
-
-100
-You have to help me
+you have to help me
 你必须帮助我
 /juː; jʊ/ /hæv/ /tuː; tə/ /help/ /miː/
 
-101
-You have to help me now
-你必须现在帮助我
-/juː; jʊ/ /hæv/ /tuː; tə/ /help/ /miː/ /naʊ/
-
-102
-to believe
-相信
-/tuː; tə/ /bɪˈliːv/
-
-103
-me
-我
-/miː/
-
-104
-to believe me
-相信我
-/tuː; tə/ /bɪˈliːv/ /miː/
-
-105
-You have to believe me
-你必须相信我
-/juː; jʊ/ /hæv/ /tuː; tə/ /bɪˈliːv/ /miː/
-
-106
-the food
-这个食物
-/ðə/ /fuːd/
-
-107
-to eat
-吃
-/tuː; tə/ /iːt/
-
-108
-to eat the food
-吃这个食物
-/tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-109
-You need to eat the food
-你需要吃这个食物
-/juː; jʊ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/
-
-110
-You need to eat the food now
-你需要现在吃这个食物
-/juː; jʊ/ /niːd/ /tuː; tə/ /iːt/ /ðə/ /fuːd/ /naʊ/
-
-111
-to tell
-告诉
-/tuː; tə/ /tel/
-
-112
-to tell me
-告诉我
-/tuː; tə/ /tel/ /miː/
-
-113
-the truth
-事实
-/ðə/ /truːθ/
-
-114
-to tell me the truth
-告诉我事实
-/tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-115
-You need to tell me the truth
-你需要告诉我事实
-/juː; jʊ/ /niːd/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-116
-to know
-知道；认识
-/tuː; tə/ /noʊ/
-
-117
-the truth
-事实
-/ðə/ /truːθ/
-
-118
-to know the truth
-知道事实
-/tuː; tə/ /noʊ/ /ðə/ /truːθ/
-
-119
-You need to know the truth
-你需要知道事实
-/juː; jʊ/ /niːd/ /tuː; tə/ /noʊ/ /ðə/ /truːθ/
-
-120
-to talk with me
-和我说话
-/tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
-
-121
-You like to talk with me
-你喜欢和我说话
-/juː; jʊ/ /laɪk/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/
-
-122
-every day
-每天
-/ˈevri/ /deɪ/
-
-123
-You like to talk with me every day
-你喜欢每天和我说话
-/juː; jʊ/ /laɪk/ /tuː; tə/ /tɔːk/ /wɪð; wɪθ/ /miː/ /ˈevri/ /deɪ/
-
-124
-to be here
-在这里
-/tuː; tə/ /biː/ /hɪr/
-
-125
-You like to be here
-你喜欢在这里
-/juː; jʊ/ /laɪk/ /tuː; tə/ /biː/ /hɪr/
-
-126
-every day
-每天
-/ˈevri/ /deɪ/
-
-127
-You like to be here every day
-你喜欢每天在这里
-/juː; jʊ/ /laɪk/ /tuː; tə/ /biː/ /hɪr/ /ˈevri/ /deɪ/
-
-128
-to study
-学习
-/tuː; tə/ /ˈstʌdi/
-
-129
-You like to study
-你喜欢学习
-/juː; jʊ/ /laɪk/ /tuː; tə/ /ˈstʌdi/
-
-130
-You like to study every day
-你喜欢每天学习
-/juː; jʊ/ /laɪk/ /tuː; tə/ /ˈstʌdi/ /ˈevri/ /deɪ/
-
-131
-to tell
-告诉
-/tuː; tə/ /tel/
-
-132
-to tell me
-告诉我
-/tuː; tə/ /tel/ /miː/
-
-133
-the truth
-事实
-/ðə/ /truːθ/
-
-134
-to tell me the truth
-告诉我事实
-/tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-135
-You want to tell me the truth
-你想要告诉我事实
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-136
-You have to tell me the truth
-你必须告诉我事实
-/juː; jʊ/ /hæv/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/
-
-137
-important
-重要的
-/ɪmˈpɔːrt(ə)nt/
-
-138
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
-
-139
+9
 because
 因为
 /bɪˈkəz, bɪˈkɔːz/
 
-140
-You have to tell me the truth because it is important
-你必须告诉我事实因为它是重要的
-/juː; jʊ/ /hæv/ /tuː; tə/ /tel/ /miː/ /ðə/ /truːθ/ /bɪˈkəz, bɪˈkɔːz/ /ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+10
+you have to help me because I can not do it alone
+你必须帮助我因为我不可以单独做这件事
+/juː; jʊ/ /hæv/ /tuː; tə/ /help/ /miː/ /bɪˈkəz, bɪˈkɔːz/ /aɪ/ /kæn/ /nɑːt/ /duː; də/ /ɪt/ /əˈloʊn/
 
-141
-to know
-知道；认识
-/tuː; tə/ /noʊ/
+11
+be here
+在这里
+/biː/ /hɪr/
 
-142
-You want to know
-你想要知道
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/
+12
+I can be here
+我可以在这里
+/aɪ/ /kæn/ /biː/ /hɪr/
 
-143
+13
+tomorrow
+明天
+/təˈmɑːroʊ/
+
+14
+I can be here tomorrow
+我可以明天在这里
+/aɪ/ /kæn/ /biː/ /hɪr/ /təˈmɑːroʊ/
+
+15
+I can not be here tomorrow
+我不可以明天在这里
+/aɪ/ /kæn/ /nɑːt/ /biː/ /hɪr/ /təˈmɑːroʊ/
+
+16
+he needs to know
+他需要知道
+/hiː/ /niːdz/ /tuː; tə/ /noʊ/
+
+17
 if
 是否
 /ɪf/
 
+18
+he needs to know if I can be here tomorrow
+他需要知道是否我可以明天在这里
+/hiː/ /niːdz/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /kæn/ /biː/ /hɪr/ /təˈmɑːroʊ/
+
+19
+eat the food
+吃这个食物
+/iːt/ /ðə/ /fuːd/
+
+20
+I can eat the food
+我可以吃这个食物
+/aɪ/ /kæn/ /iːt/ /ðə/ /fuːd/
+
+21
+now
+现在
+/naʊ/
+
+22
+I can eat the food now
+我可以现在吃这个食物
+/aɪ/ /kæn/ /iːt/ /ðə/ /fuːd/ /naʊ/
+
+23
+I can not eat the food now
+我不可以现在吃这个食物
+/aɪ/ /kæn/ /nɑːt/ /iːt/ /ðə/ /fuːd/ /naʊ/
+
+24
+I want to know
+我想要知道
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/
+
+25
+if
+是否
+/ɪf/
+
+26
+I want to know if I can eat the food now
+我想要知道是否我可以现在吃这个食物
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /aɪ/ /kæn/ /iːt/ /ðə/ /fuːd/ /naʊ/
+
+27
+you can
+你可以
+/juː; jʊ/ /kæn/
+
+28
+tell me
+告诉我
+/tel/ /miː/
+
+29
+the truth
+事实
+/ðə/ /truːθ/
+
+30
+tell me the truth
+告诉我事实
+/tel/ /miː/ /ðə/ /truːθ/
+
+31
+you can tell me the truth
+你可以告诉我事实
+/juː; jʊ/ /kæn/ /tel/ /miː/ /ðə/ /truːθ/
+
+32
+you can not tell me the truth
+你不可以告诉我事实
+/juː; jʊ/ /kæn/ /nɑːt/ /tel/ /miː/ /ðə/ /truːθ/
+
+33
+I need to know
+我需要知道
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/
+
+34
+if
+是否
+/ɪf/
+
+35
+I need to know if you can tell me the truth
+我需要知道是否你可以告诉我事实
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /kæn/ /tel/ /miː/ /ðə/ /truːθ/
+
+36
+help me
+帮助我
+/help/ /miː/
+
+37
+you can help me
+你可以帮助我
+/juː; jʊ/ /kæn/ /help/ /miː/
+
+38
+you can not help me
+你不可以帮助我
+/juː; jʊ/ /kæn/ /nɑːt/ /help/ /miː/
+
+39
+I need to know if you can help me
+我需要知道是否你可以帮助我
+/aɪ/ /niːd/ /tuː; tə/ /noʊ/ /ɪf/ /juː; jʊ/ /kæn/ /help/ /miː/
+
+40
+at home
+在家里
+/æt; ət/ /hoʊm/
+
+41
+read at home
+在家里阅读
+/riːd/ /æt; ət/ /hoʊm/
+
+42
+you can read at home
+你可以在家里阅读
+/juː; jʊ/ /kæn/ /riːd/ /æt; ət/ /hoʊm/
+
+43
+you can not read at home
+你不可以在家里阅读
+/juː; jʊ/ /kæn/ /nɑːt/ /riːd/ /æt; ət/ /hoʊm/
+
+44
+you need to tell me
+你需要告诉我
+/juː; jʊ/ /niːd/ /tuː; tə/ /tel/ /miː/
+
+45
+the reason
+原因
+/ðə/ /ˈriːz(ə)n/
+
+46
+you need to tell me the reason
+你需要告诉我原因
+/juː; jʊ/ /niːd/ /tuː; tə/ /tel/ /miː/ /ðə/ /ˈriːz(ə)n/
+
+47
+why
+为什么
+/waɪ/
+
+48
+you need to tell me the reason why you can not read at home
+你需要告诉我原因为什么你不可以在家里阅读
+/juː; jʊ/ /niːd/ /tuː; tə/ /tel/ /miː/ /ðə/ /ˈriːz(ə)n/ /waɪ/ /juː; jʊ/ /kæn/ /nɑːt/ /riːd/ /æt; ət/ /hoʊm/
+
+49
+he can
+他可以
+/hiː/ /kæn/
+
+50
+he can do it
+他可以做这件事
+/hiː/ /kæn/ /duː; də/ /ɪt/
+
+51
+later
+以后
+/ˈleɪtər/
+
+52
+he can do it later
+他可以以后做这件事
+/hiː/ /kæn/ /duː; də/ /ɪt/ /ˈleɪtər/
+
+53
+he can not do it later
+他不可以以后做这件事
+/hiː/ /kæn/ /nɑːt/ /duː; də/ /ɪt/ /ˈleɪtər/
+
+54
+talk with me
+和我说话
+/tɔːk/ /wɪð; wɪθ/ /miː/
+
+55
+he can talk with me
+他可以和我说话
+/hiː/ /kæn/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+56
+tonight
+今晚
+/təˈnaɪt/
+
+57
+he can talk with me tonight
+他今晚可以和我说话
+/hiː/ /kæn/ /tɔːk/ /wɪð; wɪθ/ /miː/ /təˈnaɪt/
+
+58
+he can not talk with me tonight
+他今晚不可以和我说话
+/hiː/ /kæn/ /nɑːt/ /tɔːk/ /wɪð; wɪθ/ /miː/ /təˈnaɪt/
+
+59
+I want to know
+我想要知道
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/
+
+60
+if
+是否
+/ɪf/
+
+61
+I want to know if he can talk with me tonight
+我想要知道是否他今晚可以和我说话
+/aɪ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /hiː/ /kæn/ /tɔːk/ /wɪð; wɪθ/ /miː/ /təˈnaɪt/
+
+62
+she can
+她可以
+/ʃiː; ʃi/ /kæn/
+
+63
+explain
+解释
+/ɪkˈspleɪn/
+
+64
+the reason
+原因
+/ðə/ /ˈriːz(ə)n/
+
+65
+explain the reason
+解释原因
+/ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
+
+66
+she can explain the reason
+她可以解释原因
+/ʃiː; ʃi/ /kæn/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
+
+67
+she can not explain the reason
+她不可以解释原因
+/ʃiː; ʃi/ /kæn/ /nɑːt/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
+
+68
+why
+为什么
+/waɪ/
+
+69
+he can not talk with me tonight
+他今晚不可以和我说话
+/hiː/ /kæn/ /nɑːt/ /tɔːk/ /wɪð; wɪθ/ /miː/ /təˈnaɪt/
+
+70
+she can explain the reason why he can not talk with me tonight
+她可以解释原因为什么他今晚不可以和我说话
+/ʃiː; ʃi/ /kæn/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/ /waɪ/ /hiː/ /kæn/ /nɑːt/ /tɔːk/ /wɪð; wɪθ/ /miː/ /təˈnaɪt/
+
+71
+ask me
+问我
+/æsk/ /miː/
+
+72
+a question
+一个问题
+/ə; eɪ/ /ˈkwestʃən/
+
+73
+ask me a question
+问我一个问题
+/æsk/ /miː/ /ə; eɪ/ /ˈkwestʃən/
+
+74
+she can ask me a question
+她可以问我一个问题
+/ʃiː; ʃi/ /kæn/ /æsk/ /miː/ /ə; eɪ/ /ˈkwestʃən/
+
+75
+it can
+它可以
+/ɪt/ /kæn/
+
+76
+fly
+飞翔
+/flaɪ/
+
+77
+it can fly
+它可以飞翔
+/ɪt/ /kæn/ /flaɪ/
+
+78
+in the sky
+在天空中
+/ɪn/ /ðə/ /skaɪ/
+
+79
+it can fly in the sky
+它可以在天空中飞翔
+/ɪt/ /kæn/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
+
+80
+it can not fly in the sky
+它不可以在天空中飞翔
+/ɪt/ /kæn/ /nɑːt/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
+
+81
+explain
+解释
+/ɪkˈspleɪn/
+
+82
+it can explain
+它可以解释
+/ɪt/ /kæn/ /ɪkˈspleɪn/
+
+83
+the reason
+原因
+/ðə/ /ˈriːz(ə)n/
+
+84
+it can explain the reason
+它可以解释原因
+/ɪt/ /kæn/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
+
+85
+it can not explain the reason
+它不可以解释原因
+/ɪt/ /kæn/ /nɑːt/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
+
+86
+Xingrong can
+星荣可以
+/ˈsɪŋrɔːŋ/ /kæn/
+
+87
+walk
+散步
+/wɔːk/
+
+88
+in the park
+在公园里
+/ɪn/ /ðə/ /pɑːrk/
+
+89
+walk in the park
+在公园里散步
+/wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+90
+Xingrong can walk in the park
+星荣可以在公园里散步
+/ˈsɪŋrɔːŋ/ /kæn/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+91
+Xingrong can not walk in the park
+星荣不可以在公园里散步
+/ˈsɪŋrɔːŋ/ /kæn/ /nɑːt/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+92
+should
+应该
+/ʃʊd; ʃəd/
+
+93
+I should
+我应该
+/aɪ/ /ʃʊd; ʃəd/
+
+94
+eat the food
+吃这个食物
+/iːt/ /ðə/ /fuːd/
+
+95
+I should eat the food
+我应该吃这个食物
+/aɪ/ /ʃʊd; ʃəd/ /iːt/ /ðə/ /fuːd/
+
+96
+I should not eat the food
+我不应该吃这个食物
+/aɪ/ /ʃʊd; ʃəd/ /nɑːt/ /iːt/ /ðə/ /fuːd/
+
+97
+talk with you
+和你说话
+/tɔːk/ /wɪð; wɪθ/ /juː; jʊ/
+
+98
+I should talk with you
+我应该和你说话
+/aɪ/ /ʃʊd; ʃəd/ /tɔːk/ /wɪð; wɪθ/ /juː; jʊ/
+
+99
+I should not talk with you
+我不应该和你说话
+/aɪ/ /ʃʊd; ʃəd/ /nɑːt/ /tɔːk/ /wɪð; wɪθ/ /juː; jʊ/
+
+100
+believe you
+相信你
+/bɪˈliːv/ /juː; jʊ/
+
+101
+I should believe you
+我应该相信你
+/aɪ/ /ʃʊd; ʃəd/ /bɪˈliːv/ /juː; jʊ/
+
+102
+I should not believe you
+我不应该相信你
+/aɪ/ /ʃʊd; ʃəd/ /nɑːt/ /bɪˈliːv/ /juː; jʊ/
+
+103
+you should
+你应该
+/juː; jʊ/ /ʃʊd; ʃəd/
+
+104
+help me
+帮助我
+/help/ /miː/
+
+105
+you should help me
+你应该帮助我
+/juː; jʊ/ /ʃʊd; ʃəd/ /help/ /miː/
+
+106
+now
+现在
+/naʊ/
+
+107
+you should help me now
+你应该现在帮助我
+/juː; jʊ/ /ʃʊd; ʃəd/ /help/ /miː/ /naʊ/
+
+108
+you should not help me now
+你不应该现在帮助我
+/juː; jʊ/ /ʃʊd; ʃəd/ /nɑːt/ /help/ /miː/ /naʊ/
+
+109
+be here
+在这里
+/biː/ /hɪr/
+
+110
+you should be here
+你应该在这里
+/juː; jʊ/ /ʃʊd; ʃəd/ /biː/ /hɪr/
+
+111
+every day
+每天
+/ˈevri/ /deɪ/
+
+112
+you should be here every day
+你应该每天在这里
+/juː; jʊ/ /ʃʊd; ʃəd/ /biː/ /hɪr/ /ˈevri/ /deɪ/
+
+113
+you should not be here every day
+你不应该每天在这里
+/juː; jʊ/ /ʃʊd; ʃəd/ /nɑːt/ /biː/ /hɪr/ /ˈevri/ /deɪ/
+
+114
+read
+阅读
+/riːd/
+
+115
+you should read
+你应该阅读
+/juː; jʊ/ /ʃʊd; ʃəd/ /riːd/
+
+116
+at home
+在家里
+/æt; ət/ /hoʊm/
+
+117
+you should read at home
+你应该在家里阅读
+/juː; jʊ/ /ʃʊd; ʃəd/ /riːd/ /æt; ət/ /hoʊm/
+
+118
+you should not read at home
+你不应该在家里阅读
+/juː; jʊ/ /ʃʊd; ʃəd/ /nɑːt/ /riːd/ /æt; ət/ /hoʊm/
+
+119
+he should
+他应该
+/hiː/ /ʃʊd; ʃəd/
+
+120
+talk with me
+和我说话
+/tɔːk/ /wɪð; wɪθ/ /miː/
+
+121
+he should talk with me
+他应该和我说话
+/hiː/ /ʃʊd; ʃəd/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+122
+he should not talk with me
+他不应该和我说话
+/hiː/ /ʃʊd; ʃəd/ /nɑːt/ /tɔːk/ /wɪð; wɪθ/ /miː/
+
+123
+read at home
+在家里阅读
+/riːd/ /æt; ət/ /hoʊm/
+
+124
+he should read at home
+他应该在家里阅读
+/hiː/ /ʃʊd; ʃəd/ /riːd/ /æt; ət/ /hoʊm/
+
+125
+he should not read at home
+他不应该在家里阅读
+/hiː/ /ʃʊd; ʃəd/ /nɑːt/ /riːd/ /æt; ət/ /hoʊm/
+
+126
+she should
+她应该
+/ʃiː; ʃi/ /ʃʊd; ʃəd/
+
+127
+walk in the park
+在公园里散步
+/wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+128
+she should walk in the park
+她应该在公园里散步
+/ʃiː; ʃi/ /ʃʊd; ʃəd/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+129
+she should not walk in the park
+她不应该在公园里散步
+/ʃiː; ʃi/ /ʃʊd; ʃəd/ /nɑːt/ /wɔːk/ /ɪn/ /ðə/ /pɑːrk/
+
+130
+sleep
+睡觉
+/sliːp/
+
+131
+on the bed
+在床上
+/ɑːn/ /ðə/ /bed/
+
+132
+sleep on the bed
+在床上睡觉
+/sliːp/ /ɑːn/ /ðə/ /bed/
+
+133
+she should sleep on the bed
+她应该在床上睡觉
+/ʃiː; ʃi/ /ʃʊd; ʃəd/ /sliːp/ /ɑːn/ /ðə/ /bed/
+
+134
+she should not sleep on the bed
+她不应该在床上睡觉
+/ʃiː; ʃi/ /ʃʊd; ʃəd/ /nɑːt/ /sliːp/ /ɑːn/ /ðə/ /bed/
+
+135
+it should
+它应该
+/ɪt/ /ʃʊd; ʃəd/
+
+136
+be here
+在这里
+/biː/ /hɪr/
+
+137
+it should be here
+它应该在这里
+/ɪt/ /ʃʊd; ʃəd/ /biː/ /hɪr/
+
+138
+it should not be here
+它不应该在这里
+/ɪt/ /ʃʊd; ʃəd/ /nɑːt/ /biː/ /hɪr/
+
+139
+Xingrong should be here
+星荣应该在这里
+/ˈsɪŋrɔːŋ/ /ʃʊd; ʃəd/ /biː/ /hɪr/
+
+140
+Xingrong should not be here
+星荣不应该在这里
+/ˈsɪŋrɔːŋ/ /ʃʊd; ʃəd/ /nɑːt/ /biː/ /hɪr/
+
+141
+will
+将会
+/wɪl/
+
+142
+I will
+我将会
+/aɪ/ /wɪl/
+
+143
+see you
+见到你
+/siː/ /juː; jʊ/
+
 144
-It is important
-它是重要的
-/ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+I will see you
+我将会见到你
+/aɪ/ /wɪl/ /siː/ /juː; jʊ/
 
 145
-You want to know if it is important
-你想要知道是否它是重要的
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ɪmˈpɔːrt(ə)nt/
+tomorrow
+明天
+/təˈmɑːroʊ/
 
 146
-it is possible
-它是可能的
-/ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
+I will see you tomorrow
+我明天将会见到你
+/aɪ/ /wɪl/ /siː/ /juː; jʊ/ /təˈmɑːroʊ/
 
 147
-You want to know if it is possible
-你想要知道是否它是可能的
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /noʊ/ /ɪf/ /ɪt/ /ɪz/ /ˈpɑːsəb(ə)l/
+I will not see you tomorrow
+我明天将不会见到你
+/aɪ/ /wɪl/ /nɑːt/ /siː/ /juː; jʊ/ /təˈmɑːroʊ/
 
 148
-good
-好的
-/ɡʊd/
+tell you
+告诉你
+/tel/ /juː; jʊ/
 
 149
+the truth
+事实
+/ðə/ /truːθ/
+
+150
+tell you the truth
+告诉你事实
+/tel/ /juː; jʊ/ /ðə/ /truːθ/
+
+151
+I will tell you the truth
+我将会告诉你事实
+/aɪ/ /wɪl/ /tel/ /juː; jʊ/ /ðə/ /truːθ/
+
+152
+I will not tell you the truth
+我将不会告诉你事实
+/aɪ/ /wɪl/ /nɑːt/ /tel/ /juː; jʊ/ /ðə/ /truːθ/
+
+153
+the future
+未来
+/ðə/ /ˈfjuːtʃər/
+
+154
+in the future
+在未来
+/ɪn/ /ðə/ /ˈfjuːtʃər/
+
+155
+I will tell you the truth in the future
+我将会在未来告诉你事实
+/aɪ/ /wɪl/ /tel/ /juː; jʊ/ /ðə/ /truːθ/ /ɪn/ /ðə/ /ˈfjuːtʃər/
+
+156
+I will not tell you the truth in the future
+我将不会在未来告诉你事实
+/aɪ/ /wɪl/ /nɑːt/ /tel/ /juː; jʊ/ /ðə/ /truːθ/ /ɪn/ /ðə/ /ˈfjuːtʃər/
+
+157
 important
 重要的
 /ɪmˈpɔːrt(ə)nt/
 
-150
-perfect
-完美的
-/ˈpɜːrfɪkt/
-
-151
-rich
-富有的
-/rɪtʃ/
-
-152
-I am
-我是
-/aɪ/ /æm; əm/
-
-153
-you are
-你是
-/juː; jʊ/ /ɑr/
-
-154
-it is
-它是
-/ɪt/ /ɪz/
-
-155
-he is
-他是
-/hiː/ /ɪz/
-
-156
-she is
-她是
-/ʃiː; ʃi/ /ɪz/
-
-157
-you like to do it
-你喜欢做这件事
-/juː; jʊ/ /laɪk/ /tuː; tə/ /duː; də/ /ɪt/
-
 158
-you need to do it
-你需要做这件事
-/juː; jʊ/ /niːd/ /tuː; tə/ /duː; də/ /ɪt/
+it is not important
+它是不重要的
+/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/
 
 159
-you have to do it
-你必须做这件事情
-/juː; jʊ/ /hæv/ /tuː; tə/ /duː; də/ /ɪt/
+so
+所以
+/soʊ/
 
 160
-you want to do it
-你想要做这件事
-/juː; jʊ/ /wɑːnt/ /tuː; tə/ /duː; də/ /ɪt/
+it is not important so I will tell you the truth in the future
+它是不重要的所以我将会在未来告诉你事实
+/ɪt/ /ɪz/ /nɑːt/ /ɪmˈpɔːrt(ə)nt/ /soʊ/ /aɪ/ /wɪl/ /tel/ /juː; jʊ/ /ðə/ /truːθ/ /ɪn/ /ðə/ /ˈfjuːtʃər/
 
 161
-to help
-帮助
-/tuː; tə/ /help/
+explain
+解释
+/ɪkˈspleɪn/
 
 162
-to believe
-相信
-/tuː; tə/ /bɪˈliːv/
+the reason
+原因
+/ðə/ /ˈriːz(ə)n/
 
 163
-to talk
-说话
-/tuː; tə/ /tɔːk/
+explain the reason
+解释原因
+/ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
 
 164
-to study
-学习
-/tuː; tə/ /ˈstʌdi/
+I will explain the reason
+我将会解释原因
+/aɪ/ /wɪl/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/
 
 165
-to tell
-告诉
-/tuː; tə/ /tel/
+week
+星期
+/wik/
+
+166
+next week
+下周
+/nekst/ /wik/
+
+167
+I will explain the reason next week
+我将会在下周解释原因
+/aɪ/ /wɪl/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/ /nekst/ /wik/
+
+168
+I will not explain the reason next week
+我将不会在下周解释原因
+/aɪ/ /wɪl/ /nɑːt/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/ /nekst/ /wik/
+
+169
+urgent
+紧急的
+/ˈɜːrdʒənt/
+
+170
+it is not urgent
+它是不紧急的
+/ɪt/ /ɪz/ /nɑːt/ /ˈɜːrdʒənt/
+
+171
+so
+所以
+/soʊ/
+
+172
+it is not urgent so I will explain the reason next week
+它是不紧急的所以我将会在下周解释原因
+/ɪt/ /ɪz/ /nɑːt/ /ˈɜːrdʒənt/ /soʊ/ /aɪ/ /wɪl/ /ɪkˈspleɪn/ /ðə/ /ˈriːz(ə)n/ /nekst/ /wik/
+
+173
+you will
+你将会
+/juː; jʊ/ /wɪl/
+
+174
+read at home
+在家里阅读
+/riːd/ /æt; ət/ /hoʊm/
+
+175
+you will read at home
+你将会在家里阅读
+/juː; jʊ/ /wɪl/ /riːd/ /æt; ət/ /hoʊm/
+
+176
+tonight
+今晚
+/təˈnaɪt/
+
+177
+you will read at home tonight
+你今晚将会在家里阅读
+/juː; jʊ/ /wɪl/ /riːd/ /æt; ət/ /hoʊm/ /təˈnaɪt/
+
+178
+you will not read at home tonight
+你今晚将不会在家里阅读
+/juː; jʊ/ /wɪl/ /nɑːt/ /riːd/ /æt; ət/ /hoʊm/ /təˈnaɪt/
+
+179
+sleep on the bed
+在床上睡觉
+/sliːp/ /ɑːn/ /ðə/ /bed/
+
+180
+you will sleep on the bed tonight
+你今晚将会在床上睡觉
+/juː; jʊ/ /wɪl/ /sliːp/ /ɑːn/ /ðə/ /bed/ /təˈnaɪt/
+
+181
+you will not sleep on the bed tonight
+你今晚将不会在床上睡觉
+/juː; jʊ/ /wɪl/ /nɑːt/ /sliːp/ /ɑːn/ /ðə/ /bed/ /təˈnaɪt/
+
+182
+he will
+他将会
+/hiː/ /wɪl/
+
+183
+tell me
+告诉我
+/tel/ /miː/
+
+184
+he will tell me
+他将会告诉我
+/hiː/ /wɪl/ /tel/ /miː/
+
+185
+the truth
+事实
+/ðə/ /truːθ/
+
+186
+he will tell me the truth
+他将会告诉我事实
+/hiː/ /wɪl/ /tel/ /miː/ /ðə/ /truːθ/
+
+187
+he will not tell me the truth
+他将不会告诉我事实
+/hiː/ /wɪl/ /nɑːt/ /tel/ /miː/ /ðə/ /truːθ/
+
+188
+believe me
+相信我
+/bɪˈliːv/ /miː/
+
+189
+he will believe me
+他将会相信我
+/hiː/ /wɪl/ /bɪˈliːv/ /miː/
+
+190
+he will not believe me
+他将不会相信我
+/hiː/ /wɪl/ /nɑːt/ /bɪˈliːv/ /miː/
+
+191
+she will
+她将会
+/ʃiː; ʃi/ /wɪl/
+
+192
+tell me
+告诉我
+/tel/ /miː/
+
+193
+she will tell me
+她将会告诉我
+/ʃiː; ʃi/ /wɪl/ /tel/ /miː/
+
+194
+a story
+一个故事
+/ə; eɪ/ /ˈstɔːri/
+
+195
+she will tell me a story
+她将会告诉我一个故事
+/ʃiː; ʃi/ /wɪl/ /tel/ /miː/ /ə; eɪ/ /ˈstɔːri/
+
+196
+tonight
+今晚
+/təˈnaɪt/
+
+197
+she will tell me a story tonight
+她今晚将会告诉我一个故事
+/ʃiː; ʃi/ /wɪl/ /tel/ /miː/ /ə; eɪ/ /ˈstɔːri/ /təˈnaɪt/
+
+198
+she will not tell me a story tonight
+她今晚将不会告诉我一个故事
+/ʃiː; ʃi/ /wɪl/ /nɑːt/ /tel/ /miː/ /ə; eɪ/ /ˈstɔːri/ /təˈnaɪt/
+
+199
+help me
+帮助我
+/help/ /miː/
+
+200
+she will help me
+她将会帮助我
+/ʃiː; ʃi/ /wɪl/ /help/ /miː/
+
+201
+she will not help me
+她将不会帮助我
+/ʃiː; ʃi/ /wɪl/ /nɑːt/ /help/ /miː/
+
+202
+it will
+它将会
+/ɪt/ /wɪl/
+
+203
+fly in the sky
+在天空中飞翔
+/flaɪ/ /ɪn/ /ðə/ /skaɪ/
+
+204
+it will fly in the sky
+它将会在天空中飞翔
+/ɪt/ /wɪl/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/
+
+205
+it will not fly in the sky
+它将不会在天空中飞翔
+/ɪt/ /wɪl/ /nɑːt/ /flaɪ/ /ɪn/ /ðə/ /skaɪ/

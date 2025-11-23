@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
+import hashlib
+import json
 import re
 import subprocess
 import sys
+import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 SCRIPT_PATH = Path(__file__).resolve()
@@ -11,6 +16,13 @@ INDEX_FILE = ROOT / "data" / "courses" / "index.ts"
 RAW_DATA_FILE = SCRIPTS_DIR / "1-new_data.txt"
 GENERATED_FILE = SCRIPTS_DIR / "generated_lesson.ts"
 CONVERTER_SCRIPT = SCRIPTS_DIR / "convert_new_data.py"
+PUBLIC_TTS_ROOT = ROOT / "public" / "tts"
+
+TTS_ENDPOINT = "https://edge.ztr8.uk/v1/audio/speech"
+TTS_API_KEY = "your_api_key_here"
+TTS_VOICES = ("en-US-JennyNeural", "en-US-GuyNeural")
+TTS_MAX_RETRIES = 3
+TTS_RETRY_DELAY = 2
 
 
 def sanitize_identifier(value: str) -> str:
@@ -55,10 +67,25 @@ def insert_lesson_block(content: str, course_id: str, lesson_num: int, lesson_ti
     f"  }},\n"
   )
 
-  pattern = re.compile(rf"(const {re.escape(const_name)}: LessonConfig\[] = \[)([\s\S]*?)(\];)", re.MULTILINE)
-  match = pattern.search(content)
+  block_pattern = re.compile(
+    rf"(const {re.escape(const_name)}: LessonConfig\[] = \[)([\s\S]*?)(\];)",
+    re.MULTILINE,
+  )
+  match = block_pattern.search(content)
   if match:
-    updated_block = match.group(1) + match.group(2) + lesson_snippet + match.group(3)
+    block_body = match.group(2)
+    entry_pattern = re.compile(rf"\s*\{{\s*lessonNumber:\s*{lesson_num},[\s\S]*?\}},\s*\n", re.MULTILINE)
+    entry_match = entry_pattern.search(block_body)
+    if entry_match:
+      block_body = block_body[:entry_match.start()] + lesson_snippet + block_body[entry_match.end():]
+    else:
+      trimmed_body = block_body.rstrip()
+      if trimmed_body:
+        if not trimmed_body.endswith(","):
+          trimmed_body += ","
+        trimmed_body += "\n"
+      block_body = trimmed_body + lesson_snippet
+    updated_block = match.group(1) + block_body + match.group(3)
     return content[:match.start()] + updated_block + content[match.end():]
 
   block = f"const {const_name}: LessonConfig[] = [\n{lesson_snippet}];\n\n"
@@ -134,6 +161,100 @@ def generate_lesson_content() -> str:
   return GENERATED_FILE.read_text(encoding="utf-8").strip()
 
 
+def extract_sentences_from_ts(content: str) -> list[str]:
+  marker = "export const"
+  marker_pos = content.find(marker)
+  if marker_pos == -1:
+    raise ValueError("未找到导出的句子数组")
+
+  equals_pos = content.find("=", marker_pos)
+  if equals_pos == -1:
+    raise ValueError("未找到赋值运算符")
+
+  start = content.find("[", equals_pos)
+  if start == -1:
+    raise ValueError("未找到句子数组的起始括号")
+
+  end_marker = content.rfind("];")
+  if end_marker != -1:
+    end = end_marker
+  else:
+    end = content.rfind("]")
+  if end == -1:
+    raise ValueError("未找到句子数组的结束括号")
+
+  array_text = content[start:end + 1]
+  records = json.loads(array_text)
+  sentences = []
+  for record in records:
+    sentence = record.get("sentence", "").strip()
+    if sentence:
+      sentences.append(sentence)
+  return sentences
+
+
+def request_tts_audio(text: str, voice: str) -> bytes:
+  payload = {
+    "model": "tts-1",
+    "input": text,
+    "voice": voice,
+    "response_format": "mp3",
+  }
+  body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+  req = urllib.request.Request(TTS_ENDPOINT, data=body, method="POST")
+  req.add_header("Content-Type", "application/json")
+  req.add_header("Authorization", f"Bearer {TTS_API_KEY}")
+
+  last_error = None
+  for attempt in range(1, TTS_MAX_RETRIES + 1):
+    try:
+      with urllib.request.urlopen(req, timeout=180) as resp:
+        if resp.status != 200:
+          raise RuntimeError(f"TTS 接口返回异常状态码 {resp.status}")
+        return resp.read()
+    except urllib.error.HTTPError as error:
+      message = error.read().decode("utf-8", errors="ignore")
+      last_error = RuntimeError(f"TTS 请求失败：{error.code} {message.strip()}")
+    except urllib.error.URLError as error:
+      last_error = RuntimeError(f"TTS 请求失败：{error.reason}")
+    except Exception as error:
+      last_error = RuntimeError(f"TTS 请求异常：{error}")
+
+    if attempt < TTS_MAX_RETRIES:
+      print(f"[提示] 第 {attempt} 次尝试失败，{voice} 语音将在 {TTS_RETRY_DELAY}s 后重试...")
+      time.sleep(TTS_RETRY_DELAY)
+
+  raise last_error or RuntimeError("未知的 TTS 请求失败")
+
+
+def generate_lesson_audio(course_id: str, lesson_number: int, sentences: list[str]) -> None:
+  if not sentences:
+    print("[提示] 未能从 lesson 内容中提取句子，跳过语音生成。")
+    return
+
+  for idx, sentence in enumerate(sentences, 1):
+    trimmed_sentence = sentence.strip()
+    hash_name = hashlib.sha256(trimmed_sentence.encode("utf-8")).hexdigest()[:16]
+    for voice in TTS_VOICES:
+      dest_dir = PUBLIC_TTS_ROOT / course_id / f"lesson{lesson_number}" / voice
+      dest_dir.mkdir(parents=True, exist_ok=True)
+      dest_file = dest_dir / f"{hash_name}.mp3"
+      if dest_file.exists():
+        print(f"[跳过] {voice} 第 {idx} 条语音已存在，路径: {dest_file}")
+        continue
+
+      while True:
+        try:
+          audio = request_tts_audio(trimmed_sentence, voice)
+        except Exception as error:
+          print(f"[错误] {voice} 第 {idx} 条语音生成失败：{error}，{TTS_RETRY_DELAY}s 后重试...")
+          time.sleep(TTS_RETRY_DELAY)
+          continue
+        dest_file.write_bytes(audio)
+        print(f"[完成] {voice} 第 {idx} 条语音保存到 {dest_file}")
+        break
+
+
 def main():
   try:
     lesson_content = generate_lesson_content()
@@ -170,6 +291,15 @@ def main():
   else:
     lesson_file.write_text(lesson_content + "\n", encoding="utf-8")
     print(f"[完成] 已创建 {lesson_file} 并写入 {GENERATED_FILE} 的内容。")
+
+  try:
+    lesson_file_content = lesson_file.read_text(encoding="utf-8")
+    sentences = extract_sentences_from_ts(lesson_file_content)
+  except Exception as error:
+    print(f"[错误] 解析 lesson 内容失败，无法生成语音：{error}")
+    return
+
+  generate_lesson_audio(course_id, lesson_number, sentences)
 
   if not course_exists:
     print(f"[提示] 新课程 {course_id} 的中文名为 '{course_title}'，请确保后台也同步了该名称。")
