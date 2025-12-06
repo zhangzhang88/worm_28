@@ -1202,10 +1202,9 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
     setCurrentSentenceIndex(targetSentenceIndex);
   };
 
-  const handleReturnToCourse = () => {
-    void router.push(`/courses/${courseId}`).then(() => {
-      router.refresh();
-    });
+  const handleReturnToCourse = async () => {
+    await router.push(`/courses/${courseId}`);
+    router.refresh();
   };
 
   const goToNextLesson = () => {
