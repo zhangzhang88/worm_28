@@ -2,7 +2,6 @@
 
 import { type CSSProperties, useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "../lib/supabaseClient";
 import { useAuth } from "./AuthProvider";
 
 const panelStyles: CSSProperties = {
@@ -51,7 +50,6 @@ export function AuthPanel() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [statusMessage, setStatusMessage] = useState<{ type: "success" | "error"; message: string } | null>(null);
-  const [resetMessage, setResetMessage] = useState<{ type: "success" | "error"; message: string } | null>(null);
   const [submitting, setSubmitting] = useState(false);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -82,21 +80,6 @@ export function AuthPanel() {
     }
 
     setSubmitting(false);
-  };
-
-  const handleResetPassword = async () => {
-    setResetMessage(null);
-    if (!email) {
-      setResetMessage({ type: "error", message: "请先填写邮箱以便重置密码。" });
-      return;
-    }
-
-    const { error } = await supabase.auth.resetPasswordForEmail(email);
-    if (error) {
-      setResetMessage({ type: "error", message: error.message });
-    } else {
-      setResetMessage({ type: "success", message: "重置邮件已发送，请查收邮箱。" });
-    }
   };
 
   if (loading) {
@@ -191,34 +174,6 @@ export function AuthPanel() {
         >
           {mode === "login" ? "立即登录" : "立即注册"}
         </button>
-        <div style={{ marginTop: "0.75rem", display: "flex", justifyContent: "flex-end" }}>
-          <button
-            type="button"
-            onClick={handleResetPassword}
-            style={{
-              background: "transparent",
-              color: "#7cffb0",
-              border: "none",
-              cursor: "pointer",
-              padding: 0,
-              fontSize: "0.85rem"
-            }}
-          >
-            忘记密码？发送重置邮件
-          </button>
-        </div>
-        {resetMessage && (
-          <p
-            style={{
-              fontSize: "0.8rem",
-              color: resetMessage.type === "error" ? "#ff6b6b" : "#7cffb0",
-              marginTop: "0.35rem",
-              marginBottom: "0.75rem"
-            }}
-          >
-            {resetMessage.message}
-          </p>
-        )}
       </form>
     </div>
   );
