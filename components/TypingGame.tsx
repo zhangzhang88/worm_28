@@ -173,6 +173,28 @@ const Button = styled.button<{ themeColor: string; disabled?: boolean; isLink?: 
   }
 `;
 
+const CongratulationsButton = styled(Button)`
+  background: linear-gradient(135deg, #00ffb3, #26a0ff);
+  color: #05051d;
+  border-radius: 999px;
+  padding: 0.9rem 1.7rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 1;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+`;
+
 const NavigationButton = styled(Button)`
   @media (min-width: 769px) {
     margin: 0 10rem;
@@ -1301,19 +1323,19 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
         <CongratulationsMessage>{congratulationsMessage}</CongratulationsMessage>
         <TotalTime>Total practice time: {formatTime(totalTime)}</TotalTime>
         <ButtonGroup>
-          <Button 
+          <CongratulationsButton
             onClick={() => {
               setCurrentSentenceIndex(0);
               setTime(0);
               setTotalTime(0);
               setShowCongratulations(false);
               setIsGameCompleted(false);
-            }} 
+            }}
             themeColor={themeColor}
           >
             Restart
-          </Button>
-          <Button
+          </CongratulationsButton>
+          <CongratulationsButton
             ref={nextLessonButtonRef}
             onClick={goToNextLesson}
             themeColor={themeColor}
@@ -1325,13 +1347,13 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
             }}
           >
             Next Lesson
-          </Button>
-          <Button
+          </CongratulationsButton>
+          <CongratulationsButton
             onClick={handleReturnToCourse}
             themeColor={themeColor}
           >
             Return to Course
-          </Button>
+          </CongratulationsButton>
         </ButtonGroup>
       </CongratulationsContainer>
     );
