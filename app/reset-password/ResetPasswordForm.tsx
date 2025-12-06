@@ -84,18 +84,35 @@ export default function ResetPasswordForm({ searchParams }: ResetPasswordFormPro
       return;
     }
 
-    if (!refreshToken) {
-      setStatus({
-        type: "error",
-        message: "重置链接缺少必要信息，请重新申请重置邮件。"
-      });
-      return;
-    }
-
     setAccessToken(accessToken);
     setRefreshToken(refreshToken);
 
+    const waitForSession = async () => {
+      for (let attempt = 0; attempt < 5; attempt += 1) {
+        const { data } = await supabase.auth.getSession();
+        if (data.session?.access_token) {
+          return true;
+        }
+        await new Promise((resolve) => setTimeout(resolve, 150));
+      }
+      return false;
+    };
+
     const initializeSession = async () => {
+      const sessionAvailable = await waitForSession();
+      if (sessionAvailable) {
+        setSessionReady(true);
+        return;
+      }
+
+      if (!refreshToken) {
+        setStatus({
+          type: "error",
+          message: "重置链接尚未准备好会话，请返回登录页重新申请。"
+        });
+        return;
+      }
+
       const payload = {
         access_token: accessToken,
         refresh_token: refreshToken
