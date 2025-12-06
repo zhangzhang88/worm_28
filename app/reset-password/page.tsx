@@ -38,13 +38,6 @@ export default function ResetPasswordPage() {
     }
   }, [accessToken]);
 
-  useEffect(() => {
-    if (!accessToken) {
-      return;
-    }
-    void supabase.auth.getSessionFromUrl({ storeSession: true });
-  }, [accessToken]);
-
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!accessToken) {
