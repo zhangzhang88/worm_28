@@ -22,6 +22,31 @@
    ```bash
    npm run dev
    ```
+## Supabase 登录与学习进度同步
+
+首页顶部新增了登录 / 注册面板，登录后的用户可以在 Supabase 上同步每个课次的当前句子进度，未登录时仍会退回到本地缓存。
+
+
+进度表结构可以直接在 Supabase SQL 编辑器中建表：
+
+```sql
+create table learning_progress (
+  id uuid default uuid_generate_v4() primary key,
+  user_id uuid references auth.users(id) on delete cascade,
+  course_id text not null,
+  lesson_number integer not null,
+  current_sentence_index integer not null,
+  updated_at timestamptz default now()
+);
+
+alter table learning_progress add constraint learning_progress_unique unique (user_id, course_id, lesson_number);
+```
+
+`learning_progress` 的 `(user_id, course_id, lesson_number)` 组合用于 `upsert` 进度记录，配合 TypingGame 即可保存/恢复每个课次的句子索引。
+
+页面上的 Lesson 卡片会展示每课的进度条和 `completion_count`（即已学习多少遍），因此在表里也需要维护这个字段。Supabase table 中 `completion_count` 字段默认 `0`，每次完成最后一句后自动递增。
+
+> 页面优先会试着从 Supabase 的 `learning_progress` 表加载数据，拿不到时才会回退到 `localStorage`（key 形如 `lessonProgress_courseId_1`）。练习过程中会把最新的 `current_sentence_index`/`completion_count` 写入本地缓存并同步到 Supabase（需登录生效），所以上一台设备的数据也会被尝试拉下来。要重置本地进度，可在浏览器开发者工具里删除对应的 `lessonProgress_*` 键或清空缓存；Supabase 的数据需要在 SQL 编辑器里手动删除行。
 
 构建产物用于 Vercel 或本地预览：
 

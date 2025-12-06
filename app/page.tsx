@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { courseConfigs } from "../data/courses";
+import { AuthPanel } from "../components/AuthPanel";
 
 const PLACEHOLDER_IMAGE = "https://pub-8d9c7b440bdc4316a94cd1a6ec45d0ce.r2.dev/lingq.png";
 
@@ -19,6 +20,7 @@ export default function HomePage() {
         padding: "2rem"
       }}
     >
+      <AuthPanel />
       <h1>学英语 - 智能语音课程系统</h1>
       <div
         style={{

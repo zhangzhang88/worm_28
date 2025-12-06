@@ -1,5 +1,6 @@
 import "./globals.css";
 import { ReactNode } from "react";
+import { AuthProvider } from "../components/AuthProvider";
 
 export const metadata = {
   title: "Worm 28 课程系统",
@@ -9,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="zh">
-      <body>{children}</body>
+      <body>
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }

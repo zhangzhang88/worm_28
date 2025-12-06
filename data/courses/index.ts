@@ -61,7 +61,7 @@ import { sentences as courseId1Lesson59 } from './courseId_1/lesson59';
 import { sentences as courseId1Lesson60 } from './courseId_1/lesson60';
 import { sentences as courseId1Lesson61 } from './courseId_1/lesson61';
 
-interface CourseConfig {
+export interface CourseConfig {
   courseId: string;
   title: string;
   lessons: LessonConfig[];

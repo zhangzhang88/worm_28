@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { courseConfigs } from "../../../data/courses";
-
-const PLACEHOLDER_IMAGE = "https://pub-8d9c7b440bdc4316a94cd1a6ec45d0ce.r2.dev/lingq.png";
+import { CourseLessonList } from "../../../components/CourseLessonList";
 
 interface CoursePageProps {
   params: {
@@ -56,44 +55,7 @@ export default function CoursePage({ params }: CoursePageProps) {
           选择课次开始练习，共 {course.lessons.length} 课。
         </p>
       </div>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, minmax(220px, 1fr))",
-          gap: "0.75rem 1rem",
-          width: "100%",
-          maxWidth: "1200px",
-          justifyItems: "center"
-        }}
-      >
-        {course.lessons.map((lesson) => (
-          <Link
-            key={lesson.lessonNumber}
-            href={`/courses/${course.courseId}/lessons/${lesson.lessonNumber}`}
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "0.25rem",
-                padding: "0.5rem"
-              }}
-            >
-              <img
-                src={PLACEHOLDER_IMAGE}
-                alt={lesson.title}
-                style={{ width: "250px", height: "180px", objectFit: "cover", borderRadius: "8px" }}
-              />
-              <div style={{ textAlign: "center" }}>
-                <h2 style={{ margin: "0.4rem 0 0.2rem" }}>{lesson.title}</h2>
-                <p style={{ margin: "0", color: "#a8ffa8" }}>开始练习</p>
-              </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+      <CourseLessonList courseId={course.courseId} lessons={course.lessons} />
     </main>
   );
 }

@@ -11,6 +11,13 @@ import { useRemoteTTS } from '../hooks/useRemoteTTS';
 import { useGameSounds } from '../hooks/useGameSounds';
 import { VoiceSelector } from './typing-game/VoiceSelector';
 import { ChevronLeft, ChevronRight, Headphones } from 'lucide-react';
+import { useAuth } from './AuthProvider';
+import {
+  fetchLessonProgress,
+  incrementLessonCompletion,
+  saveLearningProgress
+} from '../lib/learningProgress';
+import { getLocalLessonProgress, incrementLocalLessonCompletion, setLocalLessonProgress } from '../lib/localProgress';
 
 // Styled components
 const Container = styled.div<{ themeColor: string; fontFamily: string }>`
@@ -609,6 +616,16 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
     courseId,
     lessonNumber
   });
+  const { user } = useAuth();
+  const dispatchProgressUpdated = () => {
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(
+        new CustomEvent("progressUpdated", {
+          detail: { courseId, lessonNumber }
+        })
+      );
+    }
+  };
 
   const [shakeWords, setShakeWords] = useState<boolean[]>([]);
   const [isAnswerSubmittedAndWrong, setIsAnswerSubmittedAndWrong] = useState(false);
@@ -624,45 +641,95 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
   }, []);
 
   useEffect(() => {
+    let isCancelled = false;
+
+    const clampIndex = (index: number | null, length: number) => {
+      if (length === 0) {
+        return 0;
+      }
+      if (index === null) {
+        return 0;
+      }
+      return Math.min(Math.max(index, 0), Math.max(length - 1, 0));
+    };
+
     const loadData = async () => {
       try {
-        const userSentences = localStorage.getItem(`userSentencesLesson${lessonNumber}`);
-        if (userSentences) {
+        setIsLoading(true);
+        setIsDataReady(false);
+
+        const sentencesKey = `userSentences_${courseId}_Lesson${lessonNumber}`;
+        const indexKey = `currentSentenceIndex_${courseId}_Lesson${lessonNumber}`;
+
+        let nextSentences = initialSentences;
+        const storedSentences = localStorage.getItem(sentencesKey);
+        if (storedSentences) {
           try {
-            const parsedSentences = JSON.parse(userSentences);
+            const parsedSentences = JSON.parse(storedSentences);
             if (Array.isArray(parsedSentences) && parsedSentences.length > 0) {
-              setSentences(parsedSentences);
+              nextSentences = parsedSentences;
             } else {
-              console.error('Invalid user sentences data:', parsedSentences);
-              setSentences(initialSentences);
+              console.error("Invalid user sentences data:", parsedSentences);
             }
           } catch (error) {
-            console.error('Failed to parse user sentences:', error);
-            setSentences(initialSentences);
+            console.error("Failed to parse user sentences:", error);
           }
-        } else {
-          setSentences(initialSentences);
         }
 
-        const savedIndex = localStorage.getItem(`currentSentenceIndexLesson${lessonNumber}`);
-        if (savedIndex) {
-          const parsedIndex = parseInt(savedIndex, 10);
+        setSentences(nextSentences);
+
+        let savedIndex: number | null = null;
+        const storedIndex = localStorage.getItem(indexKey);
+        if (storedIndex) {
+          const parsedIndex = parseInt(storedIndex, 10);
           if (!isNaN(parsedIndex) && parsedIndex >= 0) {
-            setCurrentSentenceIndex(parsedIndex);
+            savedIndex = parsedIndex;
           }
         }
 
+        const localProgress = getLocalLessonProgress(courseId, lessonNumber);
+        if (localProgress && typeof localProgress.currentSentenceIndex === 'number') {
+          savedIndex = localProgress.currentSentenceIndex;
+        }
+
+        if (!isCancelled && user?.id) {
+          const remoteProgress = await fetchLessonProgress({
+            userId: user.id,
+            courseId,
+            lessonNumber
+          });
+          if (!isCancelled && remoteProgress) {
+            savedIndex = remoteProgress.currentSentenceIndex;
+            setLocalLessonProgress(courseId, lessonNumber, {
+              currentSentenceIndex: remoteProgress.currentSentenceIndex,
+              completionCount: remoteProgress.completionCount
+            });
+          }
+        }
+
+        if (isCancelled) {
+          return;
+        }
+
+        const initialIndex = clampIndex(savedIndex, nextSentences.length);
+        setCurrentSentenceIndex(initialIndex);
         setIsLoading(false);
         setIsDataReady(true);
       } catch (error) {
-        console.error('Error in loadData:', error);
-        setIsLoading(false);
-        setIsDataReady(false);
+        console.error("Error in loadData:", error);
+        if (!isCancelled) {
+          setIsLoading(false);
+          setIsDataReady(false);
+        }
       }
     };
 
     loadData();
-  }, [lessonNumber, initialSentences]);
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [courseId, initialSentences, lessonNumber, user?.id]);
 
   useEffect(() => {
     if (!sentences || sentences.length === 0) {
@@ -703,11 +770,58 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
       }
     }, 0);
 
-    localStorage.setItem(`currentSentenceIndexLesson${lessonNumber}`, currentSentenceIndex.toString());
+    localStorage.setItem(
+      `currentSentenceIndex_${courseId}_Lesson${lessonNumber}`,
+      currentSentenceIndex.toString()
+    );
     if (!showIntermediatePage && !isListeningMode) {
       playSentenceAudio(currentSentence.sentence, currentSentenceIndex + 1);
     }
   }, [currentSentenceIndex, sentences, showIntermediatePage, lessonNumber, isDataReady, isListeningMode, isAnimationComplete]);
+
+  useEffect(() => {
+    if (!isDataReady || sentences.length === 0) {
+      return;
+    }
+
+    const existingProgress = getLocalLessonProgress(courseId, lessonNumber);
+    setLocalLessonProgress(courseId, lessonNumber, {
+      currentSentenceIndex,
+      completionCount: existingProgress.completionCount
+    });
+    if (user?.id) {
+      void saveLearningProgress({
+        userId: user.id,
+        courseId,
+        lessonNumber,
+        currentSentenceIndex
+      });
+    }
+  }, [courseId, currentSentenceIndex, isDataReady, lessonNumber, sentences.length]);
+
+  const completionRecordedRef = useRef(false);
+  useEffect(() => {
+    if (!showCongratulations) {
+      completionRecordedRef.current = false;
+      return;
+    }
+
+    if (completionRecordedRef.current) {
+      return;
+    }
+
+    completionRecordedRef.current = true;
+    incrementLocalLessonCompletion(courseId, lessonNumber, currentSentenceIndex);
+    if (user?.id) {
+      void incrementLessonCompletion({
+        userId: user.id,
+        courseId,
+        lessonNumber,
+        currentSentenceIndex
+      });
+    }
+    dispatchProgressUpdated();
+  }, [courseId, currentSentenceIndex, lessonNumber, showCongratulations]);
 
   useEffect(() => {
     try {
@@ -1088,13 +1202,19 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
     setCurrentSentenceIndex(targetSentenceIndex);
   };
 
+  const handleReturnToCourse = () => {
+    void router.push(`/courses/${courseId}`).then(() => {
+      router.refresh();
+    });
+  };
+
   const goToNextLesson = () => {
     const nextLessonNumber = lessonNumber + 1;
     if (nextLessonNumber <= totalLessons) {
       const nextPath = `/courses/${courseId}/lessons/${nextLessonNumber}`;
       router.push(nextPath);
     } else {
-      router.push(`/courses/${courseId}`);
+      handleReturnToCourse();
     }
   };
 
@@ -1207,11 +1327,12 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
           >
             Next Lesson
           </Button>
-          <Link href={`/courses/${courseId}`} passHref>
-            <Button as="a" themeColor={themeColor} isLink={true}>
-              Return to Course
-            </Button>
-          </Link>
+          <Button
+            onClick={handleReturnToCourse}
+            themeColor={themeColor}
+          >
+            Return to Course
+          </Button>
         </ButtonGroup>
       </CongratulationsContainer>
     );
@@ -1307,11 +1428,9 @@ export default function TypingGame({ courseId, lessonNumber, sentences: initialS
             </ButtonFrame>
           </NavigationButton>
         </ButtonGroup>
-        <Link href={`/courses/${courseId}`} passHref legacyBehavior>
-          <HomeButton themeColor={themeColor} isLink={true}>
-            返回上一页
-          </HomeButton>
-        </Link>
+        <HomeButton themeColor={themeColor} onClick={handleReturnToCourse}>
+          返回上一页
+        </HomeButton>
         {!isListeningMode && (
           <ListeningModeButton onClick={enterListeningMode} themeColor={themeColor}>
             <ButtonFrame>
