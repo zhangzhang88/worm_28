@@ -46,6 +46,8 @@ alter table learning_progress add constraint learning_progress_unique unique (us
 
 页面上的 Lesson 卡片会展示每课的进度条和 `completion_count`（即已学习多少遍），因此在表里也需要维护这个字段。Supabase table 中 `completion_count` 字段默认 `0`，每次完成最后一句后自动递增。
 
+在登录面板里添加了“忘记密码”按钮，用户输入邮箱后会调用 Supabase 的 `resetPasswordForEmail`，发一封重置邮件到该邮箱；如果你想手动触发，可在 Supabase 控制台 Authentication → Users 里选中用户后使用 “Send password reset email”。
+
 > 页面优先会试着从 Supabase 的 `learning_progress` 表加载数据，拿不到时才会回退到 `localStorage`（key 形如 `lessonProgress_courseId_1`）。练习过程中会把最新的 `current_sentence_index`/`completion_count` 写入本地缓存并同步到 Supabase（需登录生效），所以上一台设备的数据也会被尝试拉下来。要重置本地进度，可在浏览器开发者工具里删除对应的 `lessonProgress_*` 键或清空缓存；Supabase 的数据需要在 SQL 编辑器里手动删除行。
 
 构建产物用于 Vercel 或本地预览：
