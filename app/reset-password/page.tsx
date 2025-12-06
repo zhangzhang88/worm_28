@@ -38,6 +38,13 @@ export default function ResetPasswordPage() {
     }
   }, [accessToken]);
 
+  useEffect(() => {
+    if (!accessToken) {
+      return;
+    }
+    void supabase.auth.getSessionFromUrl({ storeSession: true });
+  }, [accessToken]);
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!accessToken) {
@@ -54,8 +61,7 @@ export default function ResetPasswordPage() {
 
     setLoading(true);
     const { error } = await supabase.auth.updateUser({
-      password,
-      access_token: accessToken
+      password
     });
     setLoading(false);
 
