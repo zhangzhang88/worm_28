@@ -1,11 +1,16 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "../../lib/supabaseClient";
 
 interface ResetPasswordFormProps {
-  accessToken?: string;
+  searchParams: {
+    access_token?: string;
+    refresh_token?: string;
+    error?: string;
+    error_description?: string;
+  };
 }
 
 const ContainerStyles: React.CSSProperties = {
@@ -27,18 +32,90 @@ const FormCardStyles: React.CSSProperties = {
   color: "#fff"
 };
 
-export default function ResetPasswordForm({ accessToken }: ResetPasswordFormProps) {
+function parseHashTokens(hash: string) {
+  if (!hash) {
+    return {};
+  }
+  const trimmed = hash.startsWith("#") ? hash.slice(1) : hash;
+  const params = new URLSearchParams(trimmed);
+  return {
+    accessToken: params.get("access_token") ?? undefined,
+    refreshToken: params.get("refresh_token") ?? undefined,
+    error: params.get("error") ?? undefined,
+    errorDescription: params.get("error_description") ?? undefined
+  };
+}
+
+export default function ResetPasswordForm({ searchParams }: ResetPasswordFormProps) {
   const router = useRouter();
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null);
   const [loading, setLoading] = useState(false);
+  const [sessionReady, setSessionReady] = useState(false);
+  const [accessToken, setAccessToken] = useState<string | undefined>(undefined);
+  const [refreshToken, setRefreshToken] = useState<string | undefined>(undefined);
 
   useEffect(() => {
-    if (!accessToken) {
-      setStatus({ type: "error", message: "重置链接无效，请返回登录页重新请求。" });
+    if (typeof window === "undefined") {
+      return;
     }
-  }, [accessToken]);
+
+    const hashTokens = parseHashTokens(window.location.hash);
+    const resolved = {
+      accessToken: hashTokens.accessToken ?? searchParams.access_token,
+      refreshToken: hashTokens.refreshToken ?? searchParams.refresh_token,
+      error: hashTokens.error ?? searchParams.error,
+      errorDescription: hashTokens.errorDescription ?? searchParams.error_description
+    };
+
+    const { accessToken, refreshToken, error, errorDescription } = resolved;
+
+    if (error || errorDescription) {
+      setStatus({
+        type: "error",
+        message: errorDescription ?? "重置链接被拒绝，请重新申请。"
+      });
+      return;
+    }
+
+    if (!accessToken) {
+      setStatus({ type: "error", message: "未检测到有效的重置链接，请返回登录页重新请求。" });
+      return;
+    }
+
+    if (!refreshToken) {
+      setStatus({
+        type: "error",
+        message: "重置链接缺少必要信息，请重新申请重置邮件。"
+      });
+      return;
+    }
+
+    setAccessToken(accessToken);
+    setRefreshToken(refreshToken);
+
+    const initializeSession = async () => {
+      const payload = {
+        access_token: accessToken,
+        refresh_token: refreshToken
+      };
+
+      const { error } = await supabase.auth.setSession(payload);
+
+      if (error) {
+        setStatus({ type: "error", message: error.message });
+        return;
+      }
+
+      window.history.replaceState(null, "", window.location.pathname);
+      setSessionReady(true);
+    };
+
+    void initializeSession();
+  }, [searchParams]);
+
+  const buttonDisabled = loading || !accessToken || !sessionReady;
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -117,17 +194,17 @@ export default function ResetPasswordForm({ accessToken }: ResetPasswordFormProp
         )}
         <button
           type="submit"
-          disabled={loading || !accessToken}
+          disabled={buttonDisabled}
           style={{
             width: "100%",
             marginTop: "0.5rem",
             padding: "0.85rem",
             borderRadius: "10px",
             border: "none",
-            background: accessToken ? "#00c18b" : "#555",
+            background: buttonDisabled ? "#555" : "#00c18b",
             color: "#05051d",
             fontWeight: 600,
-            cursor: loading || !accessToken ? "not-allowed" : "pointer"
+            cursor: buttonDisabled ? "not-allowed" : "pointer"
           }}
         >
           {loading ? "处理中..." : "提交新密码"}
